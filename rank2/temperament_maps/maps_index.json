@@ -1,0 +1,316 @@
+{
+  "maps": [
+    {
+      "id": "01_1_octaves",
+      "group_key": 1.0,
+      "temperament_count": 1851,
+      "label": "1 octaves (1851 temperaments)",
+      "svg": "01_1_octaves.svg",
+      "json": "01_1_octaves.json"
+    },
+    {
+      "id": "02_0.5_octaves",
+      "group_key": 0.5,
+      "temperament_count": 360,
+      "label": "0.5 octaves (360 temperaments)",
+      "svg": "02_0.5_octaves.svg",
+      "json": "02_0.5_octaves.json"
+    },
+    {
+      "id": "03_0.333333_octaves",
+      "group_key": 0.333333333,
+      "temperament_count": 136,
+      "label": "0.333333 octaves (136 temperaments)",
+      "svg": "03_0.333333_octaves.svg",
+      "json": "03_0.333333_octaves.json"
+    },
+    {
+      "id": "04_0.25_octaves",
+      "group_key": 0.25,
+      "temperament_count": 52,
+      "label": "0.25 octaves (52 temperaments)",
+      "svg": "04_0.25_octaves.svg",
+      "json": "04_0.25_octaves.json"
+    },
+    {
+      "id": "05_0.2_octaves",
+      "group_key": 0.2,
+      "temperament_count": 50,
+      "label": "0.2 octaves (50 temperaments)",
+      "svg": "05_0.2_octaves.svg",
+      "json": "05_0.2_octaves.json"
+    },
+    {
+      "id": "06_0.1_octaves",
+      "group_key": 0.1,
+      "temperament_count": 35,
+      "label": "0.1 octaves (35 temperaments)",
+      "svg": "06_0.1_octaves.svg",
+      "json": "06_0.1_octaves.json"
+    },
+    {
+      "id": "07_0.142857_octaves",
+      "group_key": 0.142857143,
+      "temperament_count": 34,
+      "label": "0.142857 octaves (34 temperaments)",
+      "svg": "07_0.142857_octaves.svg",
+      "json": "07_0.142857_octaves.json"
+    },
+    {
+      "id": "08_0.166667_octaves",
+      "group_key": 0.166666667,
+      "temperament_count": 24,
+      "label": "0.166667 octaves (24 temperaments)",
+      "svg": "08_0.166667_octaves.svg",
+      "json": "08_0.166667_octaves.json"
+    },
+    {
+      "id": "09_0.0833333_octaves",
+      "group_key": 0.083333333,
+      "temperament_count": 21,
+      "label": "0.0833333 octaves (21 temperaments)",
+      "svg": "09_0.0833333_octaves.svg",
+      "json": "09_0.0833333_octaves.json"
+    },
+    {
+      "id": "10_0.125_octaves",
+      "group_key": 0.125,
+      "temperament_count": 21,
+      "label": "0.125 octaves (21 temperaments)",
+      "svg": "10_0.125_octaves.svg",
+      "json": "10_0.125_octaves.json"
+    },
+    {
+      "id": "11_0.0188679_octaves",
+      "group_key": 0.018867925,
+      "temperament_count": 12,
+      "label": "0.0188679 octaves (12 temperaments)",
+      "svg": "11_0.0188679_octaves.svg",
+      "json": "11_0.0188679_octaves.json"
+    },
+    {
+      "id": "12_0.0243902_octaves",
+      "group_key": 0.024390244,
+      "temperament_count": 12,
+      "label": "0.0243902 octaves (12 temperaments)",
+      "svg": "12_0.0243902_octaves.svg",
+      "json": "12_0.0243902_octaves.json"
+    },
+    {
+      "id": "13_0.0769231_octaves",
+      "group_key": 0.076923077,
+      "temperament_count": 12,
+      "label": "0.0769231 octaves (12 temperaments)",
+      "svg": "13_0.0769231_octaves.svg",
+      "json": "13_0.0769231_octaves.json"
+    },
+    {
+      "id": "14_0.111111_octaves",
+      "group_key": 0.111111111,
+      "temperament_count": 12,
+      "label": "0.111111 octaves (12 temperaments)",
+      "svg": "14_0.111111_octaves.svg",
+      "json": "14_0.111111_octaves.json"
+    },
+    {
+      "id": "15_0.0909091_octaves",
+      "group_key": 0.090909091,
+      "temperament_count": 11,
+      "label": "0.0909091 octaves (11 temperaments)",
+      "svg": "15_0.0909091_octaves.svg",
+      "json": "15_0.0909091_octaves.json"
+    },
+    {
+      "id": "16_0.0333333_octaves",
+      "group_key": 0.033333333,
+      "temperament_count": 9,
+      "label": "0.0333333 octaves (9 temperaments)",
+      "svg": "16_0.0333333_octaves.svg",
+      "json": "16_0.0333333_octaves.json"
+    },
+    {
+      "id": "17_0.037037_octaves",
+      "group_key": 0.037037037,
+      "temperament_count": 8,
+      "label": "0.037037 octaves (8 temperaments)",
+      "svg": "17_0.037037_octaves.svg",
+      "json": "17_0.037037_octaves.json"
+    },
+    {
+      "id": "18_0.0666667_octaves",
+      "group_key": 0.066666667,
+      "temperament_count": 8,
+      "label": "0.0666667 octaves (8 temperaments)",
+      "svg": "18_0.0666667_octaves.svg",
+      "json": "18_0.0666667_octaves.json"
+    },
+    {
+      "id": "19_0.0416667_octaves",
+      "group_key": 0.041666667,
+      "temperament_count": 7,
+      "label": "0.0416667 octaves (7 temperaments)",
+      "svg": "19_0.0416667_octaves.svg",
+      "json": "19_0.0416667_octaves.json"
+    },
+    {
+      "id": "20_0.05_octaves",
+      "group_key": 0.05,
+      "temperament_count": 7,
+      "label": "0.05 octaves (7 temperaments)",
+      "svg": "20_0.05_octaves.svg",
+      "json": "20_0.05_octaves.json"
+    },
+    {
+      "id": "21_0.0526316_octaves",
+      "group_key": 0.052631579,
+      "temperament_count": 7,
+      "label": "0.0526316 octaves (7 temperaments)",
+      "svg": "21_0.0526316_octaves.svg",
+      "json": "21_0.0526316_octaves.json"
+    },
+    {
+      "id": "22_0.0434783_octaves",
+      "group_key": 0.043478261,
+      "temperament_count": 6,
+      "label": "0.0434783 octaves (6 temperaments)",
+      "svg": "22_0.0434783_octaves.svg",
+      "json": "22_0.0434783_octaves.json"
+    },
+    {
+      "id": "23_0.047619_octaves",
+      "group_key": 0.047619048,
+      "temperament_count": 6,
+      "label": "0.047619 octaves (6 temperaments)",
+      "svg": "23_0.047619_octaves.svg",
+      "json": "23_0.047619_octaves.json"
+    },
+    {
+      "id": "24_0.0125_octaves",
+      "group_key": 0.0125,
+      "temperament_count": 5,
+      "label": "0.0125 octaves (5 temperaments)",
+      "svg": "24_0.0125_octaves.svg",
+      "json": "24_0.0125_octaves.json"
+    },
+    {
+      "id": "25_0.0138889_octaves",
+      "group_key": 0.013888889,
+      "temperament_count": 5,
+      "label": "0.0138889 octaves (5 temperaments)",
+      "svg": "25_0.0138889_octaves.svg",
+      "json": "25_0.0138889_octaves.json"
+    },
+    {
+      "id": "26_0.0166667_octaves",
+      "group_key": 0.016666667,
+      "temperament_count": 5,
+      "label": "0.0166667 octaves (5 temperaments)",
+      "svg": "26_0.0166667_octaves.svg",
+      "json": "26_0.0166667_octaves.json"
+    },
+    {
+      "id": "27_0.0625_octaves",
+      "group_key": 0.0625,
+      "temperament_count": 5,
+      "label": "0.0625 octaves (5 temperaments)",
+      "svg": "27_0.0625_octaves.svg",
+      "json": "27_0.0625_octaves.json"
+    },
+    {
+      "id": "28_0.0106383_octaves",
+      "group_key": 0.010638298,
+      "temperament_count": 4,
+      "label": "0.0106383 octaves (4 temperaments)",
+      "svg": "28_0.0106383_octaves.svg",
+      "json": "28_0.0106383_octaves.json"
+    },
+    {
+      "id": "29_0.0217391_octaves",
+      "group_key": 0.02173913,
+      "temperament_count": 4,
+      "label": "0.0217391 octaves (4 temperaments)",
+      "svg": "29_0.0217391_octaves.svg",
+      "json": "29_0.0217391_octaves.json"
+    },
+    {
+      "id": "30_0.0232558_octaves",
+      "group_key": 0.023255814,
+      "temperament_count": 4,
+      "label": "0.0232558 octaves (4 temperaments)",
+      "svg": "30_0.0232558_octaves.svg",
+      "json": "30_0.0232558_octaves.json"
+    },
+    {
+      "id": "31_0.0263158_octaves",
+      "group_key": 0.026315789,
+      "temperament_count": 4,
+      "label": "0.0263158 octaves (4 temperaments)",
+      "svg": "31_0.0263158_octaves.svg",
+      "json": "31_0.0263158_octaves.json"
+    },
+    {
+      "id": "32_0.0357143_octaves",
+      "group_key": 0.035714286,
+      "temperament_count": 4,
+      "label": "0.0357143 octaves (4 temperaments)",
+      "svg": "32_0.0357143_octaves.svg",
+      "json": "32_0.0357143_octaves.json"
+    },
+    {
+      "id": "33_0.03125_octaves",
+      "group_key": 0.03125,
+      "temperament_count": 3,
+      "label": "0.03125 octaves (3 temperaments)",
+      "svg": "33_0.03125_octaves.svg",
+      "json": "33_0.03125_octaves.json"
+    },
+    {
+      "id": "34_0.0344828_octaves",
+      "group_key": 0.034482759,
+      "temperament_count": 3,
+      "label": "0.0344828 octaves (3 temperaments)",
+      "svg": "34_0.0344828_octaves.svg",
+      "json": "34_0.0344828_octaves.json"
+    },
+    {
+      "id": "35_1.58496_octaves",
+      "group_key": 1.584962501,
+      "temperament_count": 3,
+      "label": "1.58496 octaves (3 temperaments)",
+      "svg": "35_1.58496_octaves.svg",
+      "json": "35_1.58496_octaves.json"
+    },
+    {
+      "id": "36_0.0277778_octaves",
+      "group_key": 0.027777778,
+      "temperament_count": 2,
+      "label": "0.0277778 octaves (2 temperaments)",
+      "svg": "36_0.0277778_octaves.svg",
+      "json": "36_0.0277778_octaves.json"
+    },
+    {
+      "id": "37_0.00943396_octaves",
+      "group_key": 0.009433962,
+      "temperament_count": 1,
+      "label": "0.00943396 octaves (1 temperaments)",
+      "svg": "37_0.00943396_octaves.svg",
+      "json": "37_0.00943396_octaves.json"
+    },
+    {
+      "id": "38_0.0142857_octaves",
+      "group_key": 0.014285714,
+      "temperament_count": 1,
+      "label": "0.0142857 octaves (1 temperaments)",
+      "svg": "38_0.0142857_octaves.svg",
+      "json": "38_0.0142857_octaves.json"
+    },
+    {
+      "id": "39_0.0454545_octaves",
+      "group_key": 0.045454545,
+      "temperament_count": 1,
+      "label": "0.0454545 octaves (1 temperaments)",
+      "svg": "39_0.0454545_octaves.svg",
+      "json": "39_0.0454545_octaves.json"
+    }
+  ]
+}

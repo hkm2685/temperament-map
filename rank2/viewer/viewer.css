@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #f4f4f4;
+}
+
+#toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem 1rem;
+  padding: 0.6rem 1rem;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+#map-select {
+  min-width: 16rem;
+  font-size: 0.95rem;
+}
+
+.zoom-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.zoom-controls button {
+  min-width: 1.75rem;
+  height: 1.75rem;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  background: #fff;
+  color: #222;
+}
+
+.zoom-controls button:hover {
+  background: #f0f0f0;
+}
+
+.zoom-level {
+  min-width: 3rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.zoom-reset {
+  min-width: auto !important;
+  padding: 0 0.45rem !important;
+  font-size: 0.82rem !important;
+}
+
+#map-hint {
+  display: block;
+}
+
+.map-hint-svg {
+  display: block;
+}
+
+#scrollport {
+  height: calc(100vh - 3.2rem);
+  overflow: auto;
+  background: #fff;
+}
+
+#scroll-track {
+  position: relative;
+}
+
+#map-host {
+  position: relative;
+  width: fit-content;
+}
+
+#crosshair-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.crosshair-line-html {
+  position: absolute;
+  height: 0;
+  border-top: 1px solid #cc0000;
+}
+
+.crosshair-label-html {
+  position: absolute;
+  left: 0;
+  transform: translateY(-50%);
+  font-family: Arial, sans-serif;
+  color: #cc0000;
+  text-align: right;
+  line-height: 1;
+}
+
+#map-host svg {
+  display: block;
+  max-width: none;
+}
+
+#map-host svg .count-col {
+  pointer-events: none;
+}
+
+#count-hit-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1;
+  cursor: crosshair;
+}
+
+.mos-circle {
+  cursor: pointer;
+  pointer-events: all;
+}
+
+.mos-circle:hover .mos-fill {
+  stroke: #111;
+  stroke-width: 1.5;
+}
+
+.mos-label {
+  font-family: Arial, sans-serif;
+  font-size: 7px;
+  fill: #222;
+  pointer-events: none;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+.crosshair-line {
+  pointer-events: none;
+}
+
+.crosshair-label {
+  font-family: Arial, sans-serif;
+  pointer-events: none;
+}
+
+.leader-unmapped-indicator text {
+  font-family: Arial, sans-serif;
+}

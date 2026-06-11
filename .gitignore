@@ -1,0 +1,11 @@
+# Ignore everything by default.
+/*
+# Keep this file.
+!.gitignore
+# Keep only the GitHub Pages static assets.
+!rank2/
+rank2/*
+!rank2/viewer/
+!rank2/viewer/**
+!rank2/temperament_maps/
+!rank2/temperament_maps/**

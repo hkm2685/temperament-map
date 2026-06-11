@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rank-2 temperament maps</title>
+  <link rel="stylesheet" href="viewer.css">
+</head>
+<body>
+  <header id="toolbar">
+    <label for="map-select">Period:</label>
+    <select id="map-select" aria-label="Select map"></select>
+    <div class="zoom-controls" aria-label="Zoom controls">
+      <button type="button" id="zoom-out" aria-label="Zoom out">−</button>
+      <span id="zoom-level" class="zoom-level">100%</span>
+      <button type="button" id="zoom-in" aria-label="Zoom in">+</button>
+      <button type="button" id="zoom-reset" class="zoom-reset">Reset</button>
+    </div>
+  </header>
+  <div id="scrollport">
+    <div id="scroll-track">
+      <div id="map-hint" aria-label="Map instructions"></div>
+      <div id="map-host"></div>
+    </div>
+  </div>
+  <script src="viewer.js"></script>
+</body>
+</html>
