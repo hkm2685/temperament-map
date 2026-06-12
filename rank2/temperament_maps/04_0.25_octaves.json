@@ -2922,34 +2922,11 @@
       "badness": 0.8785278598513752
     },
     {
-      "id": "diminished-2-3-5-17-subgroup",
+      "id": "diminished",
       "page_title": "Diminished family",
-      "display_name": "Diminished (2.3.5.17 subgroup)",
-      "source_y": 98.13735502571126,
-      "label_y": 97.98340397658522,
-      "xw_url": "https://en.xen.wiki/w/Diminished_family",
-      "mapping": [
-        {
-          "prime": 3,
-          "count": 1
-        },
-        {
-          "prime": 5,
-          "count": 1
-        },
-        {
-          "prime": 17,
-          "count": 1
-        }
-      ],
-      "badness": 0.509081459158763
-    },
-    {
-      "id": "diminished-2-3-5-19-subgroup",
-      "page_title": "Diminished family",
-      "display_name": "Diminished (2.3.5.19 subgroup)",
+      "display_name": "Diminished",
       "source_y": 98.19512974381087,
-      "label_y": 98.20840397658522,
+      "label_y": 98.19512974381087,
       "xw_url": "https://en.xen.wiki/w/Diminished_family",
       "mapping": [
         {
@@ -2965,26 +2942,7 @@
           "count": 0
         }
       ],
-      "badness": 0.6813457659270892
-    },
-    {
-      "id": "diminished",
-      "page_title": "Diminished family",
-      "display_name": "Diminished",
-      "source_y": 98.26600841023355,
-      "label_y": 98.40668522658522,
-      "xw_url": "https://en.xen.wiki/w/Diminished_family",
-      "mapping": [
-        {
-          "prime": 3,
-          "count": 1
-        },
-        {
-          "prime": 5,
-          "count": 1
-        }
-      ],
-      "badness": 1.1079466409126724
+      "badness": 0.509081459158763
     },
     {
       "id": "world-calendar",
@@ -3022,7 +2980,7 @@
       "page_title": "Schismatic family",
       "display_name": "Quadrapont",
       "source_y": 101.75776731737506,
-      "label_y": 101.68587978540428,
+      "label_y": 101.6858797854043,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -3053,7 +3011,7 @@
       "page_title": "Schismatic family",
       "display_name": "Quadrant",
       "source_y": 101.81227350343352,
-      "label_y": 101.88416103540428,
+      "label_y": 101.88416103540429,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -3165,7 +3123,7 @@
       "page_title": "Diminished family",
       "display_name": "Cohedim",
       "source_y": 105.2677074993486,
-      "label_y": 105.21872362676962,
+      "label_y": 105.2187236267696,
       "xw_url": "https://en.xen.wiki/w/Diminished_family",
       "mapping": [
         {
@@ -3196,7 +3154,7 @@
       "page_title": "Diaschismic family",
       "display_name": "Bidia",
       "source_y": 105.34130225419062,
-      "label_y": 105.39028612676962,
+      "label_y": 105.39028612676961,
       "xw_url": "https://en.xen.wiki/w/Diaschismic_family",
       "mapping": [
         {
@@ -3270,7 +3228,7 @@
       "page_title": "Fifive family",
       "display_name": "Quadrafives",
       "source_y": 140.75200146803994,
-      "label_y": 140.666736692169,
+      "label_y": 140.66673669216897,
       "xw_url": "https://en.xen.wiki/w/Fifive_family",
       "mapping": [
         {

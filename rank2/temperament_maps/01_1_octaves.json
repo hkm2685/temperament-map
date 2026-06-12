@@ -7,7 +7,7 @@
   "triangle_cent_half_width": 15.0,
   "mos_max_size": 50,
   "layout": {
-    "width": 898,
+    "width": 885,
     "height": 16240,
     "top": 20,
     "plot_height": 16200,
@@ -25098,7 +25098,7 @@
       "page_title": "User:Dummy index/Chromatic pairs and how we define haplotonic",
       "display_name": "Kiribati",
       "source_y": 87.16367217933885,
-      "label_y": 86.67771699359167,
+      "label_y": 86.93317713162722,
       "xw_url": "https://en.xen.wiki/w/User%3ADummy_index%2FChromatic_pairs_and_how_we_define_haplotonic",
       "mapping": [
         {
@@ -25121,7 +25121,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Doublehearted",
       "source_y": 87.72849285181084,
-      "label_y": 87.011050326925,
+      "label_y": 87.26651046496055,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -25148,7 +25148,7 @@
       "page_title": "Tetracot family",
       "display_name": "Octopod",
       "source_y": 87.74759123100853,
-      "label_y": 87.304800326925,
+      "label_y": 87.56026046496055,
       "xw_url": "https://en.xen.wiki/w/Tetracot_family",
       "mapping": [
         {
@@ -25187,7 +25187,7 @@
       "page_title": "Tetracot family",
       "display_name": "Octacot",
       "source_y": 88.04705425437787,
-      "label_y": 87.59855032692501,
+      "label_y": 87.85401046496055,
       "xw_url": "https://en.xen.wiki/w/Tetracot_family",
       "mapping": [
         {
@@ -25222,61 +25222,11 @@
       "badness": 0.7960030201443334
     },
     {
-      "id": "devisemi-2-3-5-19",
-      "page_title": "Tetracot family",
-      "display_name": "Devisemi (2.3.5.19)",
-      "source_y": 88.05380128664227,
-      "label_y": 87.89230032692501,
-      "xw_url": "https://en.xen.wiki/w/Tetracot_family",
-      "mapping": [
-        {
-          "prime": 3,
-          "count": 8
-        },
-        {
-          "prime": 5,
-          "count": 18
-        },
-        {
-          "prime": 19,
-          "count": 17
-        }
-      ],
-      "badness": 1.30377422474662
-    },
-    {
       "id": "devisemi",
-      "page_title": "No-elevens subgroup temperaments",
+      "page_title": "Tetracot family",
       "display_name": "Devisemi",
       "source_y": 88.05637967996364,
-      "label_y": 88.186050326925,
-      "xw_url": "https://en.xen.wiki/w/No-elevens_subgroup_temperaments",
-      "mapping": [
-        {
-          "prime": 3,
-          "count": 8
-        },
-        {
-          "prime": 5,
-          "count": 18
-        },
-        {
-          "prime": 7,
-          "count": 11
-        },
-        {
-          "prime": 19,
-          "count": 17
-        }
-      ],
-      "badness": 0.5081929675012022
-    },
-    {
-      "id": "devisemi-2-3-5-7-19",
-      "page_title": "Tetracot family",
-      "display_name": "Devisemi (2.3.5.7.19)",
-      "source_y": 88.05637967996364,
-      "label_y": 88.51938366025834,
+      "label_y": 88.18734379829388,
       "xw_url": "https://en.xen.wiki/w/Tetracot_family",
       "mapping": [
         {
@@ -25303,7 +25253,7 @@
       "page_title": "Tetracot family",
       "display_name": "October",
       "source_y": 88.11074478177969,
-      "label_y": 88.81313366025833,
+      "label_y": 88.48109379829388,
       "xw_url": "https://en.xen.wiki/w/Tetracot_family",
       "mapping": [
         {
@@ -25342,7 +25292,7 @@
       "page_title": "Tetracot family",
       "display_name": "Octocat",
       "source_y": 88.1637216097777,
-      "label_y": 89.067300326925,
+      "label_y": 88.73526046496055,
       "xw_url": "https://en.xen.wiki/w/Tetracot_family",
       "mapping": [
         {
@@ -25381,7 +25331,7 @@
       "page_title": "Octagar temperaments",
       "display_name": "Slithy",
       "source_y": 89.30349904792024,
-      "label_y": 89.361050326925,
+      "label_y": 89.30349904792024,
       "xw_url": "https://en.xen.wiki/w/Octagar_temperaments",
       "mapping": [
         {
@@ -25424,7 +25374,7 @@
       "page_title": "Luna family",
       "display_name": "Hemiluna",
       "source_y": 96.58587304075013,
-      "label_y": 95.20324616476468,
+      "label_y": 95.20324616476469,
       "xw_url": "https://en.xen.wiki/w/Luna_family",
       "mapping": [
         {
@@ -25455,7 +25405,7 @@
       "page_title": "Passion family",
       "display_name": "Septimal passion",
       "source_y": 97.8140856947141,
-      "label_y": 95.45741283143134,
+      "label_y": 95.45741283143136,
       "xw_url": "https://en.xen.wiki/w/Passion_family",
       "mapping": [
         {
@@ -25567,7 +25517,7 @@
       "page_title": "Quintaleap family",
       "display_name": "Quintain",
       "source_y": 98.76782001253491,
-      "label_y": 96.474079498098,
+      "label_y": 96.47407949809802,
       "xw_url": "https://en.xen.wiki/w/Quintaleap_family",
       "mapping": [
         {
@@ -25598,7 +25548,7 @@
       "page_title": "Quintaleap family",
       "display_name": "Catagali",
       "source_y": 98.87518876134868,
-      "label_y": 96.72824616476467,
+      "label_y": 96.72824616476468,
       "xw_url": "https://en.xen.wiki/w/Quintaleap_family",
       "mapping": [
         {
@@ -25664,7 +25614,7 @@
       "page_title": "Passion family",
       "display_name": "Passive",
       "source_y": 98.96895065361969,
-      "label_y": 97.23657949809801,
+      "label_y": 97.23657949809802,
       "xw_url": "https://en.xen.wiki/w/Passion_family",
       "mapping": [
         {
@@ -25687,7 +25637,7 @@
       "page_title": "Quintaleap family",
       "display_name": "Galileic",
       "source_y": 98.97561223436969,
-      "label_y": 97.49074616476467,
+      "label_y": 97.49074616476469,
       "xw_url": "https://en.xen.wiki/w/Quintaleap_family",
       "mapping": [
         {
@@ -25765,7 +25715,7 @@
       "page_title": "Quintaleap family",
       "display_name": "Quintaleap",
       "source_y": 99.27307391564682,
-      "label_y": 98.03866283143134,
+      "label_y": 98.03866283143135,
       "xw_url": "https://en.xen.wiki/w/Quintaleap_family",
       "mapping": [
         {
@@ -25792,7 +25742,7 @@
       "page_title": "Quintaleap family",
       "display_name": "Quinticosiennic",
       "source_y": 99.29874844803976,
-      "label_y": 98.33241283143134,
+      "label_y": 98.33241283143136,
       "xw_url": "https://en.xen.wiki/w/Quintaleap_family",
       "mapping": [
         {
@@ -25831,7 +25781,7 @@
       "page_title": "Quindromeda family",
       "display_name": "Quinkwai",
       "source_y": 99.45842115211349,
-      "label_y": 98.586579498098,
+      "label_y": 98.58657949809802,
       "xw_url": "https://en.xen.wiki/w/Quindromeda_family",
       "mapping": [
         {
@@ -25948,7 +25898,7 @@
       "page_title": "Quindromeda family",
       "display_name": "Quindromeda",
       "source_y": 99.52301800122473,
-      "label_y": 99.38866283143133,
+      "label_y": 99.38866283143135,
       "xw_url": "https://en.xen.wiki/w/Quindromeda_family",
       "mapping": [
         {
@@ -25975,7 +25925,7 @@
       "page_title": "Quindromeda family",
       "display_name": "Quindro",
       "source_y": 99.52907724193892,
-      "label_y": 99.68241283143134,
+      "label_y": 99.68241283143135,
       "xw_url": "https://en.xen.wiki/w/Quindromeda_family",
       "mapping": [
         {
@@ -26131,7 +26081,7 @@
       "page_title": "Quindromeda family",
       "display_name": "Quintagar",
       "source_y": 99.55270096079971,
-      "label_y": 100.699079498098,
+      "label_y": 100.69907949809802,
       "xw_url": "https://en.xen.wiki/w/Quindromeda_family",
       "mapping": [
         {
@@ -26154,7 +26104,7 @@
       "page_title": "Quindromeda family",
       "display_name": "Quinsandro",
       "source_y": 99.5569787250206,
-      "label_y": 100.95324616476466,
+      "label_y": 100.95324616476468,
       "xw_url": "https://en.xen.wiki/w/Quindromeda_family",
       "mapping": [
         {
@@ -26232,7 +26182,7 @@
       "page_title": "Schismatic family",
       "display_name": "Quintilipyth",
       "source_y": 99.61520937273986,
-      "label_y": 101.461579498098,
+      "label_y": 101.46157949809802,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -26267,11 +26217,11 @@
       "badness": 2.3208668104685364
     },
     {
-      "id": "quintilischis-2-3-5-17",
+      "id": "quintilischis",
       "page_title": "Schismatic family",
-      "display_name": "Quintilischis (2.3.5.17)",
+      "display_name": "Quintilischis",
       "source_y": 99.65191899414572,
-      "label_y": 101.71574616476467,
+      "label_y": 101.71574616476468,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -26415,7 +26365,7 @@
       "page_title": "Ripple family",
       "display_name": "Rip",
       "source_y": 99.7617619033831,
-      "label_y": 102.73241283143133,
+      "label_y": 102.73241283143135,
       "xw_url": "https://en.xen.wiki/w/Ripple_family",
       "mapping": [
         {
@@ -26446,7 +26396,7 @@
       "page_title": "Garischismic clan",
       "display_name": "Heptacot",
       "source_y": 100.31728603529943,
-      "label_y": 102.986579498098,
+      "label_y": 102.98657949809801,
       "xw_url": "https://en.xen.wiki/w/Garischismic_clan",
       "mapping": [
         {
@@ -26500,7 +26450,7 @@
       "page_title": "Ripple family",
       "display_name": "Septimal ripple",
       "source_y": 102.29716603330985,
-      "label_y": 103.49491283143134,
+      "label_y": 103.49491283143135,
       "xw_url": "https://en.xen.wiki/w/Ripple_family",
       "mapping": [
         {
@@ -26655,7 +26605,7 @@
       "page_title": "Ragismic microtemperaments",
       "display_name": "Semigamera",
       "source_y": 115.16405374509645,
-      "label_y": 114.45128147346483,
+      "label_y": 114.5912074560147,
       "xw_url": "https://en.xen.wiki/w/Ragismic_microtemperaments",
       "mapping": [
         {
@@ -26682,11 +26632,11 @@
       "badness": 1.8208761723196327
     },
     {
-      "id": "mercy-2-5-7-13",
+      "id": "mercy",
       "page_title": "Quince clan",
-      "display_name": "Mercy (2.5.7.13)",
+      "display_name": "Mercy",
       "source_y": 115.72994377182727,
-      "label_y": 114.74503147346485,
+      "label_y": 114.88495745601472,
       "xw_url": "https://en.xen.wiki/w/Quince_clan",
       "mapping": [
         {
@@ -26710,14 +26660,14 @@
           "count": 13
         }
       ],
-      "badness": 0.45131717903831836
+      "badness": 0.4275122947694578
     },
     {
       "id": "counterrevelation",
       "page_title": "Quince clan",
       "display_name": "Counterrevelation",
       "source_y": 115.85356749863149,
-      "label_y": 115.03878147346484,
+      "label_y": 115.1787074560147,
       "xw_url": "https://en.xen.wiki/w/Quince_clan",
       "mapping": [
         {
@@ -26752,7 +26702,7 @@
       "page_title": "Quince clan",
       "display_name": "Countermiraculous",
       "source_y": 115.87813458886399,
-      "label_y": 115.29294814013151,
+      "label_y": 115.43287412268138,
       "xw_url": "https://en.xen.wiki/w/Quince_clan",
       "mapping": [
         {
@@ -26787,7 +26737,7 @@
       "page_title": "Quince clan",
       "display_name": "Countermanna",
       "source_y": 115.88677213535652,
-      "label_y": 115.54711480679819,
+      "label_y": 115.68704078934806,
       "xw_url": "https://en.xen.wiki/w/Quince_clan",
       "mapping": [
         {
@@ -26822,7 +26772,7 @@
       "page_title": "Quince clan",
       "display_name": "Countermiracle",
       "source_y": 115.92016689618686,
-      "label_y": 115.80128147346485,
+      "label_y": 115.94120745601472,
       "xw_url": "https://en.xen.wiki/w/Quince_clan",
       "mapping": [
         {
@@ -26849,7 +26799,7 @@
       "page_title": "Quince clan",
       "display_name": "Counterbenediction",
       "source_y": 115.93906983610736,
-      "label_y": 116.05544814013152,
+      "label_y": 116.19537412268139,
       "xw_url": "https://en.xen.wiki/w/Quince_clan",
       "mapping": [
         {
@@ -26884,7 +26834,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Revelation",
       "source_y": 116.25643998816955,
-      "label_y": 116.3096148067982,
+      "label_y": 116.44954078934806,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -26911,30 +26861,11 @@
       "badness": 1.089159954731286
     },
     {
-      "id": "mercy",
-      "page_title": "Quince clan",
-      "display_name": "Mercy",
-      "source_y": 116.25758634953309,
-      "label_y": 116.6033648067982,
-      "xw_url": "https://en.xen.wiki/w/Quince_clan",
-      "mapping": [
-        {
-          "prime": 5,
-          "count": -7
-        },
-        {
-          "prime": 7,
-          "count": -2
-        }
-      ],
-      "badness": 0.4275122947694578
-    },
-    {
       "id": "benediction",
       "page_title": "Gamelismic clan",
       "display_name": "Benediction",
       "source_y": 116.56080525146123,
-      "label_y": 116.93669814013154,
+      "label_y": 116.74329078934807,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -26977,7 +26908,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Miracle",
       "source_y": 116.64686978015675,
-      "label_y": 117.27003147346487,
+      "label_y": 117.07662412268141,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -27004,7 +26935,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Miraculous",
       "source_y": 116.71404735749181,
-      "label_y": 117.6033648067982,
+      "label_y": 117.40995745601474,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -27047,7 +26978,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Manna",
       "source_y": 116.78420195616064,
-      "label_y": 117.93669814013154,
+      "label_y": 117.74329078934807,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -27129,7 +27060,7 @@
       "page_title": "Breedsmic temperaments",
       "display_name": "Sedia",
       "source_y": 119.28075173378238,
-      "label_y": 119.16735508439623,
+      "label_y": 119.16735508439625,
       "xw_url": "https://en.xen.wiki/w/Breedsmic_temperaments",
       "mapping": [
         {
@@ -27253,38 +27184,11 @@
       "badness": 1.007546745856619
     },
     {
-      "id": "negra",
-      "page_title": "Semaphoresmic clan",
-      "display_name": "(negra)",
-      "source_y": 125.35426373991868,
-      "label_y": 125.2278369967225,
-      "xw_url": "https://en.xen.wiki/w/Semaphoresmic_clan",
-      "mapping": [
-        {
-          "prime": 3,
-          "count": -4
-        },
-        {
-          "prime": 5,
-          "count": 3
-        },
-        {
-          "prime": 7,
-          "count": -2
-        },
-        {
-          "prime": 13,
-          "count": -3
-        }
-      ],
-      "badness": 0.46296668015652914
-    },
-    {
       "id": "negri",
       "page_title": "Semaphoresmic clan",
       "display_name": "Negri",
       "source_y": 125.43474358685967,
-      "label_y": 125.56117033005583,
+      "label_y": 125.43474358685967,
       "xw_url": "https://en.xen.wiki/w/Semaphoresmic_clan",
       "mapping": [
         {
@@ -27758,7 +27662,7 @@
       "page_title": "Hemimean clan",
       "display_name": "Quasijerome",
       "source_y": 139.40293829812367,
-      "label_y": 138.98245165781228,
+      "label_y": 138.9824516578123,
       "xw_url": "https://en.xen.wiki/w/Hemimean_clan",
       "mapping": [
         {
@@ -27789,7 +27693,7 @@
       "page_title": "Marvel temperaments",
       "display_name": "Quintannic",
       "source_y": 139.80376078696747,
-      "label_y": 139.23661832447894,
+      "label_y": 139.23661832447897,
       "xw_url": "https://en.xen.wiki/w/Marvel_temperaments",
       "mapping": [
         {
@@ -27851,7 +27755,7 @@
       "page_title": "Mint temperaments",
       "display_name": "Progression",
       "source_y": 140.03014407049056,
-      "label_y": 139.86370165781227,
+      "label_y": 139.8637016578123,
       "xw_url": "https://en.xen.wiki/w/Mint_temperaments",
       "mapping": [
         {
@@ -27890,7 +27794,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Glacier",
       "source_y": 140.3604652680845,
-      "label_y": 140.1970349911456,
+      "label_y": 140.19703499114564,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -27967,7 +27871,7 @@
       "page_title": "Aberschismic temperaments",
       "display_name": "Quanic",
       "source_y": 140.49079848498894,
-      "label_y": 141.1574516578123,
+      "label_y": 141.15745165781232,
       "xw_url": "https://en.xen.wiki/w/Aberschismic_temperaments",
       "mapping": [
         {
@@ -28405,7 +28309,7 @@
       "page_title": "Porcupine family",
       "display_name": "Pourcup",
       "source_y": 162.46651245592102,
-      "label_y": 162.44816719253672,
+      "label_y": 162.4481671925367,
       "xw_url": "https://en.xen.wiki/w/Porcupine_family",
       "mapping": [
         {
@@ -28494,7 +28398,7 @@
       "page_title": "Porcupine family",
       "display_name": "Porkpie",
       "source_y": 163.6874485397468,
-      "label_y": 163.60792406638637,
+      "label_y": 163.6874485397468,
       "xw_url": "https://en.xen.wiki/w/Porcupine_family",
       "mapping": [
         {
@@ -28521,34 +28425,11 @@
       "badness": 1.0761401535167254
     },
     {
-      "id": "porkypine",
-      "page_title": "Porcupine family",
-      "display_name": "(porkypine)",
-      "source_y": 163.99507746134122,
-      "label_y": 163.90167406638636,
-      "xw_url": "https://en.xen.wiki/w/Porcupine_family",
-      "mapping": [
-        {
-          "prime": 3,
-          "count": -3
-        },
-        {
-          "prime": 5,
-          "count": -5
-        },
-        {
-          "prime": 11,
-          "count": -4
-        }
-      ],
-      "badness": 0.3025801531343768
-    },
-    {
       "id": "porcupine",
       "page_title": "Porcupine family",
       "display_name": "Porcupine",
       "source_y": 164.06207953140438,
-      "label_y": 164.2350073997197,
+      "label_y": 164.06207953140438,
       "xw_url": "https://en.xen.wiki/w/Porcupine_family",
       "mapping": [
         {
@@ -28567,7 +28448,7 @@
       "page_title": "Porcupine family",
       "display_name": "Porky",
       "source_y": 164.8578846085993,
-      "label_y": 164.80461173640646,
+      "label_y": 164.80461173640649,
       "xw_url": "https://en.xen.wiki/w/Porcupine_family",
       "mapping": [
         {
@@ -28598,7 +28479,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Porpoise",
       "source_y": 165.9003904119893,
-      "label_y": 165.1379450697398,
+      "label_y": 165.13794506973983,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -28660,7 +28541,7 @@
       "page_title": "Schismatic family",
       "display_name": "Sanjaab",
       "source_y": 165.96589399890036,
-      "label_y": 165.76502840307313,
+      "label_y": 165.76502840307316,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -28757,7 +28638,7 @@
       "page_title": "Schismatic family",
       "display_name": "Countertertiaschis",
       "source_y": 166.0634980123043,
-      "label_y": 166.52752840307315,
+      "label_y": 166.52752840307318,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -28885,7 +28766,7 @@
       "page_title": "No-sevens subgroup temperaments",
       "display_name": "Twentcufo",
       "source_y": 172.88832604739227,
-      "label_y": 172.6347187454532,
+      "label_y": 172.63471874545317,
       "xw_url": "https://en.xen.wiki/w/No-sevens_subgroup_temperaments",
       "mapping": [
         {
@@ -28908,7 +28789,7 @@
       "page_title": "Hemimean clan",
       "display_name": "Undetrita",
       "source_y": 172.92652809853604,
-      "label_y": 172.9284687454532,
+      "label_y": 172.92846874545316,
       "xw_url": "https://en.xen.wiki/w/Hemimean_clan",
       "mapping": [
         {
@@ -28970,7 +28851,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Hearts",
       "source_y": 175.34170378979985,
-      "label_y": 173.95264916306016,
+      "label_y": 174.08456683895125,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -28997,7 +28878,7 @@
       "page_title": "Schismatic family",
       "display_name": "Hearty",
       "source_y": 175.37633982671574,
-      "label_y": 174.24639916306018,
+      "label_y": 174.37831683895126,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -29040,7 +28921,7 @@
       "page_title": "Schismatic family",
       "display_name": "Heartia",
       "source_y": 175.37969491426753,
-      "label_y": 174.50056582972684,
+      "label_y": 174.63248350561793,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -29079,7 +28960,7 @@
       "page_title": "Schismatic family",
       "display_name": "Sesquart",
       "source_y": 175.40948050729048,
-      "label_y": 174.79431582972683,
+      "label_y": 174.92623350561792,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -29110,7 +28991,7 @@
       "page_title": "Schismatic family",
       "display_name": "Sesquartia",
       "source_y": 175.41230767608766,
-      "label_y": 175.08806582972684,
+      "label_y": 175.21998350561793,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -29153,7 +29034,7 @@
       "page_title": "Schismatic family",
       "display_name": "Sesquiquartififths",
       "source_y": 175.4319769020335,
-      "label_y": 175.38181582972686,
+      "label_y": 175.51373350561792,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -29176,7 +29057,7 @@
       "page_title": "Tetracot family",
       "display_name": "Monkey",
       "source_y": 175.690056650546,
-      "label_y": 175.67556582972685,
+      "label_y": 175.80748350561794,
       "xw_url": "https://en.xen.wiki/w/Tetracot_family",
       "mapping": [
         {
@@ -29215,7 +29096,7 @@
       "page_title": "Breedsmic temperaments",
       "display_name": "Quadrafifths",
       "source_y": 175.74611598054616,
-      "label_y": 175.9297324963935,
+      "label_y": 176.0616501722846,
       "xw_url": "https://en.xen.wiki/w/Breedsmic_temperaments",
       "mapping": [
         {
@@ -29246,7 +29127,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Heartful",
       "source_y": 175.76651484521506,
-      "label_y": 176.22348249639353,
+      "label_y": 176.3554001722846,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -29273,7 +29154,7 @@
       "page_title": "Tetracot family",
       "display_name": "Bunya",
       "source_y": 175.92865928995346,
-      "label_y": 176.51723249639352,
+      "label_y": 176.6491501722846,
       "xw_url": "https://en.xen.wiki/w/Tetracot_family",
       "mapping": [
         {
@@ -29312,7 +29193,7 @@
       "page_title": "Tetracot family",
       "display_name": "Tetracot",
       "source_y": 176.08542074729152,
-      "label_y": 176.81098249639354,
+      "label_y": 176.94290017228462,
       "xw_url": "https://en.xen.wiki/w/Tetracot_family",
       "mapping": [
         {
@@ -29335,34 +29216,11 @@
       "badness": 0.4586071796903319
     },
     {
-      "id": "tetracot-2-3-5-13",
-      "page_title": "Tetracot family",
-      "display_name": "Tetracot (2.3.5.13)",
-      "source_y": 176.2974683672517,
-      "label_y": 177.14431582972685,
-      "xw_url": "https://en.xen.wiki/w/Tetracot_family",
-      "mapping": [
-        {
-          "prime": 3,
-          "count": 4
-        },
-        {
-          "prime": 5,
-          "count": 9
-        },
-        {
-          "prime": 13,
-          "count": -2
-        }
-      ],
-      "badness": 0.5507762029525007
-    },
-    {
       "id": "modus",
       "page_title": "Tetracot family",
       "display_name": "Modus",
       "source_y": 176.96450697135953,
-      "label_y": 177.4776491630602,
+      "label_y": 177.27623350561794,
       "xw_url": "https://en.xen.wiki/w/Tetracot_family",
       "mapping": [
         {
@@ -29401,7 +29259,7 @@
       "page_title": "Tetracot family",
       "display_name": "Wollemia",
       "source_y": 177.12164527924506,
-      "label_y": 177.7713991630602,
+      "label_y": 177.56998350561796,
       "xw_url": "https://en.xen.wiki/w/Tetracot_family",
       "mapping": [
         {
@@ -29440,7 +29298,7 @@
       "page_title": "Tetracot family",
       "display_name": "Ponens",
       "source_y": 177.58784569829936,
-      "label_y": 178.02556582972687,
+      "label_y": 177.82415017228462,
       "xw_url": "https://en.xen.wiki/w/Tetracot_family",
       "mapping": [
         {
@@ -29905,7 +29763,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Balthazar",
       "source_y": 190.40161372206452,
-      "label_y": 190.51966478989507,
+      "label_y": 190.51966478989505,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -29932,7 +29790,7 @@
       "page_title": "Hemimean clan",
       "display_name": "Deutone",
       "source_y": 191.46214794586012,
-      "label_y": 191.21861740265342,
+      "label_y": 191.2186174026534,
       "xw_url": "https://en.xen.wiki/w/Hemimean_clan",
       "mapping": [
         {
@@ -29959,7 +29817,7 @@
       "page_title": "Hemimean clan",
       "display_name": "Leantone",
       "source_y": 192.41658134502177,
-      "label_y": 191.55195073598676,
+      "label_y": 191.55195073598674,
       "xw_url": "https://en.xen.wiki/w/Hemimean_clan",
       "mapping": [
         {
@@ -29986,7 +29844,7 @@
       "page_title": "Hemimean clan",
       "display_name": "Hemithirds",
       "source_y": 193.1656771987184,
-      "label_y": 191.8852840693201,
+      "label_y": 191.88528406932008,
       "xw_url": "https://en.xen.wiki/w/Hemimean_clan",
       "mapping": [
         {
@@ -30044,7 +29902,7 @@
       "page_title": "Luna family",
       "display_name": "Luna",
       "source_y": 193.20133279031347,
-      "label_y": 192.55195073598676,
+      "label_y": 192.55195073598674,
       "xw_url": "https://en.xen.wiki/w/Luna_family",
       "mapping": [
         {
@@ -30063,7 +29921,7 @@
       "page_title": "Hemimean clan",
       "display_name": "Isra",
       "source_y": 193.31239740666888,
-      "label_y": 192.8852840693201,
+      "label_y": 192.88528406932008,
       "xw_url": "https://en.xen.wiki/w/Hemimean_clan",
       "mapping": [
         {
@@ -30167,7 +30025,7 @@
       "page_title": "Hemimean clan",
       "display_name": "Hemithir",
       "source_y": 193.99416046129284,
-      "label_y": 194.09986740265344,
+      "label_y": 194.09986740265342,
       "xw_url": "https://en.xen.wiki/w/Hemimean_clan",
       "mapping": [
         {
@@ -30256,7 +30114,7 @@
       "page_title": "Hemimean clan",
       "display_name": "Roulette",
       "source_y": 194.2587945526568,
-      "label_y": 195.0602840693201,
+      "label_y": 195.06028406932006,
       "xw_url": "https://en.xen.wiki/w/Hemimean_clan",
       "mapping": [
         {
@@ -30291,7 +30149,7 @@
       "page_title": "Hemimean clan",
       "display_name": "Undecimal didacus",
       "source_y": 194.42777119533503,
-      "label_y": 195.39361740265343,
+      "label_y": 195.3936174026534,
       "xw_url": "https://en.xen.wiki/w/Hemimean_clan",
       "mapping": [
         {
@@ -30519,7 +30377,7 @@
       "page_title": "Starling temperaments",
       "display_name": "Kumonga",
       "source_y": 223.03230707374087,
-      "label_y": 222.9241890361061,
+      "label_y": 222.92418903610607,
       "xw_url": "https://en.xen.wiki/w/Starling_temperaments",
       "mapping": [
         {
@@ -30550,7 +30408,7 @@
       "page_title": "Semaphoresmic clan",
       "display_name": "Baba",
       "source_y": 223.07023766513794,
-      "label_y": 223.17835570277276,
+      "label_y": 223.17835570277273,
       "xw_url": "https://en.xen.wiki/w/Semaphoresmic_clan",
       "mapping": [
         {
@@ -30577,7 +30435,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Clyndro",
       "source_y": 226.24206137352715,
-      "label_y": 226.2350223746069,
+      "label_y": 226.23502237460687,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -30604,7 +30462,7 @@
       "page_title": "Porwell temperaments",
       "display_name": "Semaja",
       "source_y": 226.48215004235328,
-      "label_y": 226.48918904127356,
+      "label_y": 226.48918904127353,
       "xw_url": "https://en.xen.wiki/w/Porwell_temperaments",
       "mapping": [
         {
@@ -30666,7 +30524,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Gorgo",
       "source_y": 227.33270117952478,
-      "label_y": 227.34889883017917,
+      "label_y": 227.3488988301792,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -30697,7 +30555,7 @@
       "page_title": "Breedsmic temperaments",
       "display_name": "Gorgik",
       "source_y": 227.49699352795403,
-      "label_y": 227.60306549684583,
+      "label_y": 227.60306549684586,
       "xw_url": "https://en.xen.wiki/w/Breedsmic_temperaments",
       "mapping": [
         {
@@ -30728,7 +30586,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Spartan",
       "source_y": 229.00436616917793,
-      "label_y": 229.00436616917796,
+      "label_y": 229.00436616917793,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -30782,7 +30640,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Gidorah",
       "source_y": 229.6648952262797,
-      "label_y": 229.66489522627973,
+      "label_y": 229.6648952262797,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -30874,7 +30732,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Cyndra",
       "source_y": 231.36116725490294,
-      "label_y": 231.37217575693072,
+      "label_y": 231.3721757569307,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -30905,7 +30763,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Undecimal mothra",
       "source_y": 231.68415981023165,
-      "label_y": 231.66592575693073,
+      "label_y": 231.6659257569307,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -30994,7 +30852,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Oncle",
       "source_y": 232.47184695254785,
-      "label_y": 232.54717575693073,
+      "label_y": 232.5471757569307,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -31017,7 +30875,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Mosura",
       "source_y": 232.72873243201963,
-      "label_y": 232.8013424235974,
+      "label_y": 232.80134242359736,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -31052,11 +30910,11 @@
       "badness": 1.035890176184156
     },
     {
-      "id": "euslendric-2-3-7-13",
+      "id": "euslendric",
       "page_title": "Gamelismic clan",
-      "display_name": "Euslendric (2.3.7.13)",
+      "display_name": "Euslendric",
       "source_y": 233.62077740946665,
-      "label_y": 233.25125577371415,
+      "label_y": 233.25125577371423,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -31095,7 +30953,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Slendric",
       "source_y": 233.74735144560236,
-      "label_y": 233.5845891070475,
+      "label_y": 233.58458910704758,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -31114,7 +30972,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Guiron",
       "source_y": 233.8993589916338,
-      "label_y": 233.91792244038083,
+      "label_y": 233.9179224403809,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -31145,7 +31003,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Radon",
       "source_y": 234.38129834146096,
-      "label_y": 234.25125577371415,
+      "label_y": 234.2512557737142,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -31168,7 +31026,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Rodan",
       "source_y": 234.52542873865144,
-      "label_y": 234.58458910704746,
+      "label_y": 234.58458910704755,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -31203,7 +31061,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Aerodactyl",
       "source_y": 234.64386059344204,
-      "label_y": 234.87833910704748,
+      "label_y": 234.87833910704757,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -31234,7 +31092,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Aerodino",
       "source_y": 234.78238156240872,
-      "label_y": 235.13250577371414,
+      "label_y": 235.13250577371423,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -31330,7 +31188,7 @@
       "page_title": "Aberschismic temperaments",
       "display_name": "Septiquarter",
       "source_y": 242.45757751898816,
-      "label_y": 242.40670659262074,
+      "label_y": 242.40670659262076,
       "xw_url": "https://en.xen.wiki/w/Aberschismic_temperaments",
       "mapping": [
         {
@@ -31353,7 +31211,7 @@
       "page_title": "Schismatic family",
       "display_name": "Septiquarschis",
       "source_y": 242.61000233291998,
-      "label_y": 242.6608732592874,
+      "label_y": 242.66087325928743,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -31438,7 +31296,7 @@
       "page_title": "Immunity family",
       "display_name": "Immunized",
       "source_y": 246.62449639806528,
-      "label_y": 246.09797114957237,
+      "label_y": 246.0979711495724,
       "xw_url": "https://en.xen.wiki/w/Immunity_family",
       "mapping": [
         {
@@ -31465,7 +31323,7 @@
       "page_title": "Immunity family",
       "display_name": "Immunity",
       "source_y": 247.2109731913156,
-      "label_y": 246.3917211495724,
+      "label_y": 246.39172114957242,
       "xw_url": "https://en.xen.wiki/w/Immunity_family",
       "mapping": [
         {
@@ -31488,7 +31346,7 @@
       "page_title": "Immunity family",
       "display_name": "Immune",
       "source_y": 247.5992346807402,
-      "label_y": 246.68547114957238,
+      "label_y": 246.68547114957244,
       "xw_url": "https://en.xen.wiki/w/Immunity_family",
       "mapping": [
         {
@@ -31519,7 +31377,7 @@
       "page_title": "Immunity family",
       "display_name": "Impunity",
       "source_y": 247.69621245751807,
-      "label_y": 246.93963781623904,
+      "label_y": 246.9396378162391,
       "xw_url": "https://en.xen.wiki/w/Immunity_family",
       "mapping": [
         {
@@ -31550,7 +31408,7 @@
       "page_title": "Immunity family",
       "display_name": "Septimal immunity",
       "source_y": 247.88830511482468,
-      "label_y": 247.1938044829057,
+      "label_y": 247.19380448290576,
       "xw_url": "https://en.xen.wiki/w/Immunity_family",
       "mapping": [
         {
@@ -31581,7 +31439,7 @@
       "page_title": "User:Dummy index/Chromatic pairs and how we define haplotonic",
       "display_name": "Bridgetown",
       "source_y": 248.31129662380636,
-      "label_y": 247.4875544829057,
+      "label_y": 247.48755448290575,
       "xw_url": "https://en.xen.wiki/w/User%3ADummy_index%2FChromatic_pairs_and_how_we_define_haplotonic",
       "mapping": [
         {
@@ -31604,7 +31462,7 @@
       "page_title": "User:Dummy index/Chromatic pairs and how we define haplotonic",
       "display_name": "Haumea",
       "source_y": 248.52081977980322,
-      "label_y": 247.82088781623904,
+      "label_y": 247.82088781623906,
       "xw_url": "https://en.xen.wiki/w/User%3ADummy_index%2FChromatic_pairs_and_how_we_define_haplotonic",
       "mapping": [
         {
@@ -31631,7 +31489,7 @@
       "page_title": "Aberschismic temperaments",
       "display_name": "Hemidromeda",
       "source_y": 248.5924480824939,
-      "label_y": 248.15422114957238,
+      "label_y": 248.1542211495724,
       "xw_url": "https://en.xen.wiki/w/Aberschismic_temperaments",
       "mapping": [
         {
@@ -31674,7 +31532,7 @@
       "page_title": "Aberschismic temperaments",
       "display_name": "Hemikwai",
       "source_y": 248.68971427346264,
-      "label_y": 248.44797114957237,
+      "label_y": 248.44797114957242,
       "xw_url": "https://en.xen.wiki/w/Aberschismic_temperaments",
       "mapping": [
         {
@@ -31713,7 +31571,7 @@
       "page_title": "Schismatic family",
       "display_name": "Hemigari",
       "source_y": 248.94256799889934,
-      "label_y": 248.70213781623903,
+      "label_y": 248.7021378162391,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -31744,7 +31602,7 @@
       "page_title": "Ragismic microtemperaments",
       "display_name": "Monzism",
       "source_y": 249.01989233137363,
-      "label_y": 248.9563044829057,
+      "label_y": 248.95630448290575,
       "xw_url": "https://en.xen.wiki/w/Ragismic_microtemperaments",
       "mapping": [
         {
@@ -31775,7 +31633,7 @@
       "page_title": "Ragismic microtemperaments",
       "display_name": "Monzismic",
       "source_y": 249.02071429086357,
-      "label_y": 249.21047114957236,
+      "label_y": 249.2104711495724,
       "xw_url": "https://en.xen.wiki/w/Ragismic_microtemperaments",
       "mapping": [
         {
@@ -31794,11 +31652,11 @@
       "badness": 1.1783176501274777
     },
     {
-      "id": "dakota-2-3-5-13-19",
+      "id": "dakota",
       "page_title": "Schismatic family",
-      "display_name": "Dakota (2.3.5.13.19)",
+      "display_name": "Dakota",
       "source_y": 249.14047914029368,
-      "label_y": 249.50422114957234,
+      "label_y": 249.5042211495724,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -31825,11 +31683,11 @@
       "badness": 0.22257081792404582
     },
     {
-      "id": "taylor-2-3-5-13",
+      "id": "taylor",
       "page_title": "Schismatic family",
-      "display_name": "Taylor (2.3.5.13)",
+      "display_name": "Taylor",
       "source_y": 249.15073693430804,
-      "label_y": 249.8375544829057,
+      "label_y": 249.83755448290572,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -31852,7 +31710,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Sematology",
       "source_y": 249.17495468766901,
-      "label_y": 250.17088781623903,
+      "label_y": 250.17088781623906,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -31871,7 +31729,7 @@
       "page_title": "Schismatic family",
       "display_name": "Hemischis",
       "source_y": 249.19308668857536,
-      "label_y": 250.50422114957234,
+      "label_y": 250.5042211495724,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -31914,7 +31772,7 @@
       "page_title": "Semaphoresmic clan",
       "display_name": "Semaphore",
       "source_y": 249.31099076371515,
-      "label_y": 250.83755448290566,
+      "label_y": 250.83755448290572,
       "xw_url": "https://en.xen.wiki/w/Semaphoresmic_clan",
       "mapping": [
         {
@@ -31933,7 +31791,7 @@
       "page_title": "Semaphoresmic clan",
       "display_name": "Varan",
       "source_y": 250.96623369782094,
-      "label_y": 251.13130448290568,
+      "label_y": 251.1313044829057,
       "xw_url": "https://en.xen.wiki/w/Semaphoresmic_clan",
       "mapping": [
         {
@@ -31964,7 +31822,7 @@
       "page_title": "Semaphoresmic clan",
       "display_name": "Baragon",
       "source_y": 251.15322243609057,
-      "label_y": 251.38547114957234,
+      "label_y": 251.38547114957237,
       "xw_url": "https://en.xen.wiki/w/Semaphoresmic_clan",
       "mapping": [
         {
@@ -31995,7 +31853,7 @@
       "page_title": "Meantone family",
       "display_name": "Hemimeantone",
       "source_y": 251.48887201839875,
-      "label_y": 251.639637816239,
+      "label_y": 251.63963781623903,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -32034,7 +31892,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Lipsett",
       "source_y": 251.672813789236,
-      "label_y": 251.93338781623902,
+      "label_y": 251.93338781623905,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -32053,7 +31911,7 @@
       "page_title": "Semaphoresmic clan",
       "display_name": "Godzilla",
       "source_y": 251.99626695928976,
-      "label_y": 252.26672114957233,
+      "label_y": 252.2667211495724,
       "xw_url": "https://en.xen.wiki/w/Semaphoresmic_clan",
       "mapping": [
         {
@@ -32080,7 +31938,7 @@
       "page_title": "Semaphoresmic clan",
       "display_name": "Helayo",
       "source_y": 252.49525410160038,
-      "label_y": 252.56047114957232,
+      "label_y": 252.56047114957238,
       "xw_url": "https://en.xen.wiki/w/Semaphoresmic_clan",
       "mapping": [
         {
@@ -32103,7 +31961,7 @@
       "page_title": "Semaphoresmic clan",
       "display_name": "Undecimal godzilla",
       "source_y": 253.13900314188515,
-      "label_y": 253.0162512138642,
+      "label_y": 253.01625121386417,
       "xw_url": "https://en.xen.wiki/w/Semaphoresmic_clan",
       "mapping": [
         {
@@ -32134,7 +31992,7 @@
       "page_title": "Semaphoresmic clan",
       "display_name": "Semafour",
       "source_y": 253.22683261917655,
-      "label_y": 253.34958454719754,
+      "label_y": 253.3495845471975,
       "xw_url": "https://en.xen.wiki/w/Semaphoresmic_clan",
       "mapping": [
         {
@@ -32215,7 +32073,7 @@
       "page_title": "Semaphoresmic clan",
       "display_name": "Superpelog",
       "source_y": 260.2313028690438,
-      "label_y": 260.2084942099536,
+      "label_y": 260.20849420995364,
       "xw_url": "https://en.xen.wiki/w/Semaphoresmic_clan",
       "mapping": [
         {
@@ -32242,7 +32100,7 @@
       "page_title": "Bug family",
       "display_name": "Bug",
       "source_y": 260.5190188841967,
-      "label_y": 260.5418275432869,
+      "label_y": 260.54182754328696,
       "xw_url": "https://en.xen.wiki/w/Bug_family",
       "mapping": [
         {
@@ -32717,7 +32575,7 @@
       "page_title": "Semicomma family",
       "display_name": "Orson",
       "source_y": 271.63935773966426,
-      "label_y": 272.18402518711423,
+      "label_y": 272.1840251871142,
       "xw_url": "https://en.xen.wiki/w/Semicomma_family",
       "mapping": [
         {
@@ -32736,7 +32594,7 @@
       "page_title": "Ragismic microtemperaments",
       "display_name": "Counterorson",
       "source_y": 271.71129218572884,
-      "label_y": 272.4777751871142,
+      "label_y": 272.47777518711416,
       "xw_url": "https://en.xen.wiki/w/Ragismic_microtemperaments",
       "mapping": [
         {
@@ -32840,7 +32698,7 @@
       "page_title": "Breedsmic temperaments",
       "display_name": "Neominor",
       "source_y": 283.2748432822557,
-      "label_y": 283.1549403170053,
+      "label_y": 283.15494031700524,
       "xw_url": "https://en.xen.wiki/w/Breedsmic_temperaments",
       "mapping": [
         {
@@ -32875,7 +32733,7 @@
       "page_title": "Mint temperaments",
       "display_name": "Subklei",
       "source_y": 283.32878735175484,
-      "label_y": 283.4486903170053,
+      "label_y": 283.44869031700523,
       "xw_url": "https://en.xen.wiki/w/Mint_temperaments",
       "mapping": [
         {
@@ -32937,7 +32795,7 @@
       "page_title": "Amity family",
       "display_name": "Gamity",
       "source_y": 286.79571229910687,
-      "label_y": 286.79571229910687,
+      "label_y": 286.66125068641566,
       "xw_url": "https://en.xen.wiki/w/Amity_family",
       "mapping": [
         {
@@ -32966,6 +32824,72 @@
         }
       ],
       "badness": 1.1225655336489149
+    },
+    {
+      "id": "no-3-no-19-23-limit",
+      "page_title": "2023/2000",
+      "display_name": "No-3 no-19 23-limit",
+      "source_y": 286.8205390737244,
+      "label_y": 286.95500068641564,
+      "xw_url": "https://en.xen.wiki/w/2023%2F2000",
+      "mapping": [
+        {
+          "prime": 5,
+          "count": -7
+        },
+        {
+          "prime": 7,
+          "count": -5
+        },
+        {
+          "prime": 11,
+          "count": -19
+        },
+        {
+          "prime": 13,
+          "count": -18
+        },
+        {
+          "prime": 17,
+          "count": -8
+        },
+        {
+          "prime": 23,
+          "count": -2
+        }
+      ],
+      "badness": 0.6706233809833211
+    },
+    {
+      "id": "sidewalk",
+      "page_title": "2023/2000",
+      "display_name": "Sidewalk",
+      "source_y": 288.39989071903335,
+      "label_y": 288.39989071903335,
+      "xw_url": "https://en.xen.wiki/w/2023%2F2000",
+      "mapping": [
+        {
+          "prime": 5,
+          "count": -7
+        },
+        {
+          "prime": 7,
+          "count": -5
+        },
+        {
+          "interval": "13/11",
+          "count": 1
+        },
+        {
+          "prime": 17,
+          "count": -8
+        },
+        {
+          "prime": 23,
+          "count": -2
+        }
+      ],
+      "badness": 0.3079378016488555
     },
     {
       "id": "moulin",
@@ -33289,7 +33213,7 @@
       "page_title": "Starling temperaments",
       "display_name": "Myna",
       "source_y": 310.22179169591845,
-      "label_y": 310.17897273465644,
+      "label_y": 310.1789727346564,
       "xw_url": "https://en.xen.wiki/w/Starling_temperaments",
       "mapping": [
         {
@@ -33320,7 +33244,7 @@
       "page_title": "Starling temperaments",
       "display_name": "Minah",
       "source_y": 310.32507154927634,
-      "label_y": 310.47272273465643,
+      "label_y": 310.4727227346564,
       "xw_url": "https://en.xen.wiki/w/Starling_temperaments",
       "mapping": [
         {
@@ -33351,7 +33275,7 @@
       "page_title": "Starling temperaments",
       "display_name": "Coleto",
       "source_y": 310.63977683992596,
-      "label_y": 310.7268894013231,
+      "label_y": 310.72688940132304,
       "xw_url": "https://en.xen.wiki/w/Starling_temperaments",
       "mapping": [
         {
@@ -33432,7 +33356,7 @@
       "page_title": "User:Dummy index/Chromatic pairs and how we define haplotonic",
       "display_name": "Starlingtet",
       "source_y": 311.6387025666246,
-      "label_y": 311.7976475865877,
+      "label_y": 311.79764758658763,
       "xw_url": "https://en.xen.wiki/w/User%3ADummy_index%2FChromatic_pairs_and_how_we_define_haplotonic",
       "mapping": [
         {
@@ -34039,9 +33963,9 @@
       "badness": 1.129841137279077
     },
     {
-      "id": "kleismic-2-3-5-13-a-k-a-cata",
+      "id": "kleismic-a-k-a-cata",
       "page_title": "Kleismic family",
-      "display_name": "Kleismic (2.3.5.13) a.k.a. cata",
+      "display_name": "Kleismic a.k.a. cata",
       "source_y": 317.07476418735996,
       "label_y": 318.1852290198304,
       "xw_url": "https://en.xen.wiki/w/Kleismic_family",
@@ -34356,7 +34280,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Superana",
       "source_y": 321.6433653512114,
-      "label_y": 321.5976812188643,
+      "label_y": 321.59768121886424,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -34395,7 +34319,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Dee leap week",
       "source_y": 322.10153200348884,
-      "label_y": 321.85184788553096,
+      "label_y": 321.8518478855309,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -34805,7 +34729,7 @@
       "page_title": "Amity family",
       "display_name": "Stalagmite",
       "source_y": 339.31804078106325,
-      "label_y": 338.82875630141353,
+      "label_y": 338.8287563014136,
       "xw_url": "https://en.xen.wiki/w/Amity_family",
       "mapping": [
         {
@@ -34844,7 +34768,7 @@
       "page_title": "Amity family",
       "display_name": "Hitchcock",
       "source_y": 339.4082740465517,
-      "label_y": 339.1225063014135,
+      "label_y": 339.1225063014136,
       "xw_url": "https://en.xen.wiki/w/Amity_family",
       "mapping": [
         {
@@ -34922,7 +34846,7 @@
       "page_title": "Amity family",
       "display_name": "Amity",
       "source_y": 339.52736261284645,
-      "label_y": 339.7891729680802,
+      "label_y": 339.78917296808027,
       "xw_url": "https://en.xen.wiki/w/Amity_family",
       "mapping": [
         {
@@ -34941,7 +34865,7 @@
       "page_title": "Amity family",
       "display_name": "Paramity",
       "source_y": 339.55461972806097,
-      "label_y": 340.0829229680802,
+      "label_y": 340.08292296808025,
       "xw_url": "https://en.xen.wiki/w/Amity_family",
       "mapping": [
         {
@@ -34980,7 +34904,7 @@
       "page_title": "Amity family",
       "display_name": "Houborizic",
       "source_y": 339.7622266959454,
-      "label_y": 340.33708963474686,
+      "label_y": 340.3370896347469,
       "xw_url": "https://en.xen.wiki/w/Amity_family",
       "mapping": [
         {
@@ -35011,7 +34935,7 @@
       "page_title": "Amity family",
       "display_name": "Houbor",
       "source_y": 339.7624368901754,
-      "label_y": 340.5912563014135,
+      "label_y": 340.5912563014136,
       "xw_url": "https://en.xen.wiki/w/Amity_family",
       "mapping": [
         {
@@ -35595,9 +35519,9 @@
       "badness": 1.2724017824221578
     },
     {
-      "id": "neonewt",
+      "id": "2-3-5-7-11-13-19-subgroup",
       "page_title": "Garischismic clan",
-      "display_name": "(neonewt)",
+      "display_name": "2.3.5.7.11.13.19 subgroup",
       "source_y": 351.11662650462154,
       "label_y": 351.42638931379145,
       "xw_url": "https://en.xen.wiki/w/Garischismic_clan",
@@ -36218,7 +36142,7 @@
       "page_title": "Buzzardsmic clan",
       "display_name": "Submajor",
       "source_y": 362.1034540211922,
-      "label_y": 361.95630886530404,
+      "label_y": 361.956308865304,
       "xw_url": "https://en.xen.wiki/w/Buzzardsmic_clan",
       "mapping": [
         {
@@ -36551,7 +36475,7 @@
       "page_title": "Magic family",
       "display_name": "Horcruxic",
       "source_y": 379.57134831111273,
-      "label_y": 377.885512483175,
+      "label_y": 377.88551248317503,
       "xw_url": "https://en.xen.wiki/w/Magic_family",
       "mapping": [
         {
@@ -36621,7 +36545,7 @@
       "page_title": "Magic family",
       "display_name": "Witchcraft",
       "source_y": 380.15994793959635,
-      "label_y": 378.43342914984163,
+      "label_y": 378.4334291498417,
       "xw_url": "https://en.xen.wiki/w/Magic_family",
       "mapping": [
         {
@@ -36656,7 +36580,7 @@
       "page_title": "Magic family",
       "display_name": "Magic",
       "source_y": 380.21944618510594,
-      "label_y": 378.76676248317494,
+      "label_y": 378.766762483175,
       "xw_url": "https://en.xen.wiki/w/Magic_family",
       "mapping": [
         {
@@ -36714,7 +36638,7 @@
       "page_title": "Schismatic family",
       "display_name": "Quanharuk",
       "source_y": 380.35093967982624,
-      "label_y": 379.3542624831749,
+      "label_y": 379.354262483175,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -36815,7 +36739,7 @@
       "page_title": "Magic family",
       "display_name": "Magicus",
       "source_y": 380.46796451350326,
-      "label_y": 380.3146791498416,
+      "label_y": 380.31467914984165,
       "xw_url": "https://en.xen.wiki/w/Magic_family",
       "mapping": [
         {
@@ -36881,7 +36805,7 @@
       "page_title": "Magic family",
       "display_name": "Sorcery",
       "source_y": 380.5080335471903,
-      "label_y": 380.8230124831749,
+      "label_y": 380.823012483175,
       "xw_url": "https://en.xen.wiki/w/Magic_family",
       "mapping": [
         {
@@ -36943,7 +36867,7 @@
       "page_title": "Magic family",
       "display_name": "Magical",
       "source_y": 380.5895938417913,
-      "label_y": 381.4105124831749,
+      "label_y": 381.41051248317495,
       "xw_url": "https://en.xen.wiki/w/Magic_family",
       "mapping": [
         {
@@ -37009,7 +36933,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Hogwarts",
       "source_y": 380.6375239001231,
-      "label_y": 381.95842914984155,
+      "label_y": 381.9584291498416,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -37071,7 +36995,7 @@
       "page_title": "Magic family",
       "display_name": "Telepathy",
       "source_y": 380.68861644955604,
-      "label_y": 382.5459291498415,
+      "label_y": 382.5459291498416,
       "xw_url": "https://en.xen.wiki/w/Magic_family",
       "mapping": [
         {
@@ -37152,7 +37076,7 @@
       "page_title": "Magic family",
       "display_name": "Necromancy",
       "source_y": 380.8280193232255,
-      "label_y": 383.5063458165082,
+      "label_y": 383.50634581650826,
       "xw_url": "https://en.xen.wiki/w/Magic_family",
       "mapping": [
         {
@@ -37218,7 +37142,7 @@
       "page_title": "User:Dummy index/Chromatic pairs and how we define haplotonic",
       "display_name": "Marveltri",
       "source_y": 382.57499690077566,
-      "label_y": 384.05426248317485,
+      "label_y": 384.0542624831749,
       "xw_url": "https://en.xen.wiki/w/User%3ADummy_index%2FChromatic_pairs_and_how_we_define_haplotonic",
       "mapping": [
         {
@@ -37322,7 +37246,7 @@
       "page_title": "W\u00fcrschmidt family",
       "display_name": "Worschmidt",
       "source_y": 387.4189297080777,
-      "label_y": 387.1779472254427,
+      "label_y": 387.17794722544267,
       "xw_url": "https://en.xen.wiki/w/W%C3%BCrschmidt_family",
       "mapping": [
         {
@@ -37407,7 +37331,7 @@
       "page_title": "W\u00fcrschmidt family",
       "display_name": "Whirrschmidt",
       "source_y": 387.86822193787054,
-      "label_y": 388.098780558776,
+      "label_y": 388.09878055877596,
       "xw_url": "https://en.xen.wiki/w/W%C3%BCrschmidt_family",
       "mapping": [
         {
@@ -37562,7 +37486,7 @@
       "page_title": "Amity family",
       "display_name": "Hitcher",
       "source_y": 393.94995096511434,
-      "label_y": 394.0766476989112,
+      "label_y": 394.07664769891113,
       "xw_url": "https://en.xen.wiki/w/Amity_family",
       "mapping": [
         {
@@ -37620,7 +37544,7 @@
       "page_title": "Ditonmic family",
       "display_name": "Coditonic",
       "source_y": 407.5317605319816,
-      "label_y": 407.29716120794444,
+      "label_y": 407.2971612079445,
       "xw_url": "https://en.xen.wiki/w/Ditonmic_family",
       "mapping": [
         {
@@ -37651,7 +37575,7 @@
       "page_title": "Ditonmic family",
       "display_name": "Ditonic",
       "source_y": 407.5597278399798,
-      "label_y": 407.55132787461105,
+      "label_y": 407.55132787461116,
       "xw_url": "https://en.xen.wiki/w/Ditonmic_family",
       "mapping": [
         {
@@ -37670,7 +37594,7 @@
       "page_title": "Ditonmic family",
       "display_name": "Coditone",
       "source_y": 407.72847089692345,
-      "label_y": 407.80549454127777,
+      "label_y": 407.8054945412778,
       "xw_url": "https://en.xen.wiki/w/Ditonmic_family",
       "mapping": [
         {
@@ -37701,7 +37625,7 @@
       "page_title": "Ditonmic family",
       "display_name": "Diton",
       "source_y": 407.89368556289287,
-      "label_y": 408.0596612079444,
+      "label_y": 408.0596612079445,
       "xw_url": "https://en.xen.wiki/w/Ditonmic_family",
       "mapping": [
         {
@@ -37732,7 +37656,7 @@
       "page_title": "Magic family",
       "display_name": "Hocum",
       "source_y": 409.8457997972862,
-      "label_y": 409.79298932958386,
+      "label_y": 409.7929893295838,
       "xw_url": "https://en.xen.wiki/w/Magic_family",
       "mapping": [
         {
@@ -37848,7 +37772,7 @@
       "page_title": "Wesley family",
       "display_name": "Wesley",
       "source_y": 414.2192189397772,
-      "label_y": 414.15884107188856,
+      "label_y": 414.1588410718886,
       "xw_url": "https://en.xen.wiki/w/Wesley_family",
       "mapping": [
         {
@@ -37894,11 +37818,11 @@
       "badness": 1.2414055514034334
     },
     {
-      "id": "a-k-a-crusher",
+      "id": "7-limit-a-k-a-crusher",
       "page_title": "Wesley family",
-      "display_name": "a.k.a. crusher",
+      "display_name": "7-limit a.k.a. crusher",
       "source_y": 414.52831373186973,
-      "label_y": 414.6671744052219,
+      "label_y": 414.66717440522194,
       "xw_url": "https://en.xen.wiki/w/Wesley_family",
       "mapping": [
         {
@@ -37952,7 +37876,7 @@
       "page_title": "Kleismic family",
       "display_name": "Sqrtphi",
       "source_y": 416.5824150458525,
-      "label_y": 416.4827276936993,
+      "label_y": 416.48272769369925,
       "xw_url": "https://en.xen.wiki/w/Kleismic_family",
       "mapping": [
         {
@@ -37991,7 +37915,7 @@
       "page_title": "Breedsmic temperaments",
       "display_name": "Unthirds",
       "source_y": 416.7163736748794,
-      "label_y": 416.8160610270326,
+      "label_y": 416.81606102703256,
       "xw_url": "https://en.xen.wiki/w/Breedsmic_temperaments",
       "mapping": [
         {
@@ -38149,7 +38073,7 @@
       "page_title": "Orwellismic temperaments",
       "display_name": "Sentinel",
       "source_y": 425.5000495448695,
-      "label_y": 425.01995833311156,
+      "label_y": 425.0199583331115,
       "xw_url": "https://en.xen.wiki/w/Orwellismic_temperaments",
       "mapping": [
         {
@@ -38211,7 +38135,7 @@
       "page_title": "Meantone family",
       "display_name": "Squad",
       "source_y": 425.58603084113497,
-      "label_y": 425.60745833311154,
+      "label_y": 425.6074583331115,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -38269,7 +38193,7 @@
       "page_title": "Meantone family",
       "display_name": "Cuboctahedra",
       "source_y": 425.9757264912721,
-      "label_y": 426.11579166644486,
+      "label_y": 426.1157916664448,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -38335,7 +38259,7 @@
       "page_title": "Dicot family",
       "display_name": "Sidi",
       "source_y": 426.2225112329063,
-      "label_y": 426.6241249997782,
+      "label_y": 426.62412499977813,
       "xw_url": "https://en.xen.wiki/w/Dicot_family",
       "mapping": [
         {
@@ -38501,7 +38425,7 @@
       "page_title": "User:Dummy index/Chromatic pairs and how we define haplotonic",
       "display_name": "Sentry",
       "source_y": 438.5456579843205,
-      "label_y": 438.5456579843205,
+      "label_y": 438.5456579843204,
       "xw_url": "https://en.xen.wiki/w/User%3ADummy_index%2FChromatic_pairs_and_how_we_define_haplotonic",
       "mapping": [
         {
@@ -38551,7 +38475,7 @@
       "page_title": "Kleismic family",
       "display_name": "Clyde",
       "source_y": 441.3645152703939,
-      "label_y": 441.10221398283295,
+      "label_y": 441.27652895529855,
       "xw_url": "https://en.xen.wiki/w/Kleismic_family",
       "mapping": [
         {
@@ -38582,7 +38506,7 @@
       "page_title": "Sensipent family",
       "display_name": "Sensei",
       "source_y": 442.7841639803979,
-      "label_y": 441.3563806494996,
+      "label_y": 441.53069562196526,
       "xw_url": "https://en.xen.wiki/w/Sensipent_family",
       "mapping": [
         {
@@ -38605,7 +38529,7 @@
       "page_title": "Sensipent family",
       "display_name": "Sendai",
       "source_y": 442.97621454897444,
-      "label_y": 441.6501306494996,
+      "label_y": 441.8244456219652,
       "xw_url": "https://en.xen.wiki/w/Sensipent_family",
       "mapping": [
         {
@@ -38632,11 +38556,11 @@
       "badness": 0.28303423396078053
     },
     {
-      "id": "sensipent-2-3-5-31-subgroup",
+      "id": "sensipent",
       "page_title": "Sensipent family",
-      "display_name": "Sensipent (2.3.5.31 subgroup)",
+      "display_name": "Sensipent",
       "source_y": 443.047444955052,
-      "label_y": 441.983463982833,
+      "label_y": 442.15777895529857,
       "xw_url": "https://en.xen.wiki/w/Sensipent_family",
       "mapping": [
         {
@@ -38655,30 +38579,11 @@
       "badness": 0.2425066518982857
     },
     {
-      "id": "sensipent",
-      "page_title": "Sensipent family",
-      "display_name": "Sensipent",
-      "source_y": 443.05070267411384,
-      "label_y": 442.3167973161663,
-      "xw_url": "https://en.xen.wiki/w/Sensipent_family",
-      "mapping": [
-        {
-          "prime": 3,
-          "count": 7
-        },
-        {
-          "prime": 5,
-          "count": 9
-        }
-      ],
-      "badness": 0.8262075437376933
-    },
-    {
       "id": "sensible",
       "page_title": "Sensipent family",
       "display_name": "Sensible",
       "source_y": 443.1858377088688,
-      "label_y": 442.6501306494996,
+      "label_y": 442.49111228863194,
       "xw_url": "https://en.xen.wiki/w/Sensipent_family",
       "mapping": [
         {
@@ -38713,7 +38618,7 @@
       "page_title": "Sensipent family",
       "display_name": "Warrior",
       "source_y": 443.2763514596279,
-      "label_y": 442.983463982833,
+      "label_y": 442.82444562196525,
       "xw_url": "https://en.xen.wiki/w/Sensipent_family",
       "mapping": [
         {
@@ -38748,7 +38653,7 @@
       "page_title": "Sensipent family",
       "display_name": "Septimal sensi",
       "source_y": 443.3492721960971,
-      "label_y": 443.31679731616634,
+      "label_y": 443.15777895529857,
       "xw_url": "https://en.xen.wiki/w/Sensipent_family",
       "mapping": [
         {
@@ -38767,11 +38672,11 @@
       "badness": 0.6484081264466134
     },
     {
-      "id": "sensation",
+      "id": "2-3-5-7-13-subgroup",
       "page_title": "Sensipent family",
-      "display_name": "(sensation)",
+      "display_name": "2.3.5.7.13 subgroup",
       "source_y": 443.35814513264836,
-      "label_y": 443.65013064949966,
+      "label_y": 443.49111228863194,
       "xw_url": "https://en.xen.wiki/w/Sensipent_family",
       "mapping": [
         {
@@ -38791,14 +38696,14 @@
           "count": 10
         }
       ],
-      "badness": 0.48410785514910387
+      "badness": 0.46296668015652914
     },
     {
-      "id": "sensi-aka-sensation",
+      "id": "sensi",
       "page_title": "No-elevens subgroup temperaments",
-      "display_name": "Sensi (aka sensation)",
+      "display_name": "Sensi",
       "source_y": 443.35814513264836,
-      "label_y": 443.983463982833,
+      "label_y": 443.8244456219653,
       "xw_url": "https://en.xen.wiki/w/No-elevens_subgroup_temperaments",
       "mapping": [
         {
@@ -38825,7 +38730,7 @@
       "page_title": "Sensipent family",
       "display_name": "Sensor",
       "source_y": 443.36656069296725,
-      "label_y": 444.277213982833,
+      "label_y": 444.11819562196524,
       "xw_url": "https://en.xen.wiki/w/Sensipent_family",
       "mapping": [
         {
@@ -38860,7 +38765,7 @@
       "page_title": "Sensipent family",
       "display_name": "Sensus",
       "source_y": 443.5345284456265,
-      "label_y": 444.57096398283295,
+      "label_y": 444.4119456219653,
       "xw_url": "https://en.xen.wiki/w/Sensipent_family",
       "mapping": [
         {
@@ -38895,7 +38800,7 @@
       "page_title": "Sensipent family",
       "display_name": "Sensa",
       "source_y": 443.63864739847656,
-      "label_y": 444.9042973161663,
+      "label_y": 444.7452789552986,
       "xw_url": "https://en.xen.wiki/w/Sensipent_family",
       "mapping": [
         {
@@ -38926,7 +38831,7 @@
       "page_title": "Sensipent family",
       "display_name": "Sensis",
       "source_y": 443.6925494971026,
-      "label_y": 445.2376306494997,
+      "label_y": 445.0786122886319,
       "xw_url": "https://en.xen.wiki/w/Sensipent_family",
       "mapping": [
         {
@@ -39463,7 +39368,7 @@
       "page_title": "No-sevens subgroup temperaments",
       "display_name": "Majvam",
       "source_y": 458.99352307939625,
-      "label_y": 458.6949207107484,
+      "label_y": 458.6949207107483,
       "xw_url": "https://en.xen.wiki/w/No-sevens_subgroup_temperaments",
       "mapping": [
         {
@@ -39490,7 +39395,7 @@
       "page_title": "Parkleiness temperaments",
       "display_name": "Majvamic",
       "source_y": 459.0004940095548,
-      "label_y": 459.02825404408173,
+      "label_y": 459.0282540440817,
       "xw_url": "https://en.xen.wiki/w/Parkleiness_temperaments",
       "mapping": [
         {
@@ -39525,7 +39430,7 @@
       "page_title": "Cataharry temperaments",
       "display_name": "Majvamoid",
       "source_y": 459.0258503299817,
-      "label_y": 459.3220040440817,
+      "label_y": 459.32200404408167,
       "xw_url": "https://en.xen.wiki/w/Cataharry_temperaments",
       "mapping": [
         {
@@ -40028,9 +39933,9 @@
       "badness": 0.6112143187638363
     },
     {
-      "id": "gigapyth-2-3-7-85",
+      "id": "gigapyth",
       "page_title": "Gamelismic clan",
-      "display_name": "Gigapyth (2.3.7.85)",
+      "display_name": "Gigapyth",
       "source_y": 483.17851291994634,
       "label_y": 483.0489832446724,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
@@ -40090,7 +39995,7 @@
       "page_title": "Archytas clan",
       "display_name": "Ultramarine",
       "source_y": 486.2921143294543,
-      "label_y": 484.3287245094156,
+      "label_y": 484.3287245094155,
       "xw_url": "https://en.xen.wiki/w/Archytas_clan",
       "mapping": [
         {
@@ -40121,7 +40026,7 @@
       "page_title": "Archytas clan",
       "display_name": "Ultrapyth",
       "source_y": 486.53163538274316,
-      "label_y": 484.5828911760823,
+      "label_y": 484.58289117608217,
       "xw_url": "https://en.xen.wiki/w/Archytas_clan",
       "mapping": [
         {
@@ -40152,7 +40057,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Flutterpyth",
       "source_y": 487.0388430779674,
-      "label_y": 484.83705784274895,
+      "label_y": 484.83705784274883,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -40183,7 +40088,7 @@
       "page_title": "Archytas clan",
       "display_name": "Quasiultra",
       "source_y": 488.45712034484086,
-      "label_y": 485.0912245094156,
+      "label_y": 485.0912245094155,
       "xw_url": "https://en.xen.wiki/w/Archytas_clan",
       "mapping": [
         {
@@ -40206,7 +40111,7 @@
       "page_title": "Breedsmic temperaments",
       "display_name": "Catafourth",
       "source_y": 489.25408864817894,
-      "label_y": 485.3849745094156,
+      "label_y": 485.3849745094155,
       "xw_url": "https://en.xen.wiki/w/Breedsmic_temperaments",
       "mapping": [
         {
@@ -40237,7 +40142,7 @@
       "page_title": "Archytas clan",
       "display_name": "Superpyth",
       "source_y": 489.678070418674,
-      "label_y": 485.7183078427489,
+      "label_y": 485.7183078427488,
       "xw_url": "https://en.xen.wiki/w/Archytas_clan",
       "mapping": [
         {
@@ -40268,7 +40173,7 @@
       "page_title": "Archytas clan",
       "display_name": "Uberpyth",
       "source_y": 489.71217426304474,
-      "label_y": 486.01205784274896,
+      "label_y": 486.01205784274885,
       "xw_url": "https://en.xen.wiki/w/Archytas_clan",
       "mapping": [
         {
@@ -40299,7 +40204,7 @@
       "page_title": "Breedsmic temperaments",
       "display_name": "Surmarvelpyth",
       "source_y": 490.02758252054093,
-      "label_y": 486.3058078427489,
+      "label_y": 486.3058078427488,
       "xw_url": "https://en.xen.wiki/w/Breedsmic_temperaments",
       "mapping": [
         {
@@ -40338,7 +40243,7 @@
       "page_title": "Archytas clan",
       "display_name": "Archy",
       "source_y": 490.60994513526043,
-      "label_y": 486.63914117608226,
+      "label_y": 486.63914117608215,
       "xw_url": "https://en.xen.wiki/w/Archytas_clan",
       "mapping": [
         {
@@ -40357,7 +40262,7 @@
       "page_title": "Archytas clan",
       "display_name": "Quasisoup",
       "source_y": 490.9747826043931,
-      "label_y": 486.93289117608225,
+      "label_y": 486.93289117608214,
       "xw_url": "https://en.xen.wiki/w/Archytas_clan",
       "mapping": [
         {
@@ -40384,7 +40289,7 @@
       "page_title": "Horwell temperaments",
       "display_name": "Fifthplus",
       "source_y": 491.2248206638403,
-      "label_y": 487.22664117608224,
+      "label_y": 487.2266411760821,
       "xw_url": "https://en.xen.wiki/w/Horwell_temperaments",
       "mapping": [
         {
@@ -40407,7 +40312,7 @@
       "page_title": "Archytas clan",
       "display_name": "Suprapyth",
       "source_y": 491.2971562168739,
-      "label_y": 487.5203911760822,
+      "label_y": 487.5203911760821,
       "xw_url": "https://en.xen.wiki/w/Archytas_clan",
       "mapping": [
         {
@@ -40438,7 +40343,7 @@
       "page_title": "Archytas clan",
       "display_name": "Quasisuper",
       "source_y": 491.62835959887775,
-      "label_y": 487.7745578427489,
+      "label_y": 487.7745578427488,
       "xw_url": "https://en.xen.wiki/w/Archytas_clan",
       "mapping": [
         {
@@ -40461,7 +40366,7 @@
       "page_title": "Archytas clan",
       "display_name": "Quasisupra",
       "source_y": 491.90642090117035,
-      "label_y": 488.02872450941555,
+      "label_y": 488.02872450941544,
       "xw_url": "https://en.xen.wiki/w/Archytas_clan",
       "mapping": [
         {
@@ -40492,7 +40397,7 @@
       "page_title": "Archytas clan",
       "display_name": "Supra",
       "source_y": 492.50194779323874,
-      "label_y": 488.32247450941554,
+      "label_y": 488.32247450941543,
       "xw_url": "https://en.xen.wiki/w/Archytas_clan",
       "mapping": [
         {
@@ -40515,7 +40420,7 @@
       "page_title": "Archytas clan",
       "display_name": "Supraphon",
       "source_y": 493.57114351928317,
-      "label_y": 488.6558078427489,
+      "label_y": 488.6558078427488,
       "xw_url": "https://en.xen.wiki/w/Archytas_clan",
       "mapping": [
         {
@@ -40542,7 +40447,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Reversed meantone",
       "source_y": 494.7300599050818,
-      "label_y": 488.9891411760822,
+      "label_y": 488.9891411760821,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -40561,7 +40466,7 @@
       "page_title": "Meantone family",
       "display_name": "Domination",
       "source_y": 494.9209348643758,
-      "label_y": 489.2828911760822,
+      "label_y": 489.2828911760821,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -40592,7 +40497,7 @@
       "page_title": "Hemimage temperaments",
       "display_name": "Leapmonth",
       "source_y": 495.0781971304889,
-      "label_y": 489.5370578427489,
+      "label_y": 489.53705784274877,
       "xw_url": "https://en.xen.wiki/w/Hemimage_temperaments",
       "mapping": [
         {
@@ -40623,7 +40528,7 @@
       "page_title": "Meantone family",
       "display_name": "Supermean",
       "source_y": 495.20601234502215,
-      "label_y": 489.79122450941554,
+      "label_y": 489.79122450941543,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -40654,7 +40559,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Skidoo",
       "source_y": 495.2250355769215,
-      "label_y": 490.08497450941553,
+      "label_y": 490.0849745094154,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -40689,7 +40594,7 @@
       "page_title": "Meantone family",
       "display_name": "Dominion",
       "source_y": 495.23016757340747,
-      "label_y": 490.3787245094155,
+      "label_y": 490.3787245094154,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -40720,7 +40625,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Leapfrog",
       "source_y": 495.2916296706576,
-      "label_y": 490.6724745094155,
+      "label_y": 490.6724745094154,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -40747,7 +40652,7 @@
       "page_title": "Sensamagic clan",
       "display_name": "Leapweek",
       "source_y": 495.460484567393,
-      "label_y": 490.9662245094155,
+      "label_y": 490.9662245094154,
       "xw_url": "https://en.xen.wiki/w/Sensamagic_clan",
       "mapping": [
         {
@@ -40782,7 +40687,7 @@
       "page_title": "Sensamagic clan",
       "display_name": "Leapweeker",
       "source_y": 495.46356086567334,
-      "label_y": 491.22039117608216,
+      "label_y": 491.22039117608205,
       "xw_url": "https://en.xen.wiki/w/Sensamagic_clan",
       "mapping": [
         {
@@ -40817,7 +40722,7 @@
       "page_title": "Aberschismic temperaments",
       "display_name": "Leapday",
       "source_y": 495.7549853524042,
-      "label_y": 491.51414117608215,
+      "label_y": 491.51414117608203,
       "xw_url": "https://en.xen.wiki/w/Aberschismic_temperaments",
       "mapping": [
         {
@@ -40856,7 +40761,7 @@
       "page_title": "Porwell temperaments",
       "display_name": "Polypyth",
       "source_y": 495.82529926136294,
-      "label_y": 491.8474745094155,
+      "label_y": 491.8474745094154,
       "xw_url": "https://en.xen.wiki/w/Porwell_temperaments",
       "mapping": [
         {
@@ -40891,7 +40796,7 @@
       "page_title": "User:Dummy index/Chromatic pairs and how we define haplotonic",
       "display_name": "Pepperoni",
       "source_y": 495.9141144486689,
-      "label_y": 492.18080784274883,
+      "label_y": 492.1808078427487,
       "xw_url": "https://en.xen.wiki/w/User%3ADummy_index%2FChromatic_pairs_and_how_we_define_haplotonic",
       "mapping": [
         {
@@ -40914,7 +40819,7 @@
       "page_title": "Meantone family",
       "display_name": "Dominant",
       "source_y": 496.17455158436405,
-      "label_y": 492.51414117608215,
+      "label_y": 492.51414117608203,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -40945,7 +40850,7 @@
       "page_title": "User:Dummy index/Chromatic pairs and how we define haplotonic",
       "display_name": "Edson",
       "source_y": 496.8407451640144,
-      "label_y": 492.8474745094155,
+      "label_y": 492.8474745094154,
       "xw_url": "https://en.xen.wiki/w/User%3ADummy_index%2FChromatic_pairs_and_how_we_define_haplotonic",
       "mapping": [
         {
@@ -40972,7 +40877,7 @@
       "page_title": "Aberschismic temperaments",
       "display_name": "Undecental",
       "source_y": 496.9534984921861,
-      "label_y": 493.1412245094155,
+      "label_y": 493.1412245094154,
       "xw_url": "https://en.xen.wiki/w/Aberschismic_temperaments",
       "mapping": [
         {
@@ -40995,7 +40900,7 @@
       "page_title": "Schismatic family",
       "display_name": "Schisicosiennic",
       "source_y": 497.27785833090365,
-      "label_y": 493.39539117608217,
+      "label_y": 493.39539117608206,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41034,7 +40939,7 @@
       "page_title": "Schismatic family",
       "display_name": "Schisicosiennoid",
       "source_y": 497.3422279146221,
-      "label_y": 493.64955784274883,
+      "label_y": 493.6495578427487,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41073,7 +40978,7 @@
       "page_title": "Aberschismic temperaments",
       "display_name": "Kwai",
       "source_y": 497.34522456482364,
-      "label_y": 493.9433078427488,
+      "label_y": 493.9433078427487,
       "xw_url": "https://en.xen.wiki/w/Aberschismic_temperaments",
       "mapping": [
         {
@@ -41112,7 +41017,7 @@
       "page_title": "Archytas clan",
       "display_name": "Schism",
       "source_y": 497.56151389175716,
-      "label_y": 494.2370578427488,
+      "label_y": 494.2370578427487,
       "xw_url": "https://en.xen.wiki/w/Archytas_clan",
       "mapping": [
         {
@@ -41139,7 +41044,7 @@
       "page_title": "Schismatic family",
       "display_name": "Andromeda",
       "source_y": 497.62893278623983,
-      "label_y": 494.5308078427488,
+      "label_y": 494.5308078427487,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41178,7 +41083,7 @@
       "page_title": "Garischismic clan",
       "display_name": "Cotoneum",
       "source_y": 497.69234666180137,
-      "label_y": 494.8245578427488,
+      "label_y": 494.8245578427487,
       "xw_url": "https://en.xen.wiki/w/Garischismic_clan",
       "mapping": [
         {
@@ -41217,7 +41122,7 @@
       "page_title": "Garischismic clan",
       "display_name": "Gary",
       "source_y": 497.7710079676667,
-      "label_y": 495.1183078427488,
+      "label_y": 495.11830784274866,
       "xw_url": "https://en.xen.wiki/w/Garischismic_clan",
       "mapping": [
         {
@@ -41240,7 +41145,7 @@
       "page_title": "Schismatic family",
       "display_name": "Cassander",
       "source_y": 497.86268544688824,
-      "label_y": 495.41205784274877,
+      "label_y": 495.41205784274865,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41279,7 +41184,7 @@
       "page_title": "Schismatic family",
       "display_name": "Cassandra",
       "source_y": 497.8864809954887,
-      "label_y": 495.70580784274875,
+      "label_y": 495.70580784274864,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41310,7 +41215,7 @@
       "page_title": "Schismatic family",
       "display_name": "Cassandric",
       "source_y": 497.90570510741554,
-      "label_y": 495.99955784274874,
+      "label_y": 495.99955784274863,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41353,7 +41258,7 @@
       "page_title": "Schismatic family",
       "display_name": "Cassie",
       "source_y": 497.9213081918954,
-      "label_y": 496.2537245094154,
+      "label_y": 496.2537245094153,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41392,7 +41297,7 @@
       "page_title": "Schismatic family",
       "display_name": "Garibaldi",
       "source_y": 497.9225507421072,
-      "label_y": 496.5474745094154,
+      "label_y": 496.5474745094153,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41411,11 +41316,11 @@
       "badness": 0.5477534471376556
     },
     {
-      "id": "maqamschismic-2-3-5-11",
+      "id": "maqamschismic",
       "page_title": "Schismatic family",
-      "display_name": "Maqamschismic (2.3.5.11)",
+      "display_name": "Maqamschismic",
       "source_y": 497.95154296079477,
-      "label_y": 496.8808078427487,
+      "label_y": 496.8808078427486,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41442,7 +41347,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Tridecapyth",
       "source_y": 497.9716882182181,
-      "label_y": 497.2141411760821,
+      "label_y": 497.21414117608197,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -41461,7 +41366,7 @@
       "page_title": "Schismatic family",
       "display_name": "Quasipyth",
       "source_y": 498.0285523531247,
-      "label_y": 497.50789117608207,
+      "label_y": 497.50789117608196,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41488,11 +41393,11 @@
       "badness": 2.1311363672310075
     },
     {
-      "id": "tridecaschismic-2-3-5-13",
+      "id": "tridecaschismic",
       "page_title": "Schismatic family",
-      "display_name": "Tridecaschismic (2.3.5.13)",
+      "display_name": "Tridecaschismic",
       "source_y": 498.093577343021,
-      "label_y": 497.80164117608206,
+      "label_y": 497.80164117608194,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41519,7 +41424,7 @@
       "page_title": "No-elevens subgroup temperaments",
       "display_name": "Garibaldia",
       "source_y": 498.10859305443455,
-      "label_y": 498.13497450941543,
+      "label_y": 498.1349745094153,
       "xw_url": "https://en.xen.wiki/w/No-elevens_subgroup_temperaments",
       "mapping": [
         {
@@ -41550,7 +41455,7 @@
       "page_title": "Schismatic family",
       "display_name": "Ponta",
       "source_y": 498.2225423500754,
-      "label_y": 498.46830784274874,
+      "label_y": 498.46830784274863,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41585,7 +41490,7 @@
       "page_title": "No-elevens subgroup temperaments",
       "display_name": "Pontiac",
       "source_y": 498.2359211632677,
-      "label_y": 498.80164117608206,
+      "label_y": 498.80164117608194,
       "xw_url": "https://en.xen.wiki/w/No-elevens_subgroup_temperaments",
       "mapping": [
         {
@@ -41616,7 +41521,7 @@
       "page_title": "No-elevens subgroup temperaments",
       "display_name": "Pontia",
       "source_y": 498.24962440656645,
-      "label_y": 499.13497450941543,
+      "label_y": 499.1349745094153,
       "xw_url": "https://en.xen.wiki/w/No-elevens_subgroup_temperaments",
       "mapping": [
         {
@@ -41643,7 +41548,7 @@
       "page_title": "Schismatic family",
       "display_name": "Helenoid",
       "source_y": 498.25746541792773,
-      "label_y": 499.4287245094154,
+      "label_y": 499.4287245094153,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41678,7 +41583,7 @@
       "page_title": "Schismatic family",
       "display_name": "Pontic",
       "source_y": 498.25988416850714,
-      "label_y": 499.6828911760821,
+      "label_y": 499.68289117608197,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41713,7 +41618,7 @@
       "page_title": "Schismatic family",
       "display_name": "Pontoid",
       "source_y": 498.2640602266181,
-      "label_y": 499.93705784274874,
+      "label_y": 499.93705784274863,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41748,7 +41653,7 @@
       "page_title": "Schismatic family",
       "display_name": "Helena",
       "source_y": 498.2682308653473,
-      "label_y": 500.1912245094154,
+      "label_y": 500.1912245094153,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41787,7 +41692,7 @@
       "page_title": "Schismatic family",
       "display_name": "Schismic, schismatic, a.k.a. helmholtz",
       "source_y": 498.2692279629109,
-      "label_y": 500.4849745094154,
+      "label_y": 500.4849745094153,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41802,11 +41707,11 @@
       "badness": 0.09991116518503548
     },
     {
-      "id": "nestoria-2-3-5-19",
+      "id": "nestoria",
       "page_title": "Schismatic family",
-      "display_name": "Nestoria (2.3.5.19)",
+      "display_name": "Nestoria",
       "source_y": 498.26934635857583,
-      "label_y": 500.8183078427487,
+      "label_y": 500.8183078427486,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41829,7 +41734,7 @@
       "page_title": "Schismatic family",
       "display_name": "Helenus",
       "source_y": 498.2850720388253,
-      "label_y": 501.11205784274875,
+      "label_y": 501.11205784274864,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41868,7 +41773,7 @@
       "page_title": "Schismatic family",
       "display_name": "Catahelenic",
       "source_y": 498.4673372484085,
-      "label_y": 501.36622450941536,
+      "label_y": 501.36622450941525,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41899,7 +41804,7 @@
       "page_title": "Meantone family",
       "display_name": "Sharptone",
       "source_y": 498.50715968611007,
-      "label_y": 501.6599745094154,
+      "label_y": 501.6599745094153,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -41918,11 +41823,11 @@
       "badness": 0.628817119063895
     },
     {
-      "id": "photia-2-3-5-17",
+      "id": "photia",
       "page_title": "Schismatic family",
-      "display_name": "Photia (2.3.5.17)",
+      "display_name": "Photia",
       "source_y": 498.5245929303901,
-      "label_y": 501.9933078427487,
+      "label_y": 501.9933078427486,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41949,7 +41854,7 @@
       "page_title": "Schismatic family",
       "display_name": "Grack",
       "source_y": 498.64451386570977,
-      "label_y": 502.2870578427487,
+      "label_y": 502.2870578427486,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -41980,7 +41885,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Boethian",
       "source_y": 498.65548211274336,
-      "label_y": 502.5808078427487,
+      "label_y": 502.5808078427486,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -41999,7 +41904,7 @@
       "page_title": "Schismatic family",
       "display_name": "Grackle",
       "source_y": 498.7788380836282,
-      "label_y": 502.8745578427487,
+      "label_y": 502.8745578427486,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -42038,7 +41943,7 @@
       "page_title": "Schismatic family",
       "display_name": "Grackloid",
       "source_y": 498.78329508291836,
-      "label_y": 503.12872450941535,
+      "label_y": 503.12872450941524,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -42069,7 +41974,7 @@
       "page_title": "Marvel temperaments",
       "display_name": "Gracecord",
       "source_y": 499.137060933444,
-      "label_y": 503.382891176082,
+      "label_y": 503.3828911760819,
       "xw_url": "https://en.xen.wiki/w/Marvel_temperaments",
       "mapping": [
         {
@@ -42108,7 +42013,7 @@
       "page_title": "Marvel temperaments",
       "display_name": "Gracecordial",
       "source_y": 499.1603961587716,
-      "label_y": 503.6370578427487,
+      "label_y": 503.63705784274856,
       "xw_url": "https://en.xen.wiki/w/Marvel_temperaments",
       "mapping": [
         {
@@ -42159,7 +42064,7 @@
       "page_title": "Meantone family",
       "display_name": "Mildtone",
       "source_y": 501.48149791825426,
-      "label_y": 503.89122450941534,
+      "label_y": 503.8912245094152,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42198,7 +42103,7 @@
       "page_title": "Meantone family",
       "display_name": "Arnold",
       "source_y": 501.5178073466918,
-      "label_y": 504.1849745094153,
+      "label_y": 504.1849745094152,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42225,7 +42130,7 @@
       "page_title": "Meantone family",
       "display_name": "Domineering",
       "source_y": 501.8234871292266,
-      "label_y": 504.51830784274864,
+      "label_y": 504.5183078427485,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42252,7 +42157,7 @@
       "page_title": "Meantone family",
       "display_name": "Meanertone",
       "source_y": 501.8883342678064,
-      "label_y": 504.851641176082,
+      "label_y": 504.8516411760819,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42275,11 +42180,11 @@
       "badness": 0.8319923862400335
     },
     {
-      "id": "st-tzel-2-3-5-19",
+      "id": "st-tzel",
       "page_title": "Meantone family",
-      "display_name": "St\u00fctzel (2.3.5.19)",
+      "display_name": "St\u00fctzel",
       "source_y": 502.17775894954116,
-      "label_y": 505.1849745094154,
+      "label_y": 505.18497450941527,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42302,7 +42207,7 @@
       "page_title": "Meantone family",
       "display_name": "Meridetone",
       "source_y": 502.3112615157547,
-      "label_y": 505.4787245094153,
+      "label_y": 505.4787245094152,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42341,7 +42246,7 @@
       "page_title": "Meantone family",
       "display_name": "Grosstone",
       "source_y": 502.6264468147715,
-      "label_y": 505.73289117608203,
+      "label_y": 505.7328911760819,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42380,7 +42285,7 @@
       "page_title": "Meantone family",
       "display_name": "Fokkertone",
       "source_y": 502.89388274631983,
-      "label_y": 506.02664117608197,
+      "label_y": 506.02664117608185,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42415,11 +42320,11 @@
       "badness": 0.745781772348785
     },
     {
-      "id": "undecimal-meantone-huygens",
+      "id": "undecimal-meantone",
       "page_title": "Meantone family",
-      "display_name": "Undecimal meantone (huygens)",
+      "display_name": "Undecimal meantone",
       "source_y": 502.9685281957004,
-      "label_y": 506.35997450941534,
+      "label_y": 506.3599745094152,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42446,7 +42351,7 @@
       "page_title": "Hemimean clan",
       "display_name": "Quadraw\u00fcrschmidt",
       "source_y": 503.04524591161237,
-      "label_y": 506.6537245094153,
+      "label_y": 506.6537245094152,
       "xw_url": "https://en.xen.wiki/w/Hemimean_clan",
       "mapping": [
         {
@@ -42473,7 +42378,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Harrison",
       "source_y": 503.2710796296542,
-      "label_y": 506.907891176082,
+      "label_y": 506.9078911760819,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -42492,7 +42397,7 @@
       "page_title": "Meantone family",
       "display_name": "Septimal meantone",
       "source_y": 503.3438012966651,
-      "label_y": 507.201641176082,
+      "label_y": 507.20164117608186,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42515,7 +42420,7 @@
       "page_title": "Meantone family",
       "display_name": "Meantone",
       "source_y": 503.3487554264143,
-      "label_y": 507.5349745094153,
+      "label_y": 507.5349745094152,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42534,7 +42439,7 @@
       "page_title": "Meantone family",
       "display_name": "Meanenneadecal",
       "source_y": 503.3630222624779,
-      "label_y": 507.86830784274866,
+      "label_y": 507.86830784274855,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42573,7 +42478,7 @@
       "page_title": "Meantone family",
       "display_name": "Meanpoid",
       "source_y": 503.5026760943872,
-      "label_y": 508.16205784274865,
+      "label_y": 508.16205784274854,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42612,7 +42517,7 @@
       "page_title": "Meantone family",
       "display_name": "Tridecimal meanpop",
       "source_y": 503.7652953504055,
-      "label_y": 508.45580784274864,
+      "label_y": 508.4558078427485,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42643,7 +42548,7 @@
       "page_title": "Meantone family",
       "display_name": "Meanpoppic",
       "source_y": 503.78632686117044,
-      "label_y": 508.74955784274863,
+      "label_y": 508.7495578427485,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42682,7 +42587,7 @@
       "page_title": "No-elevens subgroup temperaments",
       "display_name": "Meanpop",
       "source_y": 503.8426761100577,
-      "label_y": 509.0433078427486,
+      "label_y": 509.0433078427485,
       "xw_url": "https://en.xen.wiki/w/No-elevens_subgroup_temperaments",
       "mapping": [
         {
@@ -42709,7 +42614,7 @@
       "page_title": "Meantone family",
       "display_name": "Vincenzo",
       "source_y": 503.87381823027204,
-      "label_y": 509.3370578427486,
+      "label_y": 509.3370578427485,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42748,7 +42653,7 @@
       "page_title": "Kleismic family",
       "display_name": "Marfifths",
       "source_y": 505.6883476252319,
-      "label_y": 509.59122450941527,
+      "label_y": 509.59122450941516,
       "xw_url": "https://en.xen.wiki/w/Kleismic_family",
       "mapping": [
         {
@@ -42779,7 +42684,7 @@
       "page_title": "Kleismic family",
       "display_name": "Diatessic",
       "source_y": 505.7366159548094,
-      "label_y": 509.84539117608193,
+      "label_y": 509.8453911760818,
       "xw_url": "https://en.xen.wiki/w/Kleismic_family",
       "mapping": [
         {
@@ -42810,7 +42715,7 @@
       "page_title": "Kleismic family",
       "display_name": "Marf",
       "source_y": 505.7626788382447,
-      "label_y": 510.0995578427486,
+      "label_y": 510.0995578427485,
       "xw_url": "https://en.xen.wiki/w/Kleismic_family",
       "mapping": [
         {
@@ -42841,7 +42746,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Superflat",
       "source_y": 506.39193761736806,
-      "label_y": 510.3933078427486,
+      "label_y": 510.39330784274847,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -42860,7 +42765,7 @@
       "page_title": "Meantone family",
       "display_name": "Dequarter",
       "source_y": 506.87938594624165,
-      "label_y": 510.7266411760819,
+      "label_y": 510.7266411760818,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42883,7 +42788,7 @@
       "page_title": "Meantone family",
       "display_name": "Hypnotone",
       "source_y": 506.91300126693886,
-      "label_y": 511.05997450941527,
+      "label_y": 511.05997450941516,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42910,7 +42815,7 @@
       "page_title": "Meantone family",
       "display_name": "Flattone",
       "source_y": 506.94623581091264,
-      "label_y": 511.39330784274864,
+      "label_y": 511.3933078427485,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42941,7 +42846,7 @@
       "page_title": "Meantone family",
       "display_name": "Flattertone",
       "source_y": 507.95781189678155,
-      "label_y": 511.6870578427486,
+      "label_y": 511.68705784274846,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -42968,7 +42873,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Infraug",
       "source_y": 508.241455544583,
-      "label_y": 511.9808078427486,
+      "label_y": 511.9808078427485,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -42991,7 +42896,7 @@
       "page_title": "Meantone family",
       "display_name": "Dreamtone",
       "source_y": 509.81735934152994,
-      "label_y": 512.2745578427485,
+      "label_y": 512.2745578427484,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -43018,7 +42923,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Io",
       "source_y": 510.7933726343347,
-      "label_y": 512.5683078427486,
+      "label_y": 512.5683078427485,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -43037,7 +42942,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Ultraflat",
       "source_y": 512.8857062741135,
-      "label_y": 512.901641176082,
+      "label_y": 512.9016411760817,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -43056,7 +42961,7 @@
       "page_title": "Amity family",
       "display_name": "Trinity",
       "source_y": 513.1857858114935,
-      "label_y": 513.1953911760819,
+      "label_y": 513.1953911760818,
       "xw_url": "https://en.xen.wiki/w/Amity_family",
       "mapping": [
         {
@@ -43134,7 +43039,7 @@
       "page_title": "Gravity family",
       "display_name": "Marvo",
       "source_y": 516.7401412555399,
-      "label_y": 516.3664969866252,
+      "label_y": 516.3664969866253,
       "xw_url": "https://en.xen.wiki/w/Gravity_family",
       "mapping": [
         {
@@ -43161,9 +43066,9 @@
       "badness": 1.0474970260083627
     },
     {
-      "id": "larry",
+      "id": "2-3-5-11-subgroup",
       "page_title": "Gravity family",
-      "display_name": "(larry)",
+      "display_name": "2.3.5.11 subgroup",
       "source_y": 516.8400397459134,
       "label_y": 516.6602469866252,
       "xw_url": "https://en.xen.wiki/w/Gravity_family",
@@ -43181,7 +43086,7 @@
           "count": 15
         }
       ],
-      "badness": 0.38913016673647893
+      "badness": 0.3025801531343768
     },
     {
       "id": "gravity",
@@ -43242,7 +43147,7 @@
       "page_title": "Gravity family",
       "display_name": "Gravid",
       "source_y": 517.1209769735096,
-      "label_y": 517.4623303199585,
+      "label_y": 517.4623303199586,
       "xw_url": "https://en.xen.wiki/w/Gravity_family",
       "mapping": [
         {
@@ -43269,7 +43174,7 @@
       "page_title": "Breedsmic temperaments",
       "display_name": "Cutefourths",
       "source_y": 517.152419065756,
-      "label_y": 517.7164969866252,
+      "label_y": 517.7164969866253,
       "xw_url": "https://en.xen.wiki/w/Breedsmic_temperaments",
       "mapping": [
         {
@@ -43377,7 +43282,7 @@
       "page_title": "Mavila family",
       "display_name": "Hornbostel",
       "source_y": 520.8499519459315,
-      "label_y": 520.7265926790259,
+      "label_y": 520.7265926790258,
       "xw_url": "https://en.xen.wiki/w/Mavila_family",
       "mapping": [
         {
@@ -43643,6 +43548,29 @@
       "badness": 1.7009541757051287
     },
     {
+      "id": "vengeance",
+      "page_title": "2023/2000",
+      "display_name": "Vengeance",
+      "source_y": 527.7178460703293,
+      "label_y": 527.7178460703293,
+      "xw_url": "https://en.xen.wiki/w/2023%2F2000",
+      "mapping": [
+        {
+          "prime": 5,
+          "count": 3
+        },
+        {
+          "prime": 7,
+          "count": -5
+        },
+        {
+          "prime": 17,
+          "count": 7
+        }
+      ],
+      "badness": 0.7199556347927492
+    },
+    {
       "id": "pelogic",
       "page_title": "Mavila family",
       "display_name": "Pelogic",
@@ -43674,7 +43602,7 @@
       "page_title": "Mabila family",
       "display_name": "Mabila",
       "source_y": 529.7078807020692,
-      "label_y": 529.326402511235,
+      "label_y": 529.3264025112351,
       "xw_url": "https://en.xen.wiki/w/Mabila_family",
       "mapping": [
         {
@@ -43732,7 +43660,7 @@
       "page_title": "Mabila family",
       "display_name": "Tuskaloosa",
       "source_y": 529.7578372101173,
-      "label_y": 529.8347358445683,
+      "label_y": 529.8347358445684,
       "xw_url": "https://en.xen.wiki/w/Mabila_family",
       "mapping": [
         {
@@ -43771,7 +43699,7 @@
       "page_title": "Mabila family",
       "display_name": "Muscogee",
       "source_y": 529.9539987228286,
-      "label_y": 530.088902511235,
+      "label_y": 530.0889025112351,
       "xw_url": "https://en.xen.wiki/w/Mabila_family",
       "mapping": [
         {
@@ -43810,7 +43738,7 @@
       "page_title": "Mabila family",
       "display_name": "Amavil",
       "source_y": 530.0288361507917,
-      "label_y": 530.3430691779016,
+      "label_y": 530.3430691779017,
       "xw_url": "https://en.xen.wiki/w/Mabila_family",
       "mapping": [
         {
@@ -43922,7 +43850,7 @@
       "page_title": "Maquila family",
       "display_name": "Maquiloid",
       "source_y": 535.510896310088,
-      "label_y": 535.661260592122,
+      "label_y": 535.6612605921221,
       "xw_url": "https://en.xen.wiki/w/Maquila_family",
       "mapping": [
         {
@@ -44046,7 +43974,7 @@
       "page_title": "Gamelismic clan",
       "display_name": "Oracle",
       "source_y": 541.6680079060576,
-      "label_y": 541.576577574249,
+      "label_y": 541.5765775742491,
       "xw_url": "https://en.xen.wiki/w/Gamelismic_clan",
       "mapping": [
         {
@@ -44166,7 +44094,7 @@
       "page_title": "Starling temperaments",
       "display_name": "Murakuc",
       "source_y": 542.2577089016584,
-      "label_y": 542.5932442409156,
+      "label_y": 542.5932442409157,
       "xw_url": "https://en.xen.wiki/w/Starling_temperaments",
       "mapping": [
         {
@@ -44259,7 +44187,7 @@
       "page_title": "Amity family",
       "display_name": "Calamity",
       "source_y": 547.9066240685611,
-      "label_y": 547.9089215438914,
+      "label_y": 547.9089215438913,
       "xw_url": "https://en.xen.wiki/w/Amity_family",
       "mapping": [
         {
@@ -44375,7 +44303,7 @@
       "page_title": "Hemimean clan",
       "display_name": "Emka",
       "source_y": 551.7557609288135,
-      "label_y": 551.7463445733996,
+      "label_y": 551.7463445733995,
       "xw_url": "https://en.xen.wiki/w/Hemimean_clan",
       "mapping": [
         {
@@ -44406,7 +44334,7 @@
       "page_title": "Horwell temperaments",
       "display_name": "Emkay",
       "source_y": 551.7749150005395,
-      "label_y": 552.079677906733,
+      "label_y": 552.0796779067329,
       "xw_url": "https://en.xen.wiki/w/Horwell_temperaments",
       "mapping": [
         {
@@ -44499,7 +44427,7 @@
       "page_title": "Marvel temperaments",
       "display_name": "Alphorn",
       "source_y": 556.1338341881703,
-      "label_y": 556.3522466398676,
+      "label_y": 556.3522466398675,
       "xw_url": "https://en.xen.wiki/w/Marvel_temperaments",
       "mapping": [
         {
@@ -44666,7 +44594,7 @@
       "page_title": "Porwell temperaments",
       "display_name": "Whoops",
       "source_y": 560.5229805992726,
-      "label_y": 560.5840541624068,
+      "label_y": 560.5840541624067,
       "xw_url": "https://en.xen.wiki/w/Porwell_temperaments",
       "mapping": [
         {
@@ -44786,7 +44714,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Paralimmal",
       "source_y": 565.0453799369084,
-      "label_y": 564.4303696668841,
+      "label_y": 564.7752725596807,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -44805,7 +44733,7 @@
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Threedic",
       "source_y": 565.8271198676009,
-      "label_y": 564.7637030002174,
+      "label_y": 565.1086058930141,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -44824,7 +44752,7 @@
       "page_title": "Alphatricot family",
       "display_name": "Alphatrident",
       "source_y": 565.9349261761721,
-      "label_y": 565.0574530002174,
+      "label_y": 565.4023558930141,
       "xw_url": "https://en.xen.wiki/w/Alphatricot_family",
       "mapping": [
         {
@@ -44855,7 +44783,7 @@
       "page_title": "Alphatricot family",
       "display_name": "Pseudotrillium",
       "source_y": 565.9818721537748,
-      "label_y": 565.3116196668841,
+      "label_y": 565.6565225596808,
       "xw_url": "https://en.xen.wiki/w/Alphatricot_family",
       "mapping": [
         {
@@ -44886,7 +44814,7 @@
       "page_title": "Alphatricot family",
       "display_name": "Alphatrimot",
       "source_y": 565.9846089950535,
-      "label_y": 565.5657863335507,
+      "label_y": 565.9106892263474,
       "xw_url": "https://en.xen.wiki/w/Alphatricot_family",
       "mapping": [
         {
@@ -44910,14 +44838,14 @@
           "count": -7
         }
       ],
-      "badness": 1.3265012200481774
+      "badness": 1.261533711030504
     },
     {
       "id": "alphatricot",
       "page_title": "Alphatricot family",
       "display_name": "Alphatricot",
       "source_y": 565.9884108043684,
-      "label_y": 565.8199530002174,
+      "label_y": 566.1648558930141,
       "xw_url": "https://en.xen.wiki/w/Alphatricot_family",
       "mapping": [
         {
@@ -44932,34 +44860,11 @@
       "badness": 1.0812598870577534
     },
     {
-      "id": "alphatrillium-2-3-5-13-subgroup",
-      "page_title": "Alphatricot family",
-      "display_name": "Alphatrillium (2.3.5.13 subgroup)",
-      "source_y": 565.9897121509231,
-      "label_y": 566.1137030002174,
-      "xw_url": "https://en.xen.wiki/w/Alphatricot_family",
-      "mapping": [
-        {
-          "prime": 3,
-          "count": -3
-        },
-        {
-          "prime": 5,
-          "count": -29
-        },
-        {
-          "prime": 13,
-          "count": -60
-        }
-      ],
-      "badness": 0.18129200570469667
-    },
-    {
       "id": "alphatrillium",
       "page_title": "Alphatricot family",
       "display_name": "Alphatrillium",
       "source_y": 565.9905590318049,
-      "label_y": 566.4470363335507,
+      "label_y": 566.458605893014,
       "xw_url": "https://en.xen.wiki/w/Alphatricot_family",
       "mapping": [
         {
@@ -44983,37 +44888,14 @@
           "count": -60
         }
       ],
-      "badness": 0.7807437506858081
-    },
-    {
-      "id": "alphatrimot-2-3-5-13-subgroup",
-      "page_title": "Alphatricot family",
-      "display_name": "Alphatrimot (2.3.5.13 subgroup)",
-      "source_y": 565.9967758026202,
-      "label_y": 566.7407863335507,
-      "xw_url": "https://en.xen.wiki/w/Alphatricot_family",
-      "mapping": [
-        {
-          "prime": 3,
-          "count": -3
-        },
-        {
-          "prime": 5,
-          "count": -29
-        },
-        {
-          "prime": 13,
-          "count": -7
-        }
-      ],
-      "badness": 1.261533711030504
+      "badness": 0.18129200570469667
     },
     {
       "id": "lee",
       "page_title": "No-fives subgroup temperaments",
       "display_name": "Lee",
       "source_y": 566.4342289924457,
-      "label_y": 567.0345363335507,
+      "label_y": 566.7919392263474,
       "xw_url": "https://en.xen.wiki/w/No-fives_subgroup_temperaments",
       "mapping": [
         {
@@ -45032,7 +44914,7 @@
       "page_title": "Meantone family",
       "display_name": "Elisa",
       "source_y": 566.8719235472215,
-      "label_y": 567.3282863335507,
+      "label_y": 567.0856892263474,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -45063,7 +44945,7 @@
       "page_title": "Meantone family",
       "display_name": "Liesel",
       "source_y": 566.9918103047423,
-      "label_y": 567.5824530002174,
+      "label_y": 567.339855893014,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -45094,7 +44976,7 @@
       "page_title": "Meantone family",
       "display_name": "Liese",
       "source_y": 567.4359981853629,
-      "label_y": 567.836619666884,
+      "label_y": 567.5940225596808,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -45117,7 +44999,7 @@
       "page_title": "Sensamagic clan",
       "display_name": "Pycnic",
       "source_y": 567.6497660540465,
-      "label_y": 568.0907863335507,
+      "label_y": 567.8481892263474,
       "xw_url": "https://en.xen.wiki/w/Sensamagic_clan",
       "mapping": [
         {
@@ -45299,7 +45181,7 @@
       "page_title": "Meantone family",
       "display_name": "Meantritone",
       "source_y": 580.5777373871979,
-      "label_y": 580.6086463797026,
+      "label_y": 580.6086463797027,
       "xw_url": "https://en.xen.wiki/w/Meantone_family",
       "mapping": [
         {
@@ -45361,7 +45243,7 @@
       "page_title": "Gammic family",
       "display_name": "Salacia",
       "source_y": 582.4735715495061,
-      "label_y": 582.6191016657092,
+      "label_y": 582.6191016657091,
       "xw_url": "https://en.xen.wiki/w/Gammic_family",
       "mapping": [
         {
@@ -45427,7 +45309,7 @@
       "page_title": "Octagar temperaments",
       "display_name": "Pluto",
       "source_y": 585.1123551529847,
-      "label_y": 584.8067974031924,
+      "label_y": 584.8067974031925,
       "xw_url": "https://en.xen.wiki/w/Octagar_temperaments",
       "mapping": [
         {
@@ -45497,7 +45379,7 @@
       "page_title": "Octagar temperaments",
       "display_name": "Plutino",
       "source_y": 585.2722537886277,
-      "label_y": 585.354714069859,
+      "label_y": 585.3547140698591,
       "xw_url": "https://en.xen.wiki/w/Octagar_temperaments",
       "mapping": [
         {
@@ -45652,7 +45534,7 @@
       "page_title": "Garischismic clan",
       "display_name": "Garitritonic",
       "source_y": 588.640998114252,
-      "label_y": 588.5496099436866,
+      "label_y": 588.5496099436867,
       "xw_url": "https://en.xen.wiki/w/Garischismic_clan",
       "mapping": [
         {

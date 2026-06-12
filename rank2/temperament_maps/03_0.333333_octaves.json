@@ -10813,9 +10813,9 @@
       "badness": 1.175399564368563
     },
     {
-      "id": "septimal-augmented-augene",
+      "id": "septimal-augmented",
       "page_title": "Augmented family",
-      "display_name": "Septimal augmented (augene)",
+      "display_name": "Septimal augmented",
       "source_y": 87.32959319592737,
       "label_y": 87.32195889937103,
       "xw_url": "https://en.xen.wiki/w/Augmented_family",
@@ -10906,11 +10906,11 @@
       "badness": 0.9550586646683082
     },
     {
-      "id": "augmented-2-3-5-19-subgroup",
+      "id": "augmented",
       "page_title": "Augmented family",
-      "display_name": "Augmented (2.3.5.19 subgroup)",
+      "display_name": "Augmented",
       "source_y": 94.89278347438403,
-      "label_y": 94.8218340219361,
+      "label_y": 94.89278347438403,
       "xw_url": "https://en.xen.wiki/w/Augmented_family",
       "mapping": [
         {
@@ -10927,25 +10927,6 @@
         }
       ],
       "badness": 0.26401898430851806
-    },
-    {
-      "id": "augmented",
-      "page_title": "Augmented family",
-      "display_name": "Augmented",
-      "source_y": 94.93088456948817,
-      "label_y": 95.00183402193609,
-      "xw_url": "https://en.xen.wiki/w/Augmented_family",
-      "mapping": [
-        {
-          "prime": 3,
-          "count": -1
-        },
-        {
-          "prime": 5,
-          "count": 0
-        }
-      ],
-      "badness": 0.5234805007604856
     },
     {
       "id": "fog",
@@ -11049,7 +11030,7 @@
       "page_title": "Misty family",
       "display_name": "Misty",
       "source_y": 96.85105334177888,
-      "label_y": 96.8798863029891,
+      "label_y": 96.87988630298912,
       "xw_url": "https://en.xen.wiki/w/Misty_family",
       "mapping": [
         {
@@ -11068,7 +11049,7 @@
       "page_title": "Misty family",
       "display_name": "Septimal misty",
       "source_y": 97.05817080446514,
-      "label_y": 97.03851130298911,
+      "label_y": 97.03851130298912,
       "xw_url": "https://en.xen.wiki/w/Misty_family",
       "mapping": [
         {
@@ -11099,7 +11080,7 @@
       "page_title": "Misty family",
       "display_name": "Ashy",
       "source_y": 97.18650073841013,
-      "label_y": 97.19713630298911,
+      "label_y": 97.19713630298912,
       "xw_url": "https://en.xen.wiki/w/Misty_family",
       "mapping": [
         {
@@ -11521,7 +11502,7 @@
       "page_title": "Nexus clan",
       "display_name": "Trilobite",
       "source_y": 150.77661819552702,
-      "label_y": 150.63271770325775,
+      "label_y": 150.63271770325778,
       "xw_url": "https://en.xen.wiki/w/Nexus_clan",
       "mapping": [
         {
@@ -11683,7 +11664,7 @@
       "page_title": "Misty family",
       "display_name": "Hemimist",
       "source_y": 151.53575355146734,
-      "label_y": 151.66996770325775,
+      "label_y": 151.66996770325778,
       "xw_url": "https://en.xen.wiki/w/Misty_family",
       "mapping": [
         {
@@ -11745,7 +11726,7 @@
       "page_title": "Porwell temperaments",
       "display_name": "Nessafof",
       "source_y": 157.46584932698877,
-      "label_y": 157.4617588899897,
+      "label_y": 157.46175888998974,
       "xw_url": "https://en.xen.wiki/w/Porwell_temperaments",
       "mapping": [
         {
