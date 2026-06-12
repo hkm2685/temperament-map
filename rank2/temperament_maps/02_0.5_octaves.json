@@ -7,7 +7,7 @@
   "triangle_cent_half_width": 12.0,
   "mos_max_size": 50,
   "layout": {
-    "width": 761,
+    "width": 762,
     "height": 12040,
     "top": 20,
     "plot_height": 12000,
@@ -17502,43 +17502,8 @@
       "id": "septimal-diaschismic",
       "page_title": "Diaschismic family",
       "display_name": "Septimal diaschismic",
-      "source_y": 103.85196109315507,
-      "label_y": 103.76815094455374,
-      "xw_url": "https://en.xen.wiki/w/Diaschismic_family",
-      "mapping": [
-        {
-          "prime": 3,
-          "count": 1
-        },
-        {
-          "prime": 5,
-          "count": -2
-        },
-        {
-          "prime": 7,
-          "count": -8
-        },
-        {
-          "prime": 11,
-          "count": -12
-        },
-        {
-          "prime": 13,
-          "count": -15
-        },
-        {
-          "prime": 17,
-          "count": 1
-        }
-      ],
-      "badness": 0.7820421765417559
-    },
-    {
-      "id": "2-3-5-7-11-13-17-23-subgroup",
-      "page_title": "Diaschismic family",
-      "display_name": "2.3.5.7.11.13.17.23 subgroup",
       "source_y": 103.9093407959524,
-      "label_y": 103.99315094455373,
+      "label_y": 103.9093407959524,
       "xw_url": "https://en.xen.wiki/w/Diaschismic_family",
       "mapping": [
         {
@@ -17570,7 +17535,7 @@
           "count": -17
         }
       ],
-      "badness": 0.8819545996703665
+      "badness": 0.7820421765417559
     },
     {
       "id": "srutaloo",
@@ -17628,7 +17593,7 @@
       "page_title": "Diaschismic family",
       "display_name": "Srutal",
       "source_y": 104.87451304943102,
-      "label_y": 104.8318026693254,
+      "label_y": 104.83180266932541,
       "xw_url": "https://en.xen.wiki/w/Diaschismic_family",
       "mapping": [
         {
@@ -17667,7 +17632,7 @@
       "page_title": "Diaschismic family",
       "display_name": "Diaschismic",
       "source_y": 104.9584865037607,
-      "label_y": 105.05680266932539,
+      "label_y": 105.0568026693254,
       "xw_url": "https://en.xen.wiki/w/Diaschismic_family",
       "mapping": [
         {
@@ -17779,7 +17744,7 @@
       "page_title": "Diaschismic family",
       "display_name": "Keenic",
       "source_y": 107.25370376754654,
-      "label_y": 107.27479612260939,
+      "label_y": 107.2747961226094,
       "xw_url": "https://en.xen.wiki/w/Diaschismic_family",
       "mapping": [
         {
@@ -17849,7 +17814,7 @@
       "page_title": "Diaschismic family",
       "display_name": "Pajara",
       "source_y": 108.81759570399527,
-      "label_y": 108.76024442315448,
+      "label_y": 108.76024442315446,
       "xw_url": "https://en.xen.wiki/w/Diaschismic_family",
       "mapping": [
         {
@@ -17884,7 +17849,7 @@
       "page_title": "Diaschismic family",
       "display_name": "Pajaric",
       "source_y": 108.97193139150227,
-      "label_y": 108.98524442315447,
+      "label_y": 108.98524442315446,
       "xw_url": "https://en.xen.wiki/w/Diaschismic_family",
       "mapping": [
         {
@@ -17919,7 +17884,7 @@
       "page_title": "Jubilismic clan",
       "display_name": "Bipyth",
       "source_y": 109.13948742396587,
-      "label_y": 109.18352567315448,
+      "label_y": 109.18352567315446,
       "xw_url": "https://en.xen.wiki/w/Jubilismic_clan",
       "mapping": [
         {
@@ -18694,7 +18659,7 @@
       "page_title": "Stearnsmic clan",
       "display_name": "Supers",
       "source_y": 165.82736720618448,
-      "label_y": 165.78536424975493,
+      "label_y": 165.7853642497549,
       "xw_url": "https://en.xen.wiki/w/Stearnsmic_clan",
       "mapping": [
         {
@@ -18729,7 +18694,7 @@
       "page_title": "Stearnsmic clan",
       "display_name": "Pogo",
       "source_y": 166.08882774951508,
-      "label_y": 166.01036424975493,
+      "label_y": 166.0103642497549,
       "xw_url": "https://en.xen.wiki/w/Stearnsmic_clan",
       "mapping": [
         {
@@ -18760,7 +18725,7 @@
       "page_title": "Stearnsmic clan",
       "display_name": "No-five stearnsmic",
       "source_y": 166.1148977935652,
-      "label_y": 166.23536424975492,
+      "label_y": 166.2353642497549,
       "xw_url": "https://en.xen.wiki/w/Stearnsmic_clan",
       "mapping": [
         {
@@ -18806,7 +18771,7 @@
       "page_title": "Schismatic family",
       "display_name": "Bisesqui",
       "source_y": 175.43336925563761,
-      "label_y": 175.35904604873394,
+      "label_y": 175.35904604873397,
       "xw_url": "https://en.xen.wiki/w/Schismatic_family",
       "mapping": [
         {
@@ -18833,7 +18798,7 @@
       "page_title": "Tetracot family",
       "display_name": "Weasly",
       "source_y": 175.59288966718876,
-      "label_y": 175.55732729873395,
+      "label_y": 175.55732729873398,
       "xw_url": "https://en.xen.wiki/w/Tetracot_family",
       "mapping": [
         {
@@ -18872,7 +18837,7 @@
       "page_title": "Tetracot family",
       "display_name": "Weasel",
       "source_y": 175.61900422337553,
-      "label_y": 175.72888979873395,
+      "label_y": 175.72888979873397,
       "xw_url": "https://en.xen.wiki/w/Tetracot_family",
       "mapping": [
         {
@@ -19093,7 +19058,7 @@
       "page_title": "Orwellismic temperaments",
       "display_name": "Secant",
       "source_y": 185.82792315969658,
-      "label_y": 185.88086926853416,
+      "label_y": 185.88086926853413,
       "xw_url": "https://en.xen.wiki/w/Orwellismic_temperaments",
       "mapping": [
         {
@@ -19190,7 +19155,7 @@
       "page_title": "Hemimean clan",
       "display_name": "Semihemiw\u00fcr",
       "source_y": 193.90061152651725,
-      "label_y": 193.72902844163238,
+      "label_y": 193.72902844163235,
       "xw_url": "https://en.xen.wiki/w/Hemimean_clan",
       "mapping": [
         {
@@ -19221,7 +19186,7 @@
       "page_title": "Hemimean clan",
       "display_name": "Semihemiw\u00fcrat",
       "source_y": 193.91284975744497,
-      "label_y": 193.9273096916324,
+      "label_y": 193.92730969163233,
       "xw_url": "https://en.xen.wiki/w/Hemimean_clan",
       "mapping": [
         {
@@ -19260,7 +19225,7 @@
       "page_title": "Hemimean clan",
       "display_name": "Semihemiw\u00fcram",
       "source_y": 193.9417490409349,
-      "label_y": 194.09887219163238,
+      "label_y": 194.09887219163235,
       "xw_url": "https://en.xen.wiki/w/Hemimean_clan",
       "mapping": [
         {
@@ -19372,7 +19337,7 @@
       "page_title": "Marvel temperaments",
       "display_name": "Lizard",
       "source_y": 216.54337525031428,
-      "label_y": 216.46724946701895,
+      "label_y": 216.46724946701892,
       "xw_url": "https://en.xen.wiki/w/Marvel_temperaments",
       "mapping": [
         {
@@ -19411,7 +19376,7 @@
       "page_title": "Marvel temperaments",
       "display_name": "Wizard",
       "source_y": 216.7960719831316,
-      "label_y": 216.69224946701897,
+      "label_y": 216.69224946701894,
       "xw_url": "https://en.xen.wiki/w/Marvel_temperaments",
       "mapping": [
         {
@@ -19438,7 +19403,7 @@
       "page_title": "Marvel temperaments",
       "display_name": "Gizzard",
       "source_y": 216.86872767293968,
-      "label_y": 216.91724946701896,
+      "label_y": 216.91724946701893,
       "xw_url": "https://en.xen.wiki/w/Marvel_temperaments",
       "mapping": [
         {
@@ -19477,7 +19442,7 @@
       "page_title": "Marvel temperaments",
       "display_name": "Mage",
       "source_y": 216.98410421169018,
-      "label_y": 217.11553071701897,
+      "label_y": 217.11553071701894,
       "xw_url": "https://en.xen.wiki/w/Marvel_temperaments",
       "mapping": [
         {
@@ -19543,7 +19508,7 @@
       "page_title": "Magic family",
       "display_name": "Divination",
       "source_y": 219.9328458626846,
-      "label_y": 219.75941085490172,
+      "label_y": 219.75941085490174,
       "xw_url": "https://en.xen.wiki/w/Magic_family",
       "mapping": [
         {
@@ -19578,7 +19543,7 @@
       "page_title": "Jubilismic clan",
       "display_name": "Jubilic",
       "source_y": 219.99135076583843,
-      "label_y": 219.95769210490172,
+      "label_y": 219.95769210490175,
       "xw_url": "https://en.xen.wiki/w/Jubilismic_clan",
       "mapping": [
         {
@@ -19628,7 +19593,7 @@
       "page_title": "Jubilismic clan",
       "display_name": "Horoscope",
       "source_y": 220.18834931710285,
-      "label_y": 220.32753585490173,
+      "label_y": 220.32753585490175,
       "xw_url": "https://en.xen.wiki/w/Jubilismic_clan",
       "mapping": [
         {
@@ -20325,7 +20290,7 @@
       "page_title": "Kleismic family",
       "display_name": "Bikleismic",
       "source_y": 283.27948907218723,
-      "label_y": 283.27948907218723,
+      "label_y": 283.2794890721872,
       "xw_url": "https://en.xen.wiki/w/Kleismic_family",
       "mapping": [
         {
@@ -20391,7 +20356,7 @@
       "page_title": "Ragismic microtemperaments",
       "display_name": "Semiparawolf",
       "source_y": 284.82155992596864,
-      "label_y": 284.82332958651875,
+      "label_y": 284.8233295865187,
       "xw_url": "https://en.xen.wiki/w/Ragismic_microtemperaments",
       "mapping": [
         {
@@ -20422,7 +20387,7 @@
       "page_title": "Ragismic microtemperaments",
       "display_name": "Semiparamint",
       "source_y": 284.83655941562427,
-      "label_y": 284.99489208651875,
+      "label_y": 284.9948920865187,
       "xw_url": "https://en.xen.wiki/w/Ragismic_microtemperaments",
       "mapping": [
         {

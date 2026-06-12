@@ -7,7 +7,7 @@
   "triangle_cent_half_width": 0.499999995,
   "mos_max_size": 50,
   "layout": {
-    "width": 543,
+    "width": 550,
     "height": 1000,
     "top": 20,
     "plot_height": 960,
@@ -2717,11 +2717,11 @@
   ],
   "temperaments": [
     {
-      "id": "2-3-5-7-11-13-19-subgroup",
+      "id": "zinc",
       "page_title": "Landscape microtemperaments",
-      "display_name": "2.3.5.7.11.13.19 subgroup",
+      "display_name": "Zinc",
       "source_y": 4.386401940482585,
-      "label_y": 4.292798152588773,
+      "label_y": 4.386401940482585,
       "xw_url": "https://en.xen.wiki/w/Landscape_microtemperaments",
       "mapping": [
         {
@@ -2750,37 +2750,6 @@
         }
       ],
       "badness": 0.4765474254277787
-    },
-    {
-      "id": "zinc",
-      "page_title": "Landscape microtemperaments",
-      "display_name": "Zinc",
-      "source_y": 4.386694364694961,
-      "label_y": 4.480298152588773,
-      "xw_url": "https://en.xen.wiki/w/Landscape_microtemperaments",
-      "mapping": [
-        {
-          "prime": 3,
-          "count": 5
-        },
-        {
-          "prime": 5,
-          "count": 6
-        },
-        {
-          "prime": 7,
-          "count": 2
-        },
-        {
-          "prime": 11,
-          "count": -2
-        },
-        {
-          "prime": 13,
-          "count": -9
-        }
-      ],
-      "badness": 0.6402488473738536
     },
     {
       "id": "triacontoid",

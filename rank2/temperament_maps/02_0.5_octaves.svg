@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="761" height="12040" viewBox="0 0 761 12040">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="762" height="12040" viewBox="0 0 762 12040">
 <style>
 text { font-family: Arial, sans-serif; }
 .marker { pointer-events: none; }
@@ -12,7 +12,7 @@ text { font-family: Arial, sans-serif; }
 .count-col { cursor: crosshair; }
 .leader-line.hover { stroke: #000; stroke-width: 0.8; opacity: 1; }
 </style>
-<rect width="761" height="12040" fill="white"/>
+<rect width="762" height="12040" fill="white"/>
 <g id="map-static">
 <line x1="89" y1="12020.000" x2="95" y2="12020.000" stroke="#555555" stroke-width="0.7"/>
 <text x="86" y="12022.500" text-anchor="end" font-size="7" fill="#555555">0</text>
@@ -16819,10 +16819,8 @@ text { font-family: Arial, sans-serif; }
 <a class="temperament-link" href="https://en.xen.wiki/w/No-fives_subgroup_temperaments" xlink:href="https://en.xen.wiki/w/No-fives_subgroup_temperaments" target="_blank" rel="noopener"><text class="temperament" data-temperament-id="semitonic" data-source-y-cents="102.026004451" x="425.000" y="7934.525" font-size="8.0" fill="#000000" dominant-baseline="middle">Semitonic [1 <tspan fill="#777777" font-size="6.1">17:</tspan>1] (0.0454)</text></a>
 <polyline class="leader-line" data-temperament-id="gariwizmic" data-source-y-cents="102.214958932" points="363.000,7931.402 390.000,7931.402 420.000,7925.525" fill="none" stroke="#777777" stroke-width="0.5" opacity="0.45"/>
 <a class="temperament-link" href="https://en.xen.wiki/w/Garischismic_clan" xlink:href="https://en.xen.wiki/w/Garischismic_clan" target="_blank" rel="noopener"><text class="temperament" data-temperament-id="gariwizmic" data-source-y-cents="102.214958932" x="425.000" y="7925.525" font-size="8.0" fill="#000000" dominant-baseline="middle">Gariwizmic [1 39 -14 23 -27 <tspan fill="#777777" font-size="6.1">19:</tspan>44] (0.655 <tspan fill="#777777" font-size="6.1">in 2.3.5.7.11.13.19 subgroup</tspan>)</text></a>
-<polyline class="leader-line" data-temperament-id="septimal-diaschismic" data-source-y-cents="103.851961093" points="363.000,7865.922 390.000,7865.922 420.000,7869.274" fill="none" stroke="#777777" stroke-width="0.5" opacity="0.45"/>
-<a class="temperament-link" href="https://en.xen.wiki/w/Diaschismic_family" xlink:href="https://en.xen.wiki/w/Diaschismic_family" target="_blank" rel="noopener"><text class="temperament" data-temperament-id="septimal-diaschismic" data-source-y-cents="103.851961093" x="425.000" y="7869.274" font-size="8.0" fill="#000000" dominant-baseline="middle">Septimal diaschismic [1 -2 -8 -12 -15 <tspan fill="#777777" font-size="6.1">17:</tspan>1] (0.782 <tspan fill="#777777" font-size="6.1">in 13-limit</tspan>)</text></a>
-<polyline class="leader-line" data-temperament-id="2-3-5-7-11-13-17-23-subgroup" data-source-y-cents="103.909340796" points="363.000,7863.626 390.000,7863.626 420.000,7860.274" fill="none" stroke="#777777" stroke-width="0.5" opacity="0.45"/>
-<a class="temperament-link" href="https://en.xen.wiki/w/Diaschismic_family" xlink:href="https://en.xen.wiki/w/Diaschismic_family" target="_blank" rel="noopener"><text class="temperament" data-temperament-id="2-3-5-7-11-13-17-23-subgroup" data-source-y-cents="103.909340796" x="425.000" y="7860.274" font-size="8.0" fill="#000000" dominant-baseline="middle">2.3.5.7.11.13.17.23 subgroup [1 -2 -8 -12 -15 <tspan fill="#777777" font-size="6.1">17:</tspan>1 <tspan fill="#777777" font-size="6.1">23:</tspan>-17] (0.882)</text></a>
+<polyline class="leader-line" data-temperament-id="septimal-diaschismic" data-source-y-cents="103.909340796" points="363.000,7863.626 390.000,7863.626 420.000,7863.626" fill="none" stroke="#777777" stroke-width="0.5" opacity="0.45"/>
+<a class="temperament-link" href="https://en.xen.wiki/w/Diaschismic_family" xlink:href="https://en.xen.wiki/w/Diaschismic_family" target="_blank" rel="noopener"><text class="temperament" data-temperament-id="septimal-diaschismic" data-source-y-cents="103.909340796" x="425.000" y="7863.626" font-size="8.0" fill="#000000" dominant-baseline="middle">Septimal diaschismic [1 -2 -8 -12 -15 <tspan fill="#777777" font-size="6.1">17:</tspan>1 <tspan fill="#777777" font-size="6.1">23:</tspan>-17] (0.782 <tspan fill="#777777" font-size="6.1">in 13-limit</tspan>)</text></a>
 <polyline class="leader-line" data-temperament-id="srutaloo" data-source-y-cents="104.808608714" points="363.000,7827.656 390.000,7827.656 420.000,7835.728" fill="none" stroke="#777777" stroke-width="0.5" opacity="0.45"/>
 <a class="temperament-link" href="https://en.xen.wiki/w/Diaschismic_family" xlink:href="https://en.xen.wiki/w/Diaschismic_family" target="_blank" rel="noopener"><text class="temperament" data-temperament-id="srutaloo" data-source-y-cents="104.808608714" x="425.000" y="7835.728" font-size="8.0" fill="#000000" dominant-baseline="middle">Srutaloo [1 -2 15 11 8 <tspan fill="#777777" font-size="6.1">17:</tspan>1 <tspan fill="#777777" font-size="6.1">19:</tspan>20 <tspan fill="#777777" font-size="6.1">23:</tspan>6 <tspan fill="#777777" font-size="6.1">29:</tspan>27 <tspan fill="#777777" font-size="6.1">31:</tspan>-12] (0.971 <tspan fill="#777777" font-size="6.1">in 23-limit</tspan>)</text></a>
 <polyline class="leader-line" data-temperament-id="srutal" data-source-y-cents="104.874513049" points="363.000,7825.019 390.000,7825.019 420.000,7826.728" fill="none" stroke="#777777" stroke-width="0.5" opacity="0.45"/>
