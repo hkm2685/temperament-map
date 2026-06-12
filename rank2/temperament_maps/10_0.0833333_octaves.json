@@ -2722,7 +2722,7 @@
       "display_name": "Atomic",
       "source_y": 1.9481210361399945,
       "label_y": 1.9481210361399945,
-      "xw_url": "https://en.xen.wiki/w/Landscape_microtemperaments",
+      "xw_url": "https://en.xen.wiki/w/Landscape_microtemperaments#Atomic",
       "mapping": [
         {
           "prime": 3,
@@ -2749,7 +2749,7 @@
       "display_name": "Compton",
       "source_y": 14.640960968756588,
       "label_y": 14.640960968756588,
-      "xw_url": "https://en.xen.wiki/w/Compton_family",
+      "xw_url": "https://en.xen.wiki/w/Compton_family#Compton",
       "mapping": [
         {
           "prime": 3,
@@ -2768,7 +2768,7 @@
       "display_name": "Septimal compton",
       "source_y": 16.03525511764832,
       "label_y": 16.03525511764832,
-      "xw_url": "https://en.xen.wiki/w/Compton_family",
+      "xw_url": "https://en.xen.wiki/w/Compton_family#Septimal_compton",
       "mapping": [
         {
           "prime": 3,
@@ -2803,7 +2803,7 @@
       "display_name": "Comptone",
       "source_y": 17.26194737476675,
       "label_y": 17.26194737476675,
-      "xw_url": "https://en.xen.wiki/w/Compton_family",
+      "xw_url": "https://en.xen.wiki/w/Compton_family#Comptone",
       "mapping": [
         {
           "prime": 3,
@@ -2838,7 +2838,7 @@
       "display_name": "Catler",
       "source_y": 23.587491959387563,
       "label_y": 23.587491959387563,
-      "xw_url": "https://en.xen.wiki/w/Compton_family",
+      "xw_url": "https://en.xen.wiki/w/Compton_family#Catler",
       "mapping": [
         {
           "prime": 3,
@@ -2865,7 +2865,7 @@
       "display_name": "Catlat",
       "source_y": 27.74511410275275,
       "label_y": 27.74511410275275,
-      "xw_url": "https://en.xen.wiki/w/Compton_family",
+      "xw_url": "https://en.xen.wiki/w/Compton_family#Catlat",
       "mapping": [
         {
           "prime": 3,
@@ -2892,7 +2892,7 @@
       "display_name": "Duodecim",
       "source_y": 37.77424103274521,
       "label_y": 37.77424103274521,
-      "xw_url": "https://en.xen.wiki/w/Compton_family",
+      "xw_url": "https://en.xen.wiki/w/Compton_family#Duodecim",
       "mapping": [
         {
           "prime": 3,
@@ -2919,7 +2919,7 @@
       "display_name": "Duodecic",
       "source_y": 38.1645987751713,
       "label_y": 38.1645987751713,
-      "xw_url": "https://en.xen.wiki/w/Compton_family",
+      "xw_url": "https://en.xen.wiki/w/Compton_family#Duodecic",
       "mapping": [
         {
           "prime": 3,
@@ -2958,7 +2958,7 @@
       "display_name": "Catnip",
       "source_y": 40.76970825045785,
       "label_y": 40.76970825045785,
-      "xw_url": "https://en.xen.wiki/w/Compton_family",
+      "xw_url": "https://en.xen.wiki/w/Compton_family#Catnip",
       "mapping": [
         {
           "prime": 3,
@@ -2997,7 +2997,7 @@
       "display_name": "Magnesium",
       "source_y": 43.12853139195363,
       "label_y": 43.12853139195363,
-      "xw_url": "https://en.xen.wiki/w/Landscape_microtemperaments",
+      "xw_url": "https://en.xen.wiki/w/Landscape_microtemperaments#Magnesium",
       "mapping": [
         {
           "prime": 3,

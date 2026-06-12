@@ -2722,7 +2722,7 @@
       "display_name": "Mercator",
       "source_y": 1.3747456480478277,
       "label_y": 1.3747456480478277,
-      "xw_url": "https://en.xen.wiki/w/Mercator_family",
+      "xw_url": "https://en.xen.wiki/w/Mercator_family#Mercator",
       "mapping": [
         {
           "prime": 3,
@@ -2741,7 +2741,7 @@
       "display_name": "Pentacontatritonic",
       "source_y": 3.985753072021147,
       "label_y": 3.985753072021147,
-      "xw_url": "https://en.xen.wiki/w/Mercator_family",
+      "xw_url": "https://en.xen.wiki/w/Mercator_family#Pentacontatritonic",
       "mapping": [
         {
           "prime": 3,
@@ -2772,7 +2772,7 @@
       "display_name": "Schismerc",
       "source_y": 5.2148085979689895,
       "label_y": 5.2148085979689895,
-      "xw_url": "https://en.xen.wiki/w/Mercator_family",
+      "xw_url": "https://en.xen.wiki/w/Mercator_family#Schismerc",
       "mapping": [
         {
           "prime": 3,
@@ -2795,7 +2795,7 @@
       "display_name": "Cartography",
       "source_y": 6.124630724308794,
       "label_y": 6.124630724308794,
-      "xw_url": "https://en.xen.wiki/w/Mercator_family",
+      "xw_url": "https://en.xen.wiki/w/Mercator_family#Cartography",
       "mapping": [
         {
           "prime": 3,
@@ -2826,7 +2826,7 @@
       "display_name": "Iodine",
       "source_y": 8.06046224983885,
       "label_y": 8.034599639762869,
-      "xw_url": "https://en.xen.wiki/w/Mercator_family",
+      "xw_url": "https://en.xen.wiki/w/Mercator_family#Iodine",
       "mapping": [
         {
           "prime": 3,
@@ -2861,7 +2861,7 @@
       "display_name": "Joliet",
       "source_y": 8.089662737234057,
       "label_y": 8.115525347310038,
-      "xw_url": "https://en.xen.wiki/w/Mercator_family",
+      "xw_url": "https://en.xen.wiki/w/Mercator_family#Joliet",
       "mapping": [
         {
           "prime": 3,

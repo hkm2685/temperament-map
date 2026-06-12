@@ -1,8 +1,10 @@
 // http://localhost:8000/viewer/
+// python -m http.server 8000 --directory rank2
 
 "use strict";
 
 const MAPS_DIR = "../temperament_maps";
+const XENWIKI_BASE_URL = "https://en.xen.wiki/w/";
 const CATALOG_URL = `${MAPS_DIR}/maps_index.json`;
 const GROUP_KEY_TOLERANCE = 1e-4;
 const FEATURED_PERIOD_MAPS = [
@@ -80,7 +82,7 @@ const TICK_LABEL_OFFSET_X = 9;
 const TICK_LABEL_BASELINE_OFFSET_Y = 2.5;
 const TICK_LABEL_FONT_SIZE = 7;
 const TEMPERAMENT_NORMAL_FONT_SIZE = 8;
-const HIGHLIGHT_STROKE = "#111";
+const HIGHLIGHT_STROKE = "#000000";
 const HIGHLIGHT_STROKE_WIDTH = 1.2;
 
 function sy(manifestData, cents) {
@@ -445,24 +447,56 @@ function syntheticRatioTrianglePoints(count, yCents) {
   return `${x.toFixed(3)},${yTop.toFixed(3)} ${tipX.toFixed(3)},${yCenter.toFixed(3)} ${x.toFixed(3)},${yBottom.toFixed(3)}`;
 }
 
-function addSyntheticMappingHighlight(svg, count, sourceY, { prime = null, interval = null } = {}) {
-  const polygon = document.createElementNS("http://www.w3.org/2000/svg", "polygon");
-  polygon.setAttribute("class", "marker highlight synthetic");
-  polygon.setAttribute("data-count", String(count));
-  polygon.setAttribute("data-y-cents", sourceY.toFixed(9));
-  if (prime != null) {
-    polygon.setAttribute("data-prime", String(prime));
+function parsePolygonPoints(pointsAttr) {
+  return pointsAttr.trim().split(/\s+/).map((pair) => {
+    const [x, y] = pair.split(",").map(Number);
+    return { x, y };
+  });
+}
+
+function formatPolygonPoints(vertices) {
+  return vertices.map((vertex) => `${vertex.x.toFixed(3)},${vertex.y.toFixed(3)}`).join(" ");
+}
+
+function normalizeVector(vector) {
+  const length = Math.hypot(vector.x, vector.y);
+  if (length === 0) {
+    return { x: 0, y: 0 };
   }
-  if (interval != null) {
-    polygon.setAttribute("data-label", interval);
-  }
-  polygon.setAttribute("points", syntheticRatioTrianglePoints(count, sourceY));
-  polygon.setAttribute(
-    "fill",
-    prime != null ? "rgba(0, 68, 136, 0.22)" : "rgba(85, 85, 85, 0.35)"
-  );
-  polygon.setAttribute("stroke", "#111");
-  polygon.setAttribute("stroke-width", "1.2");
+  return { x: vector.x / length, y: vector.y / length };
+}
+
+function outsetPolygonVertex(previous, current, next, distance) {
+  const edgeIn = normalizeVector({ x: current.x - previous.x, y: current.y - previous.y });
+  const edgeOut = normalizeVector({ x: next.x - current.x, y: next.y - current.y });
+  const normalIn = { x: edgeIn.y, y: -edgeIn.x };
+  const normalOut = { x: edgeOut.y, y: -edgeOut.x };
+  const bisector = normalizeVector({ x: normalIn.x + normalOut.x, y: normalIn.y + normalOut.y });
+  const alignment = bisector.x * normalIn.x + bisector.y * normalIn.y;
+  const offset = alignment === 0 ? distance : distance / alignment;
+  return {
+    x: current.x + bisector.x * offset,
+    y: current.y + bisector.y * offset,
+  };
+}
+
+function outsetPolygon(vertices, distance) {
+  const count = vertices.length;
+  return vertices.map((current, index) => {
+    const previous = vertices[(index - 1 + count) % count];
+    const next = vertices[(index + 1) % count];
+    return outsetPolygonVertex(previous, current, next, distance);
+  });
+}
+
+function addTriangleOutlineHighlight(svg, pointsAttr) {
+  const outlineVertices = outsetPolygon(parsePolygonPoints(pointsAttr), HIGHLIGHT_STROKE_WIDTH / 2);
+  const polygon = document.createElementNS(SVG_NS, "polygon");
+  polygon.setAttribute("class", "marker-highlight-outline");
+  polygon.setAttribute("points", formatPolygonPoints(outlineVertices));
+  polygon.setAttribute("fill", "none");
+  polygon.setAttribute("stroke", HIGHLIGHT_STROKE);
+  polygon.setAttribute("stroke-width", String(HIGHLIGHT_STROKE_WIDTH));
   ensureHighlightOverlay(svg).appendChild(polygon);
 }
 
@@ -473,17 +507,39 @@ function clearMarkerHighlights(svg) {
 
 function highlightClosestMappingMarker(svg, count, sourceY, mappingTarget) {
   const domMarker = findClosestMarkerPolygon(svg, count, sourceY, mappingTarget);
-  if (domMarker) {
-    domMarker.classList.add("highlight");
-    return true;
-  }
-
-  addSyntheticMappingHighlight(svg, count, sourceY, mappingTarget);
+  const points = domMarker
+    ? domMarker.getAttribute("points")
+    : syntheticRatioTrianglePoints(count, sourceY);
+  addTriangleOutlineHighlight(svg, points);
   return true;
 }
 
 function isHighlightableMappingEntry(entry) {
   return Math.abs(entry.count) <= manifest.max_count;
+}
+
+function reciprocalIntervalLabel(label) {
+  if (label.includes("/")) {
+    const [numerator, denominator] = label.split("/", 2);
+    return `${denominator}/${numerator}`;
+  }
+  return `1/${label}`;
+}
+
+function mappingHighlightTarget(entry) {
+  if (entry.prime != null) {
+    return entry.count < 0
+      ? { interval: reciprocalIntervalLabel(String(entry.prime)) }
+      : { prime: entry.prime };
+  }
+
+  if (!entry.interval) {
+    return null;
+  }
+
+  return entry.count < 0
+    ? { interval: reciprocalIntervalLabel(entry.interval) }
+    : { interval: entry.interval };
 }
 
 function countUnhighlightableMappings(temp) {
@@ -496,17 +552,12 @@ function applyTemperamentHighlights(svg, temp) {
       continue;
     }
 
-    const count = Math.abs(entry.count);
-    if (entry.prime != null) {
-      highlightClosestMappingMarker(svg, count, temp.source_y, { prime: entry.prime });
+    const mappingTarget = mappingHighlightTarget(entry);
+    if (!mappingTarget) {
       continue;
     }
 
-    if (!entry.interval) {
-      continue;
-    }
-
-    highlightClosestMappingMarker(svg, count, temp.source_y, { interval: entry.interval });
+    highlightClosestMappingMarker(svg, Math.abs(entry.count), temp.source_y, mappingTarget);
   }
 }
 
@@ -1010,7 +1061,36 @@ function handleScrollportMouseMove(event) {
   scheduleMosDismissal(event.clientX, event.clientY);
 }
 
+function xenwikiTemperamentUrl(pageTitle, temperamentName) {
+  const pageSlug = pageTitle.replace(/ /g, "_");
+  const anchor = temperamentName.replace(/ /g, "_");
+  return `${XENWIKI_BASE_URL}${encodeURIComponent(pageSlug)}#${encodeURIComponent(anchor)}`;
+}
+
+function temperamentWikiUrl(temp) {
+  if (temp.xw_url?.includes("#")) {
+    return temp.xw_url;
+  }
+  return xenwikiTemperamentUrl(temp.page_title, temp.display_name);
+}
+
+function applyTemperamentLinks(svg) {
+  const urlsById = new Map(
+    manifest.temperaments.map((temp) => [temp.id, temperamentWikiUrl(temp)])
+  );
+  for (const textNode of svg.querySelectorAll(".temperament[data-temperament-id]")) {
+    const url = urlsById.get(textNode.getAttribute("data-temperament-id"));
+    const link = textNode.closest("a.temperament-link");
+    if (!url || !link) {
+      continue;
+    }
+    link.setAttribute("href", url);
+    link.setAttributeNS("http://www.w3.org/1999/xlink", "href", url);
+  }
+}
+
 function attachInteractions(svg) {
+  applyTemperamentLinks(svg);
   for (const temp of manifest.temperaments) {
     for (const textNode of svg.querySelectorAll(`[data-temperament-id="${CSS.escape(temp.id)}"]`)) {
       textNode.addEventListener("mouseenter", () => highlightTemperament(svg, temp));

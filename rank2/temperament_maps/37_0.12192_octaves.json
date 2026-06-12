@@ -7,7 +7,7 @@
   "triangle_cent_half_width": 1.82880288,
   "mos_max_size": 50,
   "layout": {
-    "width": 522,
+    "width": 548,
     "height": 2966,
     "top": 20,
     "plot_height": 2926,
@@ -2332,12 +2332,12 @@
   ],
   "temperaments": [
     {
-      "id": "full-no-twos-13-limit",
+      "id": "bohlenic",
       "page_title": "No-twos subgroup temperaments",
-      "display_name": "Full no-twos 13-limit",
+      "display_name": "Bohlenic",
       "source_y": 49.51462636812175,
       "label_y": 49.51462636812175,
-      "xw_url": "https://en.xen.wiki/w/No-twos_subgroup_temperaments",
+      "xw_url": "https://en.xen.wiki/w/No-twos_subgroup_temperaments#Bohlenic",
       "mapping": [
         {
           "prime": 5,
@@ -2357,29 +2357,6 @@
         }
       ],
       "badness": 0.3648146164846681
-    },
-    {
-      "id": "bohlenic",
-      "page_title": "No-twos subgroup temperaments",
-      "display_name": "Bohlenic",
-      "source_y": 51.18651338829113,
-      "label_y": 51.18651338829113,
-      "xw_url": "https://en.xen.wiki/w/No-twos_subgroup_temperaments",
-      "mapping": [
-        {
-          "prime": 5,
-          "count": 0
-        },
-        {
-          "prime": 7,
-          "count": 0
-        },
-        {
-          "prime": 11,
-          "count": 1
-        }
-      ],
-      "badness": 0.4991759227388221
     }
   ]
 }

@@ -2722,7 +2722,7 @@
       "display_name": "Quadritikleismic",
       "source_y": 17.01548597341332,
       "label_y": 17.01548597341332,
-      "xw_url": "https://en.xen.wiki/w/Kleismic_family",
+      "xw_url": "https://en.xen.wiki/w/Kleismic_family#Quadritikleismic",
       "mapping": [
         {
           "prime": 3,
@@ -2757,7 +2757,7 @@
       "display_name": "Quartiquart",
       "source_y": 45.25903162624621,
       "label_y": 45.25903162624621,
-      "xw_url": "https://en.xen.wiki/w/Quartonic_family",
+      "xw_url": "https://en.xen.wiki/w/Quartonic_family#Quartiquart",
       "mapping": [
         {
           "prime": 3,
@@ -2796,7 +2796,7 @@
       "display_name": "Hemidim",
       "source_y": 48.35814899168429,
       "label_y": 48.35814899168429,
-      "xw_url": "https://en.xen.wiki/w/Diminished_family",
+      "xw_url": "https://en.xen.wiki/w/Diminished_family#Hemidim",
       "mapping": [
         {
           "prime": 3,
@@ -2827,7 +2827,7 @@
       "display_name": "Blackbirds",
       "source_y": 53.533613053657064,
       "label_y": 53.533613053657064,
-      "xw_url": "https://en.xen.wiki/w/User%3ADummy_index%2FChromatic_pairs_and_how_we_define_haplotonic",
+      "xw_url": "https://en.xen.wiki/w/User%3ADummy_index%2FChromatic_pairs_and_how_we_define_haplotonic#Blackbirds",
       "mapping": [
         {
           "prime": 11,
@@ -2846,7 +2846,7 @@
       "display_name": "Reenactment",
       "source_y": 76.64446863960782,
       "label_y": 76.64446863960782,
-      "xw_url": "https://en.xen.wiki/w/Bronzismic_temperaments",
+      "xw_url": "https://en.xen.wiki/w/Bronzismic_temperaments#Reenactment",
       "mapping": [
         {
           "prime": 3,
@@ -2869,7 +2869,7 @@
       "display_name": "Quasithird",
       "source_y": 80.38522889719195,
       "label_y": 80.38522889719195,
-      "xw_url": "https://en.xen.wiki/w/Ragismic_microtemperaments",
+      "xw_url": "https://en.xen.wiki/w/Ragismic_microtemperaments#Quasithird",
       "mapping": [
         {
           "prime": 3,
@@ -2900,7 +2900,7 @@
       "display_name": "Demolished",
       "source_y": 88.93040493970511,
       "label_y": 88.93040493970511,
-      "xw_url": "https://en.xen.wiki/w/Diminished_family",
+      "xw_url": "https://en.xen.wiki/w/Diminished_family#Demolished",
       "mapping": [
         {
           "prime": 3,
@@ -2927,7 +2927,7 @@
       "display_name": "Diminished",
       "source_y": 98.19512974381087,
       "label_y": 98.19512974381087,
-      "xw_url": "https://en.xen.wiki/w/Diminished_family",
+      "xw_url": "https://en.xen.wiki/w/Diminished_family#Diminished",
       "mapping": [
         {
           "prime": 3,
@@ -2950,7 +2950,7 @@
       "display_name": "World calendar",
       "source_y": 98.9053690281429,
       "label_y": 98.9053690281429,
-      "xw_url": "https://en.xen.wiki/w/Garischismic_clan",
+      "xw_url": "https://en.xen.wiki/w/Garischismic_clan#World_calendar",
       "mapping": [
         {
           "prime": 3,
@@ -2981,7 +2981,7 @@
       "display_name": "Quadrapont",
       "source_y": 101.75776731737506,
       "label_y": 101.6858797854043,
-      "xw_url": "https://en.xen.wiki/w/Schismatic_family",
+      "xw_url": "https://en.xen.wiki/w/Schismatic_family#Quadrapont",
       "mapping": [
         {
           "prime": 3,
@@ -3012,7 +3012,7 @@
       "display_name": "Quadrant",
       "source_y": 101.81227350343352,
       "label_y": 101.88416103540429,
-      "xw_url": "https://en.xen.wiki/w/Schismatic_family",
+      "xw_url": "https://en.xen.wiki/w/Schismatic_family#Quadrant",
       "mapping": [
         {
           "prime": 3,
@@ -3043,7 +3043,7 @@
       "display_name": "Unlit",
       "source_y": 102.5702766019217,
       "label_y": 102.47628229085211,
-      "xw_url": "https://en.xen.wiki/w/Undim_family",
+      "xw_url": "https://en.xen.wiki/w/Undim_family#Unlit",
       "mapping": [
         {
           "prime": 3,
@@ -3074,7 +3074,7 @@
       "display_name": "Undim",
       "source_y": 102.62520976214569,
       "label_y": 102.6478447908521,
-      "xw_url": "https://en.xen.wiki/w/Undim_family",
+      "xw_url": "https://en.xen.wiki/w/Undim_family#Undim",
       "mapping": [
         {
           "prime": 3,
@@ -3093,7 +3093,7 @@
       "display_name": "Septimal undim",
       "source_y": 102.74804800848892,
       "label_y": 102.81940729085211,
-      "xw_url": "https://en.xen.wiki/w/Undim_family",
+      "xw_url": "https://en.xen.wiki/w/Undim_family#Septimal_undim",
       "mapping": [
         {
           "prime": 3,
@@ -3124,7 +3124,7 @@
       "display_name": "Cohedim",
       "source_y": 105.2677074993486,
       "label_y": 105.2187236267696,
-      "xw_url": "https://en.xen.wiki/w/Diminished_family",
+      "xw_url": "https://en.xen.wiki/w/Diminished_family#Cohedim",
       "mapping": [
         {
           "prime": 3,
@@ -3155,7 +3155,7 @@
       "display_name": "Bidia",
       "source_y": 105.34130225419062,
       "label_y": 105.39028612676961,
-      "xw_url": "https://en.xen.wiki/w/Diaschismic_family",
+      "xw_url": "https://en.xen.wiki/w/Diaschismic_family#Bidia",
       "mapping": [
         {
           "prime": 3,
@@ -3198,7 +3198,7 @@
       "display_name": "Septimal diminished",
       "source_y": 108.46480465624427,
       "label_y": 108.46480465624427,
-      "xw_url": "https://en.xen.wiki/w/Diminished_family",
+      "xw_url": "https://en.xen.wiki/w/Diminished_family#Septimal_diminished",
       "mapping": [
         {
           "prime": 3,
@@ -3229,7 +3229,7 @@
       "display_name": "Quadrafives",
       "source_y": 140.75200146803994,
       "label_y": 140.66673669216897,
-      "xw_url": "https://en.xen.wiki/w/Fifive_family",
+      "xw_url": "https://en.xen.wiki/w/Fifive_family#Quadrafives",
       "mapping": [
         {
           "prime": 3,
@@ -3264,7 +3264,7 @@
       "display_name": "Fourfives",
       "source_y": 140.75303441629805,
       "label_y": 140.838299192169,
-      "xw_url": "https://en.xen.wiki/w/Fifive_family",
+      "xw_url": "https://en.xen.wiki/w/Fifive_family#Fourfives",
       "mapping": [
         {
           "prime": 3,

@@ -2722,7 +2722,7 @@
       "display_name": "Hemiquint",
       "source_y": 9.333443995605307,
       "label_y": 9.17270384103795,
-      "xw_url": "https://en.xen.wiki/w/Quintile_family",
+      "xw_url": "https://en.xen.wiki/w/Quintile_family#Hemiquint",
       "mapping": [
         {
           "prime": 3,
@@ -2753,7 +2753,7 @@
       "display_name": "Hemiquintilis",
       "source_y": 9.335871695189098,
       "label_y": 9.344266341037951,
-      "xw_url": "https://en.xen.wiki/w/Quintile_family",
+      "xw_url": "https://en.xen.wiki/w/Quintile_family#Hemiquintilis",
       "mapping": [
         {
           "prime": 3,
@@ -2784,7 +2784,7 @@
       "display_name": "Hemiquintile",
       "source_y": 9.363483332319447,
       "label_y": 9.515828841037951,
-      "xw_url": "https://en.xen.wiki/w/Quintile_family",
+      "xw_url": "https://en.xen.wiki/w/Quintile_family#Hemiquintile",
       "mapping": [
         {
           "prime": 3,
@@ -2811,7 +2811,7 @@
       "display_name": "Pentaorwell",
       "source_y": 15.288798154558663,
       "label_y": 15.288798154558663,
-      "xw_url": "https://en.xen.wiki/w/Orwellismic_temperaments",
+      "xw_url": "https://en.xen.wiki/w/Orwellismic_temperaments#Pentaorwell",
       "mapping": [
         {
           "prime": 3,
@@ -2842,7 +2842,7 @@
       "display_name": "Quintile",
       "source_y": 18.746444934836745,
       "label_y": 18.746444934836745,
-      "xw_url": "https://en.xen.wiki/w/Quintile_family",
+      "xw_url": "https://en.xen.wiki/w/Quintile_family#Quintile",
       "mapping": [
         {
           "prime": 3,
@@ -2861,7 +2861,7 @@
       "display_name": "Pentacloud",
       "source_y": 18.989510728199775,
       "label_y": 18.989510728199775,
-      "xw_url": "https://en.xen.wiki/w/Quintile_family",
+      "xw_url": "https://en.xen.wiki/w/Quintile_family#Pentacloud",
       "mapping": [
         {
           "prime": 3,
@@ -2892,7 +2892,7 @@
       "display_name": "Cloudtone",
       "source_y": 23.734741813639403,
       "label_y": 23.734741813639403,
-      "xw_url": "https://en.xen.wiki/w/Meantone_family",
+      "xw_url": "https://en.xen.wiki/w/Meantone_family#Cloudtone",
       "mapping": [
         {
           "prime": 3,
@@ -2923,7 +2923,7 @@
       "display_name": "Quintiquart",
       "source_y": 45.24598709042769,
       "label_y": 45.24598709042769,
-      "xw_url": "https://en.xen.wiki/w/Quartonic_family",
+      "xw_url": "https://en.xen.wiki/w/Quartonic_family#Quintiquart",
       "mapping": [
         {
           "prime": 3,
@@ -2950,7 +2950,7 @@
       "display_name": "Blackweed",
       "source_y": 64.9666945326926,
       "label_y": 64.9666945326926,
-      "xw_url": "https://en.xen.wiki/w/Limmic_temperaments",
+      "xw_url": "https://en.xen.wiki/w/Limmic_temperaments#Blackweed",
       "mapping": [
         {
           "prime": 3,
@@ -2969,7 +2969,7 @@
       "display_name": "Coblack",
       "source_y": 73.39887819672549,
       "label_y": 73.39887819672549,
-      "xw_url": "https://en.xen.wiki/w/Trisedodge_family",
+      "xw_url": "https://en.xen.wiki/w/Trisedodge_family#Coblack",
       "mapping": [
         {
           "prime": 3,
@@ -2996,7 +2996,7 @@
       "display_name": "Trisedodge",
       "source_y": 73.93423344324742,
       "label_y": 73.87340959695042,
-      "xw_url": "https://en.xen.wiki/w/Trisedodge_family",
+      "xw_url": "https://en.xen.wiki/w/Trisedodge_family#Trisedodge",
       "mapping": [
         {
           "prime": 3,
@@ -3015,7 +3015,7 @@
       "display_name": "Countdown",
       "source_y": 74.01086700065343,
       "label_y": 74.07169084695042,
-      "xw_url": "https://en.xen.wiki/w/Trisedodge_family",
+      "xw_url": "https://en.xen.wiki/w/Trisedodge_family#Countdown",
       "mapping": [
         {
           "prime": 3,
@@ -3038,7 +3038,7 @@
       "display_name": "Septimal trisedodge",
       "source_y": 74.68353282490773,
       "label_y": 74.68353282490773,
-      "xw_url": "https://en.xen.wiki/w/Trisedodge_family",
+      "xw_url": "https://en.xen.wiki/w/Trisedodge_family#Septimal_trisedodge",
       "mapping": [
         {
           "prime": 3,
@@ -3085,7 +3085,7 @@
       "display_name": "Trisey",
       "source_y": 75.16255870624855,
       "label_y": 75.16255870624855,
-      "xw_url": "https://en.xen.wiki/w/Trisedodge_family",
+      "xw_url": "https://en.xen.wiki/w/Trisedodge_family#Trisey",
       "mapping": [
         {
           "prime": 3,
@@ -3116,7 +3116,7 @@
       "display_name": "Farrier",
       "source_y": 85.24063952352844,
       "label_y": 85.24063952352844,
-      "xw_url": "https://en.xen.wiki/w/Limmic_temperaments",
+      "xw_url": "https://en.xen.wiki/w/Limmic_temperaments#Farrier",
       "mapping": [
         {
           "prime": 3,
@@ -3147,7 +3147,7 @@
       "display_name": "Quinkee",
       "source_y": 87.16491729460301,
       "label_y": 87.16491729460301,
-      "xw_url": "https://en.xen.wiki/w/Cloudy_clan",
+      "xw_url": "https://en.xen.wiki/w/Cloudy_clan#Quinkee",
       "mapping": [
         {
           "prime": 3,
@@ -3178,7 +3178,7 @@
       "display_name": "Blackwood",
       "source_y": 88.90237383156864,
       "label_y": 88.90237383156864,
-      "xw_url": "https://en.xen.wiki/w/Limmic_temperaments",
+      "xw_url": "https://en.xen.wiki/w/Limmic_temperaments#Blackwood",
       "mapping": [
         {
           "prime": 3,
@@ -3201,7 +3201,7 @@
       "display_name": "Undecimal blackwood",
       "source_y": 89.71810031721452,
       "label_y": 89.71810031721452,
-      "xw_url": "https://en.xen.wiki/w/Limmic_temperaments",
+      "xw_url": "https://en.xen.wiki/w/Limmic_temperaments#Undecimal_blackwood",
       "mapping": [
         {
           "prime": 3,
@@ -3232,7 +3232,7 @@
       "display_name": "Warlock",
       "source_y": 100.00348945698227,
       "label_y": 100.00348945698227,
-      "xw_url": "https://en.xen.wiki/w/Magic_family",
+      "xw_url": "https://en.xen.wiki/w/Magic_family#Warlock",
       "mapping": [
         {
           "prime": 3,
@@ -3255,7 +3255,7 @@
       "display_name": "Ferrum",
       "source_y": 108.34085956934769,
       "label_y": 108.34085956934769,
-      "xw_url": "https://en.xen.wiki/w/Limmic_temperaments",
+      "xw_url": "https://en.xen.wiki/w/Limmic_temperaments#Ferrum",
       "mapping": [
         {
           "prime": 3,
@@ -3282,7 +3282,7 @@
       "display_name": "Sengasec",
       "source_y": 110.90714658577213,
       "label_y": 110.89156299449299,
-      "xw_url": "https://en.xen.wiki/w/Quintosec_family",
+      "xw_url": "https://en.xen.wiki/w/Quintosec_family#Sengasec",
       "mapping": [
         {
           "prime": 3,
@@ -3313,7 +3313,7 @@
       "display_name": "Quintosec",
       "source_y": 111.07426065321386,
       "label_y": 111.089844244493,
-      "xw_url": "https://en.xen.wiki/w/Quintosec_family",
+      "xw_url": "https://en.xen.wiki/w/Quintosec_family#Quintosec",
       "mapping": [
         {
           "prime": 3,
@@ -3336,7 +3336,7 @@
       "display_name": "Qintosec",
       "source_y": 111.29106726721909,
       "label_y": 111.29106726721909,
-      "xw_url": "https://en.xen.wiki/w/Quintosec_family",
+      "xw_url": "https://en.xen.wiki/w/Quintosec_family#Qintosec",
       "mapping": [
         {
           "prime": 3,
@@ -3363,7 +3363,7 @@
       "display_name": "Qinto",
       "source_y": 112.44030792811157,
       "label_y": 112.44030792811157,
-      "xw_url": "https://en.xen.wiki/w/Quintosec_family",
+      "xw_url": "https://en.xen.wiki/w/Quintosec_family#Qinto",
       "mapping": [
         {
           "prime": 3,

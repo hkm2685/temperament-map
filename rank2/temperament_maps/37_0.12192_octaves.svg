@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="522" height="2966" viewBox="0 0 522 2966">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="548" height="2966" viewBox="0 0 548 2966">
 <style>
 text { font-family: Arial, sans-serif; }
 .marker { pointer-events: none; }
-.marker.highlight { stroke: #111; stroke-width: 1.2; filter: brightness(0.82); }
-.marker.highlight.synthetic { filter: none; }
 .temperament-link { cursor: pointer; text-decoration: none; }
 .temperament-link .temperament { pointer-events: all; }
 .temperament-link:hover .temperament { fill: #004488; }
@@ -12,7 +10,7 @@ text { font-family: Arial, sans-serif; }
 .count-col { cursor: crosshair; }
 .leader-line.hover { stroke: #000; stroke-width: 0.8; opacity: 1; }
 </style>
-<rect width="522" height="2966" fill="white"/>
+<rect width="548" height="2966" fill="white"/>
 <g id="map-static">
 <line x1="89" y1="2946.000" x2="95" y2="2946.000" stroke="#555555" stroke-width="0.7"/>
 <text x="86" y="2948.500" text-anchor="end" font-size="7" fill="#555555">0</text>
@@ -58,14 +56,14 @@ text { font-family: Arial, sans-serif; }
 <line x1="185.000" y1="2946.000" x2="185.000" y2="20.000" stroke="#f0f0f0" stroke-width="0.8"/>
 <line x1="195.000" y1="2946.000" x2="195.000" y2="20.000" stroke="#cccccc" stroke-width="0.8"/>
 <g id="markers">
-<polygon class="marker prime" data-id="m-1-1-0.000000" data-count="1" data-y-cents="0.000000000" data-label="1" points="105.000,2872.850 110.000,2946.000 105.000,3019.150" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-1-1-0.000000" data-count="1" data-y-cents="0.000000000" data-label="1" points="105.000,2872.850 110.000,2946.000 105.000,3019.150" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-1-7-3.828597" data-count="1" data-y-cents="3.828597246" data-label="7" data-prime="7" points="105.000,2719.711 110.000,2792.861 105.000,2866.011" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-1-5-6.533328" data-count="1" data-y-cents="6.533327985" data-label="5" data-prime="5" points="105.000,2611.524 110.000,2684.674 105.000,2757.824" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-1-1-19-23.135063" data-count="1" data-y-cents="23.135063121" data-label="1/19" data-prime="19" points="105.000,1947.474 110.000,2020.624 105.000,2093.774" fill="#99a388" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-1-13-51.400737" data-count="1" data-y-cents="51.400736695" data-label="13" data-prime="13" points="105.000,816.880 110.000,890.030 105.000,963.180" fill="#eeb9ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-1-11-54.799479" data-count="1" data-y-cents="54.799478962" data-label="11" data-prime="11" points="105.000,680.934 110.000,754.084 105.000,827.234" fill="#ffac87" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-1-1-17-69.388439" data-count="1" data-y-cents="69.388438917" data-label="1/17" data-prime="17" points="105.000,97.393 110.000,170.543 105.000,243.693" fill="#87a79a" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-2-1-0.000000" data-count="2" data-y-cents="0.000000000" data-label="1" points="115.000,2909.425 120.000,2946.000 115.000,2982.575" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-2-1-0.000000" data-count="2" data-y-cents="0.000000000" data-label="1" points="115.000,2909.425 120.000,2946.000 115.000,2982.575" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-2-7-1.914299" data-count="2" data-y-cents="1.914298623" data-label="7" data-prime="7" points="115.000,2832.855 120.000,2869.430 115.000,2906.005" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-2-5-3.266664" data-count="2" data-y-cents="3.266663992" data-label="5" data-prime="5" points="115.000,2778.762 120.000,2815.337 115.000,2851.912" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-2-1-19-11.567532" data-count="2" data-y-cents="11.567531560" data-label="1/19" data-prime="19" points="115.000,2446.737 120.000,2483.312 115.000,2519.887" fill="#99a388" opacity="0.950"/>
@@ -78,8 +76,8 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-2-19-61.584584" data-count="2" data-y-cents="61.584583858" data-label="19" data-prime="19" points="115.000,446.113 120.000,482.688 115.000,519.263" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-2-1-5-69.885451" data-count="2" data-y-cents="69.885451426" data-label="1/5" data-prime="5" points="115.000,114.088 120.000,150.663 115.000,187.238" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-2-1-7-71.237817" data-count="2" data-y-cents="71.237816795" data-label="1/7" data-prime="7" points="115.000,59.995 120.000,96.570 115.000,133.145" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-2-1-73.152115" data-count="2" data-y-cents="73.152115418" data-label="1" points="115.000,-16.575 120.000,20.000 115.000,56.575" fill="#333333" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-3-1-0.000000" data-count="3" data-y-cents="0.000000000" data-label="1" points="125.000,2921.617 130.000,2946.000 125.000,2970.383" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-2-1-73.152115" data-count="2" data-y-cents="73.152115418" data-label="1" points="115.000,-16.575 120.000,20.000 115.000,56.575" fill="#555555" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-3-1-0.000000" data-count="3" data-y-cents="0.000000000" data-label="1" points="125.000,2921.617 130.000,2946.000 125.000,2970.383" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-3-7-1.276199" data-count="3" data-y-cents="1.276199082" data-label="7" data-prime="7" points="125.000,2870.570 130.000,2894.954 125.000,2919.337" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-3-5-2.177776" data-count="3" data-y-cents="2.177775995" data-label="5" data-prime="5" points="125.000,2834.508 130.000,2858.891 125.000,2883.275" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-3-1-19-7.711688" data-count="3" data-y-cents="7.711687707" data-label="1/19" data-prime="19" points="125.000,2613.158 130.000,2637.541 125.000,2661.925" fill="#99a388" opacity="0.950"/>
@@ -92,14 +90,14 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-3-19-41.056389" data-count="3" data-y-cents="41.056389238" data-label="19" data-prime="19" points="125.000,1279.409 130.000,1303.792 125.000,1328.175" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-3-1-5-46.590301" data-count="3" data-y-cents="46.590300950" data-label="1/5" data-prime="5" points="125.000,1058.059 130.000,1082.442 125.000,1106.825" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-3-1-7-47.491878" data-count="3" data-y-cents="47.491877863" data-label="1/7" data-prime="7" points="125.000,1021.996 130.000,1046.380 125.000,1070.763" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-3-1-48.768077" data-count="3" data-y-cents="48.768076945" data-label="1" points="125.000,970.950 130.000,995.333 125.000,1019.717" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-3-1-48.768077" data-count="3" data-y-cents="48.768076945" data-label="1" points="125.000,970.950 130.000,995.333 125.000,1019.717" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-3-7-50.044276" data-count="3" data-y-cents="50.044276027" data-label="7" data-prime="7" points="125.000,919.904 130.000,944.287 125.000,968.670" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-3-5-50.945853" data-count="3" data-y-cents="50.945852940" data-label="5" data-prime="5" points="125.000,883.841 130.000,908.225 125.000,932.608" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-3-1-19-56.479765" data-count="3" data-y-cents="56.479764652" data-label="1/19" data-prime="19" points="125.000,662.491 130.000,686.875 125.000,711.258" fill="#99a388" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-3-13-65.901656" data-count="3" data-y-cents="65.901655844" data-label="13" data-prime="13" points="125.000,285.627 130.000,310.010 125.000,334.393" fill="#eeb9ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-3-11-67.034570" data-count="3" data-y-cents="67.034569933" data-label="11" data-prime="11" points="125.000,240.311 130.000,264.695 125.000,289.078" fill="#ffac87" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-3-1-17-71.897557" data-count="3" data-y-cents="71.897556584" data-label="1/17" data-prime="17" points="125.000,45.798 130.000,70.181 125.000,94.564" fill="#87a79a" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-4-1-0.000000" data-count="4" data-y-cents="0.000000000" data-label="1" points="135.000,2927.713 140.000,2946.000 135.000,2964.287" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-4-1-0.000000" data-count="4" data-y-cents="0.000000000" data-label="1" points="135.000,2927.713 140.000,2946.000 135.000,2964.287" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-4-7-0.957149" data-count="4" data-y-cents="0.957149311" data-label="7" data-prime="7" points="135.000,2889.428 140.000,2907.715 135.000,2926.003" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-4-5-1.633332" data-count="4" data-y-cents="1.633331996" data-label="5" data-prime="5" points="135.000,2862.381 140.000,2880.669 135.000,2898.956" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-4-1-19-5.783766" data-count="4" data-y-cents="5.783765780" data-label="1/19" data-prime="19" points="135.000,2696.369 140.000,2714.656 135.000,2732.944" fill="#99a388" opacity="0.950"/>
@@ -112,7 +110,7 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-4-19-30.792292" data-count="4" data-y-cents="30.792291929" data-label="19" data-prime="19" points="135.000,1696.056 140.000,1714.344 135.000,1732.631" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-4-1-5-34.942726" data-count="4" data-y-cents="34.942725713" data-label="1/5" data-prime="5" points="135.000,1530.044 140.000,1548.331 135.000,1566.619" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-4-1-7-35.618908" data-count="4" data-y-cents="35.618908398" data-label="1/7" data-prime="7" points="135.000,1502.997 140.000,1521.285 135.000,1539.572" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-4-1-36.576058" data-count="4" data-y-cents="36.576057709" data-label="1" points="135.000,1464.713 140.000,1483.000 135.000,1501.287" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-4-1-36.576058" data-count="4" data-y-cents="36.576057709" data-label="1" points="135.000,1464.713 140.000,1483.000 135.000,1501.287" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-4-7-37.533207" data-count="4" data-y-cents="37.533207020" data-label="7" data-prime="7" points="135.000,1426.428 140.000,1444.715 135.000,1463.003" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-4-5-38.209390" data-count="4" data-y-cents="38.209389705" data-label="5" data-prime="5" points="135.000,1399.381 140.000,1417.669 135.000,1435.956" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-4-1-19-42.359823" data-count="4" data-y-cents="42.359823489" data-label="1/19" data-prime="19" points="135.000,1233.369 140.000,1251.656 135.000,1269.944" fill="#99a388" opacity="0.950"/>
@@ -125,8 +123,8 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-4-19-67.368350" data-count="4" data-y-cents="67.368349638" data-label="19" data-prime="19" points="135.000,233.056 140.000,251.344 135.000,269.631" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-4-1-5-71.518783" data-count="4" data-y-cents="71.518783422" data-label="1/5" data-prime="5" points="135.000,67.044 140.000,85.331 135.000,103.619" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-4-1-7-72.194966" data-count="4" data-y-cents="72.194966106" data-label="1/7" data-prime="7" points="135.000,39.997 140.000,58.285 135.000,76.572" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-4-1-73.152115" data-count="4" data-y-cents="73.152115418" data-label="1" points="135.000,1.713 140.000,20.000 135.000,38.287" fill="#333333" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-5-1-0.000000" data-count="5" data-y-cents="0.000000000" data-label="1" points="145.000,2931.370 150.000,2946.000 145.000,2960.630" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-4-1-73.152115" data-count="4" data-y-cents="73.152115418" data-label="1" points="135.000,1.713 140.000,20.000 135.000,38.287" fill="#555555" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-5-1-0.000000" data-count="5" data-y-cents="0.000000000" data-label="1" points="145.000,2931.370 150.000,2946.000 145.000,2960.630" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-5-7-0.765719" data-count="5" data-y-cents="0.765719449" data-label="7" data-prime="7" points="145.000,2900.742 150.000,2915.372 145.000,2930.002" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-5-5-1.306666" data-count="5" data-y-cents="1.306665597" data-label="5" data-prime="5" points="145.000,2879.105 150.000,2893.735 145.000,2908.365" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-5-1-19-4.627013" data-count="5" data-y-cents="4.627012624" data-label="1/19" data-prime="19" points="145.000,2746.295 150.000,2760.925 145.000,2775.555" fill="#99a388" opacity="0.950"/>
@@ -139,7 +137,7 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-5-19-24.633834" data-count="5" data-y-cents="24.633833543" data-label="19" data-prime="19" points="145.000,1946.045 150.000,1960.675 145.000,1975.305" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-5-1-5-27.954181" data-count="5" data-y-cents="27.954180570" data-label="1/5" data-prime="5" points="145.000,1813.235 150.000,1827.865 145.000,1842.495" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-5-1-7-28.495127" data-count="5" data-y-cents="28.495126718" data-label="1/7" data-prime="7" points="145.000,1791.598 150.000,1806.228 145.000,1820.858" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-5-1-29.260846" data-count="5" data-y-cents="29.260846167" data-label="1" points="145.000,1760.970 150.000,1775.600 145.000,1790.230" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-5-1-29.260846" data-count="5" data-y-cents="29.260846167" data-label="1" points="145.000,1760.970 150.000,1775.600 145.000,1790.230" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-5-7-30.026566" data-count="5" data-y-cents="30.026565616" data-label="7" data-prime="7" points="145.000,1730.342 150.000,1744.972 145.000,1759.602" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-5-5-30.567512" data-count="5" data-y-cents="30.567511764" data-label="5" data-prime="5" points="145.000,1708.705 150.000,1723.335 145.000,1737.965" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-5-1-19-33.887859" data-count="5" data-y-cents="33.887858791" data-label="1/19" data-prime="19" points="145.000,1575.895 150.000,1590.525 145.000,1605.155" fill="#99a388" opacity="0.950"/>
@@ -152,14 +150,14 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-5-19-53.894680" data-count="5" data-y-cents="53.894679710" data-label="19" data-prime="19" points="145.000,775.645 150.000,790.275 145.000,804.905" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-5-1-5-57.215027" data-count="5" data-y-cents="57.215026737" data-label="1/5" data-prime="5" points="145.000,642.835 150.000,657.465 145.000,672.095" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-5-1-7-57.755973" data-count="5" data-y-cents="57.755972885" data-label="1/7" data-prime="7" points="145.000,621.198 150.000,635.828 145.000,650.458" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-5-1-58.521692" data-count="5" data-y-cents="58.521692334" data-label="1" points="145.000,590.570 150.000,605.200 145.000,619.830" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-5-1-58.521692" data-count="5" data-y-cents="58.521692334" data-label="1" points="145.000,590.570 150.000,605.200 145.000,619.830" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-5-7-59.287412" data-count="5" data-y-cents="59.287411783" data-label="7" data-prime="7" points="145.000,559.942 150.000,574.572 145.000,589.202" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-5-5-59.828358" data-count="5" data-y-cents="59.828357931" data-label="5" data-prime="5" points="145.000,538.305 150.000,552.935 145.000,567.565" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-5-1-19-63.148705" data-count="5" data-y-cents="63.148704958" data-label="1/19" data-prime="19" points="145.000,405.495 150.000,420.125 145.000,434.755" fill="#99a388" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-5-13-68.801840" data-count="5" data-y-cents="68.801839673" data-label="13" data-prime="13" points="145.000,179.376 150.000,194.006 145.000,208.636" fill="#eeb9ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-5-11-69.481588" data-count="5" data-y-cents="69.481588127" data-label="11" data-prime="11" points="145.000,152.187 150.000,166.817 145.000,181.447" fill="#ffac87" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-5-1-17-72.399380" data-count="5" data-y-cents="72.399380118" data-label="1/17" data-prime="17" points="145.000,35.479 150.000,50.109 145.000,64.739" fill="#87a79a" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-6-1-0.000000" data-count="6" data-y-cents="0.000000000" data-label="1" points="155.000,2933.808 160.000,2946.000 155.000,2958.192" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-6-1-0.000000" data-count="6" data-y-cents="0.000000000" data-label="1" points="155.000,2933.808 160.000,2946.000 155.000,2958.192" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-6-7-0.638100" data-count="6" data-y-cents="0.638099541" data-label="7" data-prime="7" points="155.000,2908.285 160.000,2920.477 155.000,2932.668" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-6-5-1.088888" data-count="6" data-y-cents="1.088887997" data-label="5" data-prime="5" points="155.000,2890.254 160.000,2902.446 155.000,2914.637" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-6-1-19-3.855844" data-count="6" data-y-cents="3.855843853" data-label="1/19" data-prime="19" points="155.000,2779.579 160.000,2791.771 155.000,2803.962" fill="#99a388" opacity="0.950"/>
@@ -172,7 +170,7 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-6-19-20.528195" data-count="6" data-y-cents="20.528194619" data-label="19" data-prime="19" points="155.000,2112.704 160.000,2124.896 155.000,2137.088" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-6-1-5-23.295150" data-count="6" data-y-cents="23.295150475" data-label="1/5" data-prime="5" points="155.000,2002.029 160.000,2014.221 155.000,2026.413" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-6-1-7-23.745939" data-count="6" data-y-cents="23.745938932" data-label="1/7" data-prime="7" points="155.000,1983.998 160.000,1996.190 155.000,2008.382" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-6-1-24.384038" data-count="6" data-y-cents="24.384038473" data-label="1" points="155.000,1958.475 160.000,1970.667 155.000,1982.858" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-6-1-24.384038" data-count="6" data-y-cents="24.384038473" data-label="1" points="155.000,1958.475 160.000,1970.667 155.000,1982.858" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-6-7-25.022138" data-count="6" data-y-cents="25.022138014" data-label="7" data-prime="7" points="155.000,1932.952 160.000,1945.143 155.000,1957.335" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-6-5-25.472926" data-count="6" data-y-cents="25.472926470" data-label="5" data-prime="5" points="155.000,1914.921 160.000,1927.112 155.000,1939.304" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-6-1-19-28.239882" data-count="6" data-y-cents="28.239882326" data-label="1/19" data-prime="19" points="155.000,1804.246 160.000,1816.437 155.000,1828.629" fill="#99a388" opacity="0.950"/>
@@ -185,7 +183,7 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-6-19-44.912233" data-count="6" data-y-cents="44.912233092" data-label="19" data-prime="19" points="155.000,1137.371 160.000,1149.563 155.000,1161.754" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-6-1-5-47.679189" data-count="6" data-y-cents="47.679188948" data-label="1/5" data-prime="5" points="155.000,1026.696 160.000,1038.888 155.000,1051.079" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-6-1-7-48.129977" data-count="6" data-y-cents="48.129977404" data-label="1/7" data-prime="7" points="155.000,1008.665 160.000,1020.857 155.000,1033.048" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-6-1-48.768077" data-count="6" data-y-cents="48.768076945" data-label="1" points="155.000,983.142 160.000,995.333 155.000,1007.525" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-6-1-48.768077" data-count="6" data-y-cents="48.768076945" data-label="1" points="155.000,983.142 160.000,995.333 155.000,1007.525" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-6-7-49.406176" data-count="6" data-y-cents="49.406176486" data-label="7" data-prime="7" points="155.000,957.618 160.000,969.810 155.000,982.002" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-6-5-49.856965" data-count="6" data-y-cents="49.856964943" data-label="5" data-prime="5" points="155.000,939.587 160.000,951.779 155.000,963.971" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-6-1-19-52.623921" data-count="6" data-y-cents="52.623920799" data-label="1/19" data-prime="19" points="155.000,828.912 160.000,841.104 155.000,853.296" fill="#99a388" opacity="0.950"/>
@@ -198,8 +196,8 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-6-19-69.296272" data-count="6" data-y-cents="69.296271564" data-label="19" data-prime="19" points="155.000,162.038 160.000,174.229 155.000,186.421" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-6-1-5-72.063227" data-count="6" data-y-cents="72.063227420" data-label="1/5" data-prime="5" points="155.000,51.363 160.000,63.554 155.000,75.746" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-6-1-7-72.514016" data-count="6" data-y-cents="72.514015877" data-label="1/7" data-prime="7" points="155.000,33.332 160.000,45.523 155.000,57.715" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-6-1-73.152115" data-count="6" data-y-cents="73.152115418" data-label="1" points="155.000,7.808 160.000,20.000 155.000,32.192" fill="#333333" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-7-1-0.000000" data-count="7" data-y-cents="0.000000000" data-label="1" points="165.000,2935.550 170.000,2946.000 165.000,2956.450" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-6-1-73.152115" data-count="6" data-y-cents="73.152115418" data-label="1" points="155.000,7.808 160.000,20.000 155.000,32.192" fill="#555555" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-7-1-0.000000" data-count="7" data-y-cents="0.000000000" data-label="1" points="165.000,2935.550 170.000,2946.000 165.000,2956.450" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-7-0.546942" data-count="7" data-y-cents="0.546942464" data-label="7" data-prime="7" points="165.000,2913.673 170.000,2924.123 165.000,2934.573" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-5-0.933333" data-count="7" data-y-cents="0.933332569" data-label="5" data-prime="5" points="165.000,2898.218 170.000,2908.668 165.000,2919.118" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-1-19-3.305009" data-count="7" data-y-cents="3.305009017" data-label="1/19" data-prime="19" points="165.000,2803.353 170.000,2813.803 165.000,2824.253" fill="#99a388" opacity="0.950"/>
@@ -212,7 +210,7 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-7-19-17.595595" data-count="7" data-y-cents="17.595595388" data-label="19" data-prime="19" points="165.000,2231.747 170.000,2242.197 165.000,2252.647" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-1-5-19.967272" data-count="7" data-y-cents="19.967271836" data-label="1/5" data-prime="5" points="165.000,2136.882 170.000,2147.332 165.000,2157.782" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-1-7-20.353662" data-count="7" data-y-cents="20.353661941" data-label="1/7" data-prime="7" points="165.000,2121.427 170.000,2131.877 165.000,2142.327" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-7-1-20.900604" data-count="7" data-y-cents="20.900604405" data-label="1" points="165.000,2099.550 170.000,2110.000 165.000,2120.450" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-7-1-20.900604" data-count="7" data-y-cents="20.900604405" data-label="1" points="165.000,2099.550 170.000,2110.000 165.000,2120.450" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-7-21.447547" data-count="7" data-y-cents="21.447546869" data-label="7" data-prime="7" points="165.000,2077.673 170.000,2088.123 165.000,2098.573" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-5-21.833937" data-count="7" data-y-cents="21.833936974" data-label="5" data-prime="5" points="165.000,2062.218 170.000,2072.668 165.000,2083.118" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-1-19-24.205613" data-count="7" data-y-cents="24.205613422" data-label="1/19" data-prime="19" points="165.000,1967.353 170.000,1977.803 165.000,1988.253" fill="#99a388" opacity="0.950"/>
@@ -225,7 +223,7 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-7-19-38.496200" data-count="7" data-y-cents="38.496199793" data-label="19" data-prime="19" points="165.000,1395.747 170.000,1406.197 165.000,1416.647" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-1-5-40.867876" data-count="7" data-y-cents="40.867876241" data-label="1/5" data-prime="5" points="165.000,1300.882 170.000,1311.332 165.000,1321.782" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-1-7-41.254266" data-count="7" data-y-cents="41.254266347" data-label="1/7" data-prime="7" points="165.000,1285.427 170.000,1295.877 165.000,1306.327" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-7-1-41.801209" data-count="7" data-y-cents="41.801208810" data-label="1" points="165.000,1263.550 170.000,1274.000 165.000,1284.450" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-7-1-41.801209" data-count="7" data-y-cents="41.801208810" data-label="1" points="165.000,1263.550 170.000,1274.000 165.000,1284.450" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-7-42.348151" data-count="7" data-y-cents="42.348151274" data-label="7" data-prime="7" points="165.000,1241.673 170.000,1252.123 165.000,1262.573" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-5-42.734541" data-count="7" data-y-cents="42.734541379" data-label="5" data-prime="5" points="165.000,1226.218 170.000,1236.668 165.000,1247.118" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-1-19-45.106218" data-count="7" data-y-cents="45.106217827" data-label="1/19" data-prime="19" points="165.000,1131.353 170.000,1141.803 165.000,1152.253" fill="#99a388" opacity="0.950"/>
@@ -238,14 +236,14 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-7-19-59.396804" data-count="7" data-y-cents="59.396804198" data-label="19" data-prime="19" points="165.000,559.747 170.000,570.197 165.000,580.647" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-1-5-61.768481" data-count="7" data-y-cents="61.768480646" data-label="1/5" data-prime="5" points="165.000,464.882 170.000,475.332 165.000,485.782" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-1-7-62.154871" data-count="7" data-y-cents="62.154870752" data-label="1/7" data-prime="7" points="165.000,449.427 170.000,459.877 165.000,470.327" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-7-1-62.701813" data-count="7" data-y-cents="62.701813215" data-label="1" points="165.000,427.550 170.000,438.000 165.000,448.450" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-7-1-62.701813" data-count="7" data-y-cents="62.701813215" data-label="1" points="165.000,427.550 170.000,438.000 165.000,448.450" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-7-63.248756" data-count="7" data-y-cents="63.248755679" data-label="7" data-prime="7" points="165.000,405.673 170.000,416.123 165.000,426.573" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-5-63.635146" data-count="7" data-y-cents="63.635145785" data-label="5" data-prime="5" points="165.000,390.218 170.000,400.668 165.000,411.118" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-1-19-66.006822" data-count="7" data-y-cents="66.006822233" data-label="1/19" data-prime="19" points="165.000,295.353 170.000,305.803 165.000,316.253" fill="#99a388" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-13-70.044776" data-count="7" data-y-cents="70.044775600" data-label="13" data-prime="13" points="165.000,133.840 170.000,144.290 165.000,154.740" fill="#eeb9ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-11-70.530310" data-count="7" data-y-cents="70.530310210" data-label="11" data-prime="11" points="165.000,114.419 170.000,124.869 165.000,135.319" fill="#ffac87" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-7-1-17-72.614447" data-count="7" data-y-cents="72.614447346" data-label="1/17" data-prime="17" points="165.000,31.056 170.000,41.506 165.000,51.956" fill="#87a79a" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-8-1-0.000000" data-count="8" data-y-cents="0.000000000" data-label="1" points="175.000,2936.856 180.000,2946.000 175.000,2955.144" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-8-1-0.000000" data-count="8" data-y-cents="0.000000000" data-label="1" points="175.000,2936.856 180.000,2946.000 175.000,2955.144" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-7-0.478575" data-count="8" data-y-cents="0.478574656" data-label="7" data-prime="7" points="175.000,2917.714 180.000,2926.858 175.000,2936.001" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-5-0.816666" data-count="8" data-y-cents="0.816665998" data-label="5" data-prime="5" points="175.000,2904.191 180.000,2913.334 175.000,2922.478" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-1-19-2.891883" data-count="8" data-y-cents="2.891882890" data-label="1/19" data-prime="19" points="175.000,2821.184 180.000,2830.328 175.000,2839.472" fill="#99a388" opacity="0.950"/>
@@ -258,7 +256,7 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-8-19-15.396146" data-count="8" data-y-cents="15.396145964" data-label="19" data-prime="19" points="175.000,2321.028 180.000,2330.172 175.000,2339.316" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-1-5-17.471363" data-count="8" data-y-cents="17.471362856" data-label="1/5" data-prime="5" points="175.000,2238.022 180.000,2247.166 175.000,2256.309" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-1-7-17.809454" data-count="8" data-y-cents="17.809454199" data-label="1/7" data-prime="7" points="175.000,2224.499 180.000,2233.642 175.000,2242.786" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-8-1-18.288029" data-count="8" data-y-cents="18.288028854" data-label="1" points="175.000,2205.356 180.000,2214.500 175.000,2223.644" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-8-1-18.288029" data-count="8" data-y-cents="18.288028854" data-label="1" points="175.000,2205.356 180.000,2214.500 175.000,2223.644" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-7-18.766604" data-count="8" data-y-cents="18.766603510" data-label="7" data-prime="7" points="175.000,2186.214 180.000,2195.358 175.000,2204.501" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-5-19.104695" data-count="8" data-y-cents="19.104694853" data-label="5" data-prime="5" points="175.000,2172.691 180.000,2181.834 175.000,2190.978" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-1-19-21.179912" data-count="8" data-y-cents="21.179911745" data-label="1/19" data-prime="19" points="175.000,2089.684 180.000,2098.828 175.000,2107.972" fill="#99a388" opacity="0.950"/>
@@ -271,7 +269,7 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-8-19-33.684175" data-count="8" data-y-cents="33.684174819" data-label="19" data-prime="19" points="175.000,1589.528 180.000,1598.672 175.000,1607.816" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-1-5-35.759392" data-count="8" data-y-cents="35.759391711" data-label="1/5" data-prime="5" points="175.000,1506.522 180.000,1515.666 175.000,1524.809" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-1-7-36.097483" data-count="8" data-y-cents="36.097483053" data-label="1/7" data-prime="7" points="175.000,1492.999 180.000,1502.142 175.000,1511.286" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-8-1-36.576058" data-count="8" data-y-cents="36.576057709" data-label="1" points="175.000,1473.856 180.000,1483.000 175.000,1492.144" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-8-1-36.576058" data-count="8" data-y-cents="36.576057709" data-label="1" points="175.000,1473.856 180.000,1483.000 175.000,1492.144" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-7-37.054632" data-count="8" data-y-cents="37.054632365" data-label="7" data-prime="7" points="175.000,1454.714 180.000,1463.858 175.000,1473.001" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-5-37.392724" data-count="8" data-y-cents="37.392723707" data-label="5" data-prime="5" points="175.000,1441.191 180.000,1450.334 175.000,1459.478" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-1-19-39.467941" data-count="8" data-y-cents="39.467940599" data-label="1/19" data-prime="19" points="175.000,1358.184 180.000,1367.328 175.000,1376.472" fill="#99a388" opacity="0.950"/>
@@ -284,7 +282,7 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-8-19-51.972204" data-count="8" data-y-cents="51.972203673" data-label="19" data-prime="19" points="175.000,858.028 180.000,867.172 175.000,876.316" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-1-5-54.047421" data-count="8" data-y-cents="54.047420565" data-label="1/5" data-prime="5" points="175.000,775.022 180.000,784.166 175.000,793.309" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-1-7-54.385512" data-count="8" data-y-cents="54.385511908" data-label="1/7" data-prime="7" points="175.000,761.499 180.000,770.642 175.000,779.786" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-8-1-54.864087" data-count="8" data-y-cents="54.864086563" data-label="1" points="175.000,742.356 180.000,751.500 175.000,760.644" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-8-1-54.864087" data-count="8" data-y-cents="54.864086563" data-label="1" points="175.000,742.356 180.000,751.500 175.000,760.644" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-7-55.342661" data-count="8" data-y-cents="55.342661219" data-label="7" data-prime="7" points="175.000,723.214 180.000,732.358 175.000,741.501" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-5-55.680753" data-count="8" data-y-cents="55.680752562" data-label="5" data-prime="5" points="175.000,709.691 180.000,718.834 175.000,727.978" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-1-19-57.755969" data-count="8" data-y-cents="57.755969454" data-label="1/19" data-prime="19" points="175.000,626.684 180.000,635.828 175.000,644.972" fill="#99a388" opacity="0.950"/>
@@ -297,8 +295,8 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-8-19-70.260233" data-count="8" data-y-cents="70.260232528" data-label="19" data-prime="19" points="175.000,126.528 180.000,135.672 175.000,144.816" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-1-5-72.335449" data-count="8" data-y-cents="72.335449420" data-label="1/5" data-prime="5" points="175.000,43.522 180.000,52.666 175.000,61.809" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-8-1-7-72.673541" data-count="8" data-y-cents="72.673540762" data-label="1/7" data-prime="7" points="175.000,29.999 180.000,39.142 175.000,48.286" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-8-1-73.152115" data-count="8" data-y-cents="73.152115418" data-label="1" points="175.000,10.856 180.000,20.000 175.000,29.144" fill="#333333" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-9-1-0.000000" data-count="9" data-y-cents="0.000000000" data-label="1" points="185.000,2937.872 190.000,2946.000 185.000,2954.128" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-8-1-73.152115" data-count="8" data-y-cents="73.152115418" data-label="1" points="175.000,10.856 180.000,20.000 175.000,29.144" fill="#555555" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-9-1-0.000000" data-count="9" data-y-cents="0.000000000" data-label="1" points="185.000,2937.872 190.000,2946.000 185.000,2954.128" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-7-0.425400" data-count="9" data-y-cents="0.425399694" data-label="7" data-prime="7" points="185.000,2920.857 190.000,2928.985 185.000,2937.112" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-5-0.725925" data-count="9" data-y-cents="0.725925332" data-label="5" data-prime="5" points="185.000,2908.836 190.000,2916.964 185.000,2925.092" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-1-19-2.570563" data-count="9" data-y-cents="2.570562569" data-label="1/19" data-prime="19" points="185.000,2835.053 190.000,2843.180 185.000,2851.308" fill="#99a388" opacity="0.950"/>
@@ -311,7 +309,7 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-9-19-13.685463" data-count="9" data-y-cents="13.685463079" data-label="19" data-prime="19" points="185.000,2390.470 190.000,2398.597 185.000,2406.725" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-1-5-15.530100" data-count="9" data-y-cents="15.530100317" data-label="1/5" data-prime="5" points="185.000,2316.686 190.000,2324.814 185.000,2332.942" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-1-7-15.830626" data-count="9" data-y-cents="15.830625954" data-label="1/7" data-prime="7" points="185.000,2304.665 190.000,2312.793 185.000,2320.921" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-9-1-16.256026" data-count="9" data-y-cents="16.256025648" data-label="1" points="185.000,2287.650 190.000,2295.778 185.000,2303.906" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-9-1-16.256026" data-count="9" data-y-cents="16.256025648" data-label="1" points="185.000,2287.650 190.000,2295.778 185.000,2303.906" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-7-16.681425" data-count="9" data-y-cents="16.681425342" data-label="7" data-prime="7" points="185.000,2270.635 190.000,2278.762 185.000,2286.890" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-5-16.981951" data-count="9" data-y-cents="16.981950980" data-label="5" data-prime="5" points="185.000,2258.614 190.000,2266.742 185.000,2274.869" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-1-19-18.826588" data-count="9" data-y-cents="18.826588217" data-label="1/19" data-prime="19" points="185.000,2184.830 190.000,2192.958 185.000,2201.086" fill="#99a388" opacity="0.950"/>
@@ -324,7 +322,7 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-9-19-29.941489" data-count="9" data-y-cents="29.941488728" data-label="19" data-prime="19" points="185.000,1740.247 190.000,1748.375 185.000,1756.503" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-1-5-31.786126" data-count="9" data-y-cents="31.786125965" data-label="1/5" data-prime="5" points="185.000,1666.464 190.000,1674.592 185.000,1682.720" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-1-7-32.086652" data-count="9" data-y-cents="32.086651603" data-label="1/7" data-prime="7" points="185.000,1654.443 190.000,1662.571 185.000,1670.699" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-9-1-32.512051" data-count="9" data-y-cents="32.512051297" data-label="1" points="185.000,1637.428 190.000,1645.556 185.000,1653.683" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-9-1-32.512051" data-count="9" data-y-cents="32.512051297" data-label="1" points="185.000,1637.428 190.000,1645.556 185.000,1653.683" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-7-32.937451" data-count="9" data-y-cents="32.937450991" data-label="7" data-prime="7" points="185.000,1620.412 190.000,1628.540 185.000,1636.668" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-5-33.237977" data-count="9" data-y-cents="33.237976628" data-label="5" data-prime="5" points="185.000,1608.392 190.000,1616.519 185.000,1624.647" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-1-19-35.082614" data-count="9" data-y-cents="35.082613866" data-label="1/19" data-prime="19" points="185.000,1534.608 190.000,1542.736 185.000,1550.864" fill="#99a388" opacity="0.950"/>
@@ -337,7 +335,7 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-9-19-46.197514" data-count="9" data-y-cents="46.197514376" data-label="19" data-prime="19" points="185.000,1090.025 190.000,1098.153 185.000,1106.281" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-1-5-48.042152" data-count="9" data-y-cents="48.042151614" data-label="1/5" data-prime="5" points="185.000,1016.242 190.000,1024.370 185.000,1032.497" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-1-7-48.342677" data-count="9" data-y-cents="48.342677251" data-label="1/7" data-prime="7" points="185.000,1004.221 190.000,1012.349 185.000,1020.477" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-9-1-48.768077" data-count="9" data-y-cents="48.768076945" data-label="1" points="185.000,987.206 190.000,995.333 185.000,1003.461" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-9-1-48.768077" data-count="9" data-y-cents="48.768076945" data-label="1" points="185.000,987.206 190.000,995.333 185.000,1003.461" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-7-49.193477" data-count="9" data-y-cents="49.193476639" data-label="7" data-prime="7" points="185.000,970.190 190.000,978.318 185.000,986.446" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-5-49.494002" data-count="9" data-y-cents="49.494002277" data-label="5" data-prime="5" points="185.000,958.169 190.000,966.297 185.000,974.425" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-1-19-51.338640" data-count="9" data-y-cents="51.338639514" data-label="1/19" data-prime="19" points="185.000,884.386 190.000,892.514 185.000,900.642" fill="#99a388" opacity="0.950"/>
@@ -350,14 +348,14 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-9-19-62.453540" data-count="9" data-y-cents="62.453540025" data-label="19" data-prime="19" points="185.000,439.803 190.000,447.931 185.000,456.058" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-1-5-64.298177" data-count="9" data-y-cents="64.298177262" data-label="1/5" data-prime="5" points="185.000,366.020 190.000,374.147 185.000,382.275" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-1-7-64.598703" data-count="9" data-y-cents="64.598702900" data-label="1/7" data-prime="7" points="185.000,353.999 190.000,362.127 185.000,370.254" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-9-1-65.024103" data-count="9" data-y-cents="65.024102594" data-label="1" points="185.000,336.983 190.000,345.111 185.000,353.239" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-9-1-65.024103" data-count="9" data-y-cents="65.024102594" data-label="1" points="185.000,336.983 190.000,345.111 185.000,353.239" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-7-65.449502" data-count="9" data-y-cents="65.449502288" data-label="7" data-prime="7" points="185.000,319.968 190.000,328.096 185.000,336.223" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-5-65.750028" data-count="9" data-y-cents="65.750027925" data-label="5" data-prime="5" points="185.000,307.947 190.000,316.075 185.000,324.203" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-1-19-67.594665" data-count="9" data-y-cents="67.594665163" data-label="1/19" data-prime="19" points="185.000,234.164 190.000,242.292 185.000,250.419" fill="#99a388" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-13-70.735296" data-count="9" data-y-cents="70.735295560" data-label="13" data-prime="13" points="185.000,108.542 190.000,116.670 185.000,124.798" fill="#eeb9ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-11-71.112934" data-count="9" data-y-cents="71.112933590" data-label="11" data-prime="11" points="185.000,93.437 190.000,101.565 185.000,109.693" fill="#ffac87" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-9-1-17-72.733929" data-count="9" data-y-cents="72.733929140" data-label="1/17" data-prime="17" points="185.000,28.599 190.000,36.727 185.000,44.855" fill="#87a79a" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-10-1-0.000000" data-count="10" data-y-cents="0.000000000" data-label="1" points="195.000,2938.685 200.000,2946.000 195.000,2953.315" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-10-1-0.000000" data-count="10" data-y-cents="0.000000000" data-label="1" points="195.000,2938.685 200.000,2946.000 195.000,2953.315" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-7-0.382860" data-count="10" data-y-cents="0.382859725" data-label="7" data-prime="7" points="195.000,2923.371 200.000,2930.686 195.000,2938.001" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-5-0.653333" data-count="10" data-y-cents="0.653332798" data-label="5" data-prime="5" points="195.000,2912.552 200.000,2919.867 195.000,2927.182" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-1-19-2.313506" data-count="10" data-y-cents="2.313506312" data-label="1/19" data-prime="19" points="195.000,2846.147 200.000,2853.462 195.000,2860.777" fill="#99a388" opacity="0.950"/>
@@ -370,7 +368,7 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-10-19-12.316917" data-count="10" data-y-cents="12.316916772" data-label="19" data-prime="19" points="195.000,2446.023 200.000,2453.338 195.000,2460.653" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-1-5-13.977090" data-count="10" data-y-cents="13.977090285" data-label="1/5" data-prime="5" points="195.000,2379.618 200.000,2386.933 195.000,2394.248" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-1-7-14.247563" data-count="10" data-y-cents="14.247563359" data-label="1/7" data-prime="7" points="195.000,2368.799 200.000,2376.114 195.000,2383.429" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-10-1-14.630423" data-count="10" data-y-cents="14.630423084" data-label="1" points="195.000,2353.485 200.000,2360.800 195.000,2368.115" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-10-1-14.630423" data-count="10" data-y-cents="14.630423084" data-label="1" points="195.000,2353.485 200.000,2360.800 195.000,2368.115" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-7-15.013283" data-count="10" data-y-cents="15.013282808" data-label="7" data-prime="7" points="195.000,2338.171 200.000,2345.486 195.000,2352.801" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-5-15.283756" data-count="10" data-y-cents="15.283755882" data-label="5" data-prime="5" points="195.000,2327.352 200.000,2334.667 195.000,2341.982" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-1-19-16.943929" data-count="10" data-y-cents="16.943929396" data-label="1/19" data-prime="19" points="195.000,2260.947 200.000,2268.262 195.000,2275.577" fill="#99a388" opacity="0.950"/>
@@ -383,7 +381,7 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-10-19-26.947340" data-count="10" data-y-cents="26.947339855" data-label="19" data-prime="19" points="195.000,1860.823 200.000,1868.138 195.000,1875.453" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-1-5-28.607513" data-count="10" data-y-cents="28.607513369" data-label="1/5" data-prime="5" points="195.000,1794.418 200.000,1801.733 195.000,1809.048" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-1-7-28.877986" data-count="10" data-y-cents="28.877986443" data-label="1/7" data-prime="7" points="195.000,1783.599 200.000,1790.914 195.000,1798.229" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-10-1-29.260846" data-count="10" data-y-cents="29.260846167" data-label="1" points="195.000,1768.285 200.000,1775.600 195.000,1782.915" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-10-1-29.260846" data-count="10" data-y-cents="29.260846167" data-label="1" points="195.000,1768.285 200.000,1775.600 195.000,1782.915" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-7-29.643706" data-count="10" data-y-cents="29.643705892" data-label="7" data-prime="7" points="195.000,1752.971 200.000,1760.286 195.000,1767.601" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-5-29.914179" data-count="10" data-y-cents="29.914178966" data-label="5" data-prime="5" points="195.000,1742.152 200.000,1749.467 195.000,1756.782" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-1-19-31.574352" data-count="10" data-y-cents="31.574352479" data-label="1/19" data-prime="19" points="195.000,1675.747 200.000,1683.062 195.000,1690.377" fill="#99a388" opacity="0.950"/>
@@ -396,7 +394,7 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-10-19-41.577763" data-count="10" data-y-cents="41.577762939" data-label="19" data-prime="19" points="195.000,1275.623 200.000,1282.938 195.000,1290.253" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-1-5-43.237936" data-count="10" data-y-cents="43.237936452" data-label="1/5" data-prime="5" points="195.000,1209.218 200.000,1216.533 195.000,1223.848" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-1-7-43.508410" data-count="10" data-y-cents="43.508409526" data-label="1/7" data-prime="7" points="195.000,1198.399 200.000,1205.714 195.000,1213.029" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-10-1-43.891269" data-count="10" data-y-cents="43.891269251" data-label="1" points="195.000,1183.085 200.000,1190.400 195.000,1197.715" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-10-1-43.891269" data-count="10" data-y-cents="43.891269251" data-label="1" points="195.000,1183.085 200.000,1190.400 195.000,1197.715" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-7-44.274129" data-count="10" data-y-cents="44.274128975" data-label="7" data-prime="7" points="195.000,1167.771 200.000,1175.086 195.000,1182.401" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-5-44.544602" data-count="10" data-y-cents="44.544602049" data-label="5" data-prime="5" points="195.000,1156.952 200.000,1164.267 195.000,1171.582" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-1-19-46.204776" data-count="10" data-y-cents="46.204775563" data-label="1/19" data-prime="19" points="195.000,1090.547 200.000,1097.862 195.000,1105.177" fill="#99a388" opacity="0.950"/>
@@ -409,7 +407,7 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-10-19-56.208186" data-count="10" data-y-cents="56.208186022" data-label="19" data-prime="19" points="195.000,690.423 200.000,697.738 195.000,705.053" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-1-5-57.868360" data-count="10" data-y-cents="57.868359536" data-label="1/5" data-prime="5" points="195.000,624.018 200.000,631.333 195.000,638.648" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-1-7-58.138833" data-count="10" data-y-cents="58.138832610" data-label="1/7" data-prime="7" points="195.000,613.199 200.000,620.514 195.000,627.829" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-10-1-58.521692" data-count="10" data-y-cents="58.521692334" data-label="1" points="195.000,597.885 200.000,605.200 195.000,612.515" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-10-1-58.521692" data-count="10" data-y-cents="58.521692334" data-label="1" points="195.000,597.885 200.000,605.200 195.000,612.515" fill="#555555" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-7-58.904552" data-count="10" data-y-cents="58.904552059" data-label="7" data-prime="7" points="195.000,582.571 200.000,589.886 195.000,597.201" fill="#acb2ff" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-5-59.175025" data-count="10" data-y-cents="59.175025133" data-label="5" data-prime="5" points="195.000,571.752 200.000,579.067 195.000,586.382" fill="#ffe78b" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-1-19-60.835199" data-count="10" data-y-cents="60.835198646" data-label="1/19" data-prime="19" points="195.000,505.347 200.000,512.662 195.000,519.977" fill="#99a388" opacity="0.950"/>
@@ -422,7 +420,7 @@ text { font-family: Arial, sans-serif; }
 <polygon class="marker prime" data-id="m-10-19-70.838609" data-count="10" data-y-cents="70.838609106" data-label="19" data-prime="19" points="195.000,105.223 200.000,112.538 195.000,119.853" fill="#d5ff07" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-1-5-72.498783" data-count="10" data-y-cents="72.498782619" data-label="1/5" data-prime="5" points="195.000,38.818 200.000,46.133 195.000,53.448" fill="#ae9b83" opacity="0.950"/>
 <polygon class="marker prime" data-id="m-10-1-7-72.769256" data-count="10" data-y-cents="72.769255693" data-label="1/7" data-prime="7" points="195.000,27.999 200.000,35.314 195.000,42.629" fill="#999cb8" opacity="0.950"/>
-<polygon class="marker prime" data-id="m-10-1-73.152115" data-count="10" data-y-cents="73.152115418" data-label="1" points="195.000,12.685 200.000,20.000 195.000,27.315" fill="#333333" opacity="0.950"/>
+<polygon class="marker prime" data-id="m-10-1-73.152115" data-count="10" data-y-cents="73.152115418" data-label="1" points="195.000,12.685 200.000,20.000 195.000,27.315" fill="#555555" opacity="0.950"/>
 <polygon points="105.000,2757.824 105.000,2719.711 106.303,2738.767" fill="#d6cdc5" opacity="1"/>
 <polygon points="105.000,827.234 105.000,816.880 105.354,822.057" fill="#f7b3c3" opacity="1"/>
 <polygon points="115.000,2851.912 115.000,2832.855 116.303,2842.384" fill="#d6cdc5" opacity="1"/>
@@ -2606,8 +2604,8 @@ text { font-family: Arial, sans-serif; }
 <rect x="195.000" y="22.729" width="5.000" height="9.090" fill="white" opacity="0.720"/>
 <rect x="195.000" y="10.550" width="5.000" height="10.450" fill="white" opacity="0.720"/>
 </g>
-<line x1="100.800" y1="2946.000" x2="109.200" y2="2946.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="105.000" y="2943.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="100.800" y1="2946.000" x2="109.200" y2="2946.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="105.000" y="2943.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="101.800" y1="2837.814" x2="108.200" y2="2837.814" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="105.000" y="2835.314" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="101.800" y1="2810.054" x2="108.200" y2="2810.054" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -2730,8 +2728,8 @@ text { font-family: Arial, sans-serif; }
 <text x="105.000" y="72.846" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">19/13</text>
 <line x1="101.800" y1="22.597" x2="108.200" y2="22.597" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="105.000" y="20.097" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">17/7</text>
-<line x1="110.800" y1="2946.000" x2="119.200" y2="2946.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="115.000" y="2943.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="110.800" y1="2946.000" x2="119.200" y2="2946.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="115.000" y="2943.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="111.800" y1="2891.907" x2="118.200" y2="2891.907" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="115.000" y="2889.407" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="111.800" y1="2878.027" x2="118.200" y2="2878.027" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -2932,10 +2930,10 @@ text { font-family: Arial, sans-serif; }
 <text x="115.000" y="85.473" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="111.800" y1="74.093" x2="118.200" y2="74.093" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="115.000" y="71.593" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="110.800" y1="20.000" x2="119.200" y2="20.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="115.000" y="17.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
-<line x1="120.800" y1="2946.000" x2="129.200" y2="2946.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="125.000" y="2943.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="110.800" y1="20.000" x2="119.200" y2="20.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="115.000" y="17.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
+<line x1="120.800" y1="2946.000" x2="129.200" y2="2946.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="125.000" y="2943.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="121.800" y1="2909.938" x2="128.200" y2="2909.938" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="125.000" y="2907.438" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="121.800" y1="2900.685" x2="128.200" y2="2900.685" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -3136,8 +3134,8 @@ text { font-family: Arial, sans-serif; }
 <text x="125.000" y="1038.149" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="121.800" y1="1031.395" x2="128.200" y2="1031.395" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="125.000" y="1028.895" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="120.800" y1="995.333" x2="129.200" y2="995.333" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="125.000" y="992.833" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="120.800" y1="995.333" x2="129.200" y2="995.333" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="125.000" y="992.833" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="121.800" y1="959.271" x2="128.200" y2="959.271" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="125.000" y="956.771" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="121.800" y1="950.018" x2="128.200" y2="950.018" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -3238,8 +3236,8 @@ text { font-family: Arial, sans-serif; }
 <text x="125.000" y="54.428" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">17/5</text>
 <line x1="121.800" y1="20.866" x2="128.200" y2="20.866" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="125.000" y="18.366" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">17/7</text>
-<line x1="130.800" y1="2946.000" x2="139.200" y2="2946.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="135.000" y="2943.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="130.800" y1="2946.000" x2="139.200" y2="2946.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="135.000" y="2943.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="131.800" y1="2918.953" x2="138.200" y2="2918.953" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="135.000" y="2916.453" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="131.800" y1="2912.014" x2="138.200" y2="2912.014" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -3440,8 +3438,8 @@ text { font-family: Arial, sans-serif; }
 <text x="135.000" y="1514.486" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="131.800" y1="1510.047" x2="138.200" y2="1510.047" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="135.000" y="1507.547" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="130.800" y1="1483.000" x2="139.200" y2="1483.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="135.000" y="1480.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="130.800" y1="1483.000" x2="139.200" y2="1483.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="135.000" y="1480.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="131.800" y1="1455.953" x2="138.200" y2="1455.953" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="135.000" y="1453.453" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="131.800" y1="1449.014" x2="138.200" y2="1449.014" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -3642,10 +3640,10 @@ text { font-family: Arial, sans-serif; }
 <text x="135.000" y="51.486" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="131.800" y1="47.047" x2="138.200" y2="47.047" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="135.000" y="44.547" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="130.800" y1="20.000" x2="139.200" y2="20.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="135.000" y="17.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
-<line x1="140.800" y1="2946.000" x2="149.200" y2="2946.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="145.000" y="2943.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="130.800" y1="20.000" x2="139.200" y2="20.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="135.000" y="17.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
+<line x1="140.800" y1="2946.000" x2="149.200" y2="2946.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="145.000" y="2943.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="141.800" y1="2924.363" x2="148.200" y2="2924.363" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="145.000" y="2921.863" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="141.800" y1="2918.811" x2="148.200" y2="2918.811" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -3806,8 +3804,8 @@ text { font-family: Arial, sans-serif; }
 <text x="145.000" y="1800.289" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="141.800" y1="1797.237" x2="148.200" y2="1797.237" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="145.000" y="1794.737" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="140.800" y1="1775.600" x2="149.200" y2="1775.600" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="145.000" y="1773.100" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="140.800" y1="1775.600" x2="149.200" y2="1775.600" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="145.000" y="1773.100" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="141.800" y1="1753.963" x2="148.200" y2="1753.963" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="145.000" y="1751.463" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="141.800" y1="1748.411" x2="148.200" y2="1748.411" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -3968,8 +3966,8 @@ text { font-family: Arial, sans-serif; }
 <text x="145.000" y="629.889" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="141.800" y1="626.837" x2="148.200" y2="626.837" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="145.000" y="624.337" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="140.800" y1="605.200" x2="149.200" y2="605.200" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="145.000" y="602.700" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="140.800" y1="605.200" x2="149.200" y2="605.200" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="145.000" y="602.700" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="141.800" y1="583.563" x2="148.200" y2="583.563" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="145.000" y="581.063" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="141.800" y1="578.011" x2="148.200" y2="578.011" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -4050,8 +4048,8 @@ text { font-family: Arial, sans-serif; }
 <text x="145.000" y="67.804" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">16/13</text>
 <line x1="140.800" y1="50.109" x2="149.200" y2="50.109" stroke="#007c5f" stroke-width="1" opacity="0.950"/>
 <text x="145.000" y="47.609" font-size="7" fill="#007c5f" opacity="0.950" text-anchor="middle">1/17</text>
-<line x1="150.800" y1="2946.000" x2="159.200" y2="2946.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="155.000" y="2943.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="150.800" y1="2946.000" x2="159.200" y2="2946.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="155.000" y="2943.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="151.800" y1="2927.969" x2="158.200" y2="2927.969" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="155.000" y="2925.469" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="151.800" y1="2923.342" x2="158.200" y2="2923.342" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -4192,8 +4190,8 @@ text { font-family: Arial, sans-serif; }
 <text x="155.000" y="1990.824" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="151.800" y1="1988.698" x2="158.200" y2="1988.698" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="155.000" y="1986.198" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="150.800" y1="1970.667" x2="159.200" y2="1970.667" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="155.000" y="1968.167" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="150.800" y1="1970.667" x2="159.200" y2="1970.667" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="155.000" y="1968.167" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="151.800" y1="1952.636" x2="158.200" y2="1952.636" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="155.000" y="1950.136" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="151.800" y1="1948.009" x2="158.200" y2="1948.009" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -4334,8 +4332,8 @@ text { font-family: Arial, sans-serif; }
 <text x="155.000" y="1015.491" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="151.800" y1="1013.364" x2="158.200" y2="1013.364" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="155.000" y="1010.864" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="150.800" y1="995.333" x2="159.200" y2="995.333" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="155.000" y="992.833" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="150.800" y1="995.333" x2="159.200" y2="995.333" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="155.000" y="992.833" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="151.800" y1="977.302" x2="158.200" y2="977.302" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="155.000" y="974.802" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="151.800" y1="972.676" x2="158.200" y2="972.676" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -4476,10 +4474,10 @@ text { font-family: Arial, sans-serif; }
 <text x="155.000" y="40.158" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="151.800" y1="38.031" x2="158.200" y2="38.031" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="155.000" y="35.531" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="150.800" y1="20.000" x2="159.200" y2="20.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="155.000" y="17.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
-<line x1="160.800" y1="2946.000" x2="169.200" y2="2946.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="165.000" y="2943.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="150.800" y1="20.000" x2="159.200" y2="20.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="155.000" y="17.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
+<line x1="160.800" y1="2946.000" x2="169.200" y2="2946.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="165.000" y="2943.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="161.800" y1="2930.545" x2="168.200" y2="2930.545" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="165.000" y="2928.045" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="161.800" y1="2926.579" x2="168.200" y2="2926.579" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -4620,8 +4618,8 @@ text { font-family: Arial, sans-serif; }
 <text x="165.000" y="2126.921" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="161.800" y1="2125.455" x2="168.200" y2="2125.455" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="165.000" y="2122.955" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="160.800" y1="2110.000" x2="169.200" y2="2110.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="165.000" y="2107.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="160.800" y1="2110.000" x2="169.200" y2="2110.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="165.000" y="2107.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="161.800" y1="2094.545" x2="168.200" y2="2094.545" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="165.000" y="2092.045" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="161.800" y1="2090.579" x2="168.200" y2="2090.579" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -4762,8 +4760,8 @@ text { font-family: Arial, sans-serif; }
 <text x="165.000" y="1290.921" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="161.800" y1="1289.455" x2="168.200" y2="1289.455" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="165.000" y="1286.955" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="160.800" y1="1274.000" x2="169.200" y2="1274.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="165.000" y="1271.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="160.800" y1="1274.000" x2="169.200" y2="1274.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="165.000" y="1271.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="161.800" y1="1258.545" x2="168.200" y2="1258.545" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="165.000" y="1256.045" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="161.800" y1="1254.579" x2="168.200" y2="1254.579" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -4904,8 +4902,8 @@ text { font-family: Arial, sans-serif; }
 <text x="165.000" y="454.921" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="161.800" y1="453.455" x2="168.200" y2="453.455" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="165.000" y="450.955" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="160.800" y1="438.000" x2="169.200" y2="438.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="165.000" y="435.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="160.800" y1="438.000" x2="169.200" y2="438.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="165.000" y="435.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="161.800" y1="422.545" x2="168.200" y2="422.545" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="165.000" y="420.045" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="161.800" y1="418.579" x2="168.200" y2="418.579" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -4976,8 +4974,8 @@ text { font-family: Arial, sans-serif; }
 <text x="165.000" y="69.001" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/8</text>
 <line x1="160.800" y1="41.506" x2="169.200" y2="41.506" stroke="#007c5f" stroke-width="1" opacity="0.950"/>
 <text x="165.000" y="39.006" font-size="7" fill="#007c5f" opacity="0.950" text-anchor="middle">1/17</text>
-<line x1="170.800" y1="2946.000" x2="179.200" y2="2946.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="175.000" y="2943.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="170.800" y1="2946.000" x2="179.200" y2="2946.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="175.000" y="2943.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="171.800" y1="2932.477" x2="178.200" y2="2932.477" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="175.000" y="2929.977" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="171.800" y1="2929.007" x2="178.200" y2="2929.007" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -5118,8 +5116,8 @@ text { font-family: Arial, sans-serif; }
 <text x="175.000" y="2228.993" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="171.800" y1="2228.023" x2="178.200" y2="2228.023" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="175.000" y="2225.523" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="170.800" y1="2214.500" x2="179.200" y2="2214.500" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="175.000" y="2212.000" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="170.800" y1="2214.500" x2="179.200" y2="2214.500" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="175.000" y="2212.000" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="171.800" y1="2200.977" x2="178.200" y2="2200.977" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="175.000" y="2198.477" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="171.800" y1="2197.507" x2="178.200" y2="2197.507" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -5260,8 +5258,8 @@ text { font-family: Arial, sans-serif; }
 <text x="175.000" y="1497.493" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="171.800" y1="1496.523" x2="178.200" y2="1496.523" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="175.000" y="1494.023" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="170.800" y1="1483.000" x2="179.200" y2="1483.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="175.000" y="1480.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="170.800" y1="1483.000" x2="179.200" y2="1483.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="175.000" y="1480.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="171.800" y1="1469.477" x2="178.200" y2="1469.477" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="175.000" y="1466.977" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="171.800" y1="1466.007" x2="178.200" y2="1466.007" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -5402,8 +5400,8 @@ text { font-family: Arial, sans-serif; }
 <text x="175.000" y="765.993" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="171.800" y1="765.023" x2="178.200" y2="765.023" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="175.000" y="762.523" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="170.800" y1="751.500" x2="179.200" y2="751.500" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="175.000" y="749.000" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="170.800" y1="751.500" x2="179.200" y2="751.500" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="175.000" y="749.000" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="171.800" y1="737.977" x2="178.200" y2="737.977" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="175.000" y="735.477" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="171.800" y1="734.507" x2="178.200" y2="734.507" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -5544,10 +5542,10 @@ text { font-family: Arial, sans-serif; }
 <text x="175.000" y="34.493" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="171.800" y1="33.523" x2="178.200" y2="33.523" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="175.000" y="31.023" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="170.800" y1="20.000" x2="179.200" y2="20.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="175.000" y="17.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
-<line x1="180.800" y1="2946.000" x2="189.200" y2="2946.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="185.000" y="2943.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="170.800" y1="20.000" x2="179.200" y2="20.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="175.000" y="17.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
+<line x1="180.800" y1="2946.000" x2="189.200" y2="2946.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="185.000" y="2943.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="181.800" y1="2933.979" x2="188.200" y2="2933.979" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="185.000" y="2931.479" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="181.800" y1="2930.895" x2="188.200" y2="2930.895" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -5672,8 +5670,8 @@ text { font-family: Arial, sans-serif; }
 <text x="185.000" y="2308.383" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="181.800" y1="2307.798" x2="188.200" y2="2307.798" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="185.000" y="2305.298" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="180.800" y1="2295.778" x2="189.200" y2="2295.778" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="185.000" y="2293.278" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="180.800" y1="2295.778" x2="189.200" y2="2295.778" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="185.000" y="2293.278" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="181.800" y1="2283.757" x2="188.200" y2="2283.757" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="185.000" y="2281.257" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="181.800" y1="2280.673" x2="188.200" y2="2280.673" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -5798,8 +5796,8 @@ text { font-family: Arial, sans-serif; }
 <text x="185.000" y="1658.161" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="181.800" y1="1657.576" x2="188.200" y2="1657.576" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="185.000" y="1655.076" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="180.800" y1="1645.556" x2="189.200" y2="1645.556" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="185.000" y="1643.056" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="180.800" y1="1645.556" x2="189.200" y2="1645.556" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="185.000" y="1643.056" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="181.800" y1="1633.535" x2="188.200" y2="1633.535" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="185.000" y="1631.035" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="181.800" y1="1630.450" x2="188.200" y2="1630.450" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -5924,8 +5922,8 @@ text { font-family: Arial, sans-serif; }
 <text x="185.000" y="1007.938" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="181.800" y1="1007.354" x2="188.200" y2="1007.354" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="185.000" y="1004.854" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="180.800" y1="995.333" x2="189.200" y2="995.333" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="185.000" y="992.833" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="180.800" y1="995.333" x2="189.200" y2="995.333" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="185.000" y="992.833" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="181.800" y1="983.313" x2="188.200" y2="983.313" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="185.000" y="980.813" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="181.800" y1="980.228" x2="188.200" y2="980.228" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -6050,8 +6048,8 @@ text { font-family: Arial, sans-serif; }
 <text x="185.000" y="357.716" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="181.800" y1="357.132" x2="188.200" y2="357.132" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="185.000" y="354.632" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="180.800" y1="345.111" x2="189.200" y2="345.111" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="185.000" y="342.611" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="180.800" y1="345.111" x2="189.200" y2="345.111" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="185.000" y="342.611" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="181.800" y1="333.090" x2="188.200" y2="333.090" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="185.000" y="330.590" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="181.800" y1="330.006" x2="188.200" y2="330.006" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -6114,8 +6112,8 @@ text { font-family: Arial, sans-serif; }
 <text x="185.000" y="57.557" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/8</text>
 <line x1="180.800" y1="36.727" x2="189.200" y2="36.727" stroke="#007c5f" stroke-width="1" opacity="0.950"/>
 <text x="185.000" y="34.227" font-size="7" fill="#007c5f" opacity="0.950" text-anchor="middle">1/17</text>
-<line x1="190.800" y1="2946.000" x2="199.200" y2="2946.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="195.000" y="2943.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="190.800" y1="2946.000" x2="199.200" y2="2946.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="195.000" y="2943.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="191.800" y1="2935.181" x2="198.200" y2="2935.181" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="195.000" y="2932.681" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="191.800" y1="2932.405" x2="198.200" y2="2932.405" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -6240,8 +6238,8 @@ text { font-family: Arial, sans-serif; }
 <text x="195.000" y="2371.895" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="191.800" y1="2371.619" x2="198.200" y2="2371.619" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="195.000" y="2369.119" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="190.800" y1="2360.800" x2="199.200" y2="2360.800" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="195.000" y="2358.300" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="190.800" y1="2360.800" x2="199.200" y2="2360.800" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="195.000" y="2358.300" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="191.800" y1="2349.981" x2="198.200" y2="2349.981" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="195.000" y="2347.481" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="191.800" y1="2347.205" x2="198.200" y2="2347.205" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -6366,8 +6364,8 @@ text { font-family: Arial, sans-serif; }
 <text x="195.000" y="1786.695" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="191.800" y1="1786.419" x2="198.200" y2="1786.419" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="195.000" y="1783.919" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="190.800" y1="1775.600" x2="199.200" y2="1775.600" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="195.000" y="1773.100" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="190.800" y1="1775.600" x2="199.200" y2="1775.600" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="195.000" y="1773.100" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="191.800" y1="1764.781" x2="198.200" y2="1764.781" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="195.000" y="1762.281" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="191.800" y1="1762.005" x2="198.200" y2="1762.005" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -6492,8 +6490,8 @@ text { font-family: Arial, sans-serif; }
 <text x="195.000" y="1201.495" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="191.800" y1="1201.219" x2="198.200" y2="1201.219" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="195.000" y="1198.719" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="190.800" y1="1190.400" x2="199.200" y2="1190.400" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="195.000" y="1187.900" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="190.800" y1="1190.400" x2="199.200" y2="1190.400" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="195.000" y="1187.900" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="191.800" y1="1179.581" x2="198.200" y2="1179.581" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="195.000" y="1177.081" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="191.800" y1="1176.805" x2="198.200" y2="1176.805" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -6618,8 +6616,8 @@ text { font-family: Arial, sans-serif; }
 <text x="195.000" y="616.295" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="191.800" y1="616.019" x2="198.200" y2="616.019" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="195.000" y="613.519" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="190.800" y1="605.200" x2="199.200" y2="605.200" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="195.000" y="602.700" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="190.800" y1="605.200" x2="199.200" y2="605.200" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="195.000" y="602.700" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <line x1="191.800" y1="594.381" x2="198.200" y2="594.381" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="195.000" y="591.881" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">5/7</text>
 <line x1="191.800" y1="591.605" x2="198.200" y2="591.605" stroke="#555555" stroke-width="1" opacity="1.000"/>
@@ -6744,13 +6742,11 @@ text { font-family: Arial, sans-serif; }
 <text x="195.000" y="31.095" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">13/11</text>
 <line x1="191.800" y1="30.819" x2="198.200" y2="30.819" stroke="#555555" stroke-width="1" opacity="1.000"/>
 <text x="195.000" y="28.319" font-size="5.4" fill="#555555" opacity="1.000" text-anchor="middle">7/5</text>
-<line x1="190.800" y1="20.000" x2="199.200" y2="20.000" stroke="#333333" stroke-width="1" opacity="0.950"/>
-<text x="195.000" y="17.500" font-size="7" fill="#333333" opacity="0.950" text-anchor="middle">1</text>
+<line x1="190.800" y1="20.000" x2="199.200" y2="20.000" stroke="#555555" stroke-width="1" opacity="0.950"/>
+<text x="195.000" y="17.500" font-size="7" fill="#555555" opacity="0.950" text-anchor="middle">1</text>
 <g id="temperaments">
-<polyline class="leader-line" data-temperament-id="full-no-twos-13-limit" data-source-y-cents="49.514626368" points="213.000,965.472 240.000,965.472 270.000,965.472" fill="none" stroke="#777777" stroke-width="0.5" opacity="0.45"/>
-<a class="temperament-link" href="https://en.xen.wiki/w/No-twos_subgroup_temperaments" xlink:href="https://en.xen.wiki/w/No-twos_subgroup_temperaments" target="_blank" rel="noopener"><text class="temperament" data-temperament-id="full-no-twos-13-limit" data-source-y-cents="49.514626368" x="275.000" y="965.472" font-size="8.0" fill="#000000" dominant-baseline="middle">Full no-twos 13-limit [<tspan fill="#777777" font-size="6.1">5:</tspan>0 <tspan fill="#777777" font-size="6.1">7:</tspan>0 <tspan fill="#777777" font-size="6.1">11:</tspan>1 <tspan fill="#777777" font-size="6.1">13:</tspan>1] (0.365)</text></a>
-<polyline class="leader-line" data-temperament-id="bohlenic" data-source-y-cents="51.186513388" points="213.000,898.599 240.000,898.599 270.000,898.599" fill="none" stroke="#777777" stroke-width="0.5" opacity="0.45"/>
-<a class="temperament-link" href="https://en.xen.wiki/w/No-twos_subgroup_temperaments" xlink:href="https://en.xen.wiki/w/No-twos_subgroup_temperaments" target="_blank" rel="noopener"><text class="temperament" data-temperament-id="bohlenic" data-source-y-cents="51.186513388" x="275.000" y="898.599" font-size="8.0" fill="#000000" dominant-baseline="middle">Bohlenic [<tspan fill="#777777" font-size="6.1">5:</tspan>0 <tspan fill="#777777" font-size="6.1">7:</tspan>0 <tspan fill="#777777" font-size="6.1">11:</tspan>1] (0.499)</text></a>
+<polyline class="leader-line" data-temperament-id="bohlenic" data-source-y-cents="49.514626368" points="213.000,965.472 240.000,965.472 270.000,965.472" fill="none" stroke="#777777" stroke-width="0.5" opacity="0.45"/>
+<a class="temperament-link" href="https://en.xen.wiki/w/No-twos_subgroup_temperaments#Bohlenic" xlink:href="https://en.xen.wiki/w/No-twos_subgroup_temperaments#Bohlenic" target="_blank" rel="noopener"><text class="temperament" data-temperament-id="bohlenic" data-source-y-cents="49.514626368" x="275.000" y="965.472" font-size="8.0" fill="#000000" dominant-baseline="middle">Bohlenic [<tspan fill="#777777" font-size="6.1">5:</tspan>0 <tspan fill="#777777" font-size="6.1">7:</tspan>0 <tspan fill="#777777" font-size="6.1">11:</tspan>1 <tspan fill="#777777" font-size="6.1">13:</tspan>1] (0.365 <tspan fill="#777777" font-size="6.1">in 3.5.7.11.13 subgroup</tspan>)</text></a>
 </g>
 </g>
 <g id="count-columns">

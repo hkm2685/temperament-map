@@ -2722,7 +2722,7 @@
       "display_name": "Elven",
       "source_y": 9.583513873748672,
       "label_y": 9.583513873748672,
-      "xw_url": "https://en.xen.wiki/w/Sensibeta_temperaments",
+      "xw_url": "https://en.xen.wiki/w/Sensibeta_temperaments#Elven",
       "mapping": [
         {
           "prime": 3,
@@ -2757,7 +2757,7 @@
       "display_name": "Hendecaton",
       "source_y": 47.7562262056405,
       "label_y": 47.7562262056405,
-      "xw_url": "https://en.xen.wiki/w/Porwell_temperaments",
+      "xw_url": "https://en.xen.wiki/w/Porwell_temperaments#Hendecaton",
       "mapping": [
         {
           "prime": 3,
@@ -2792,7 +2792,7 @@
       "display_name": "Hendecatonic",
       "source_y": 48.42504040669283,
       "label_y": 48.42504040669283,
-      "xw_url": "https://en.xen.wiki/w/Porwell_temperaments",
+      "xw_url": "https://en.xen.wiki/w/Porwell_temperaments#Hendecatonic",
       "mapping": [
         {
           "prime": 3,
@@ -2815,7 +2815,7 @@
       "display_name": "Cohendecatonic",
       "source_y": 49.36556892721788,
       "label_y": 49.36556892721788,
-      "xw_url": "https://en.xen.wiki/w/Porwell_temperaments",
+      "xw_url": "https://en.xen.wiki/w/Porwell_temperaments#Cohendecatonic",
       "mapping": [
         {
           "prime": 3,
