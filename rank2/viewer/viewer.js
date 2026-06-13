@@ -49,8 +49,8 @@ const MAP_HINT_LINE_HEIGHT = 8;
 const MAP_HINT_PADDING_Y = 8;
 const MAP_HINT_BLOCK_WIDTH_RATIO = 0.88;
 const MAP_HINT_TEXT =
-  "This graphic displays the ratios you get from stacking a generator some number of times "
-  + "(increasing left to right) and temperaments at each generator (with reduced mapping and badness). "
+  "The left half of this graphic displays the ratios you get from stacking a generator some number of times "
+  + "(increasing left to right). The right half marks temperaments at each generator (with reduced mapping and badness). "
   + "Hover over a temperament to highlight its mapping. Click one to go to the Xen Wiki technical page. "
   + "Click the left region to see MOS scale sizes, which can be clicked for Scale Workshop links.";
 
@@ -436,6 +436,51 @@ function clearSyntheticHighlights(svg) {
   }
 }
 
+function ratioLabelToCents(label) {
+  const ratio = label.includes("/")
+    ? Number(label.split("/", 2)[0]) / Number(label.split("/", 2)[1])
+    : Number(label);
+  return 1200 * Math.log2(ratio);
+}
+
+function solutionsForInterval(count, intervalCents, gCents) {
+  const yMax = gCents / 2;
+  const kMin = Math.ceil(-intervalCents / gCents - 1e-12);
+  const kMax = Math.floor((count * yMax - intervalCents) / gCents + 1e-12);
+  const solutions = [];
+  for (let k = kMin; k <= kMax; k += 1) {
+    const y = (intervalCents + k * gCents) / count;
+    if (y >= -1e-9 && y <= yMax + 1e-9) {
+      solutions.push(Math.min(Math.max(y, 0), yMax));
+    }
+  }
+  return solutions;
+}
+
+function closestIntervalYCents(count, intervalLabel, sourceY, gCents) {
+  const solutions = solutionsForInterval(count, ratioLabelToCents(intervalLabel), gCents);
+  if (!solutions.length) {
+    return sourceY;
+  }
+  let closest = solutions[0];
+  let closestDistance = Math.abs(closest - sourceY);
+  for (const y of solutions.slice(1)) {
+    const distance = Math.abs(y - sourceY);
+    if (distance < closestDistance) {
+      closestDistance = distance;
+      closest = y;
+    }
+  }
+  return closest;
+}
+
+function intervalLabelFromMappingTarget(mappingTarget) {
+  if (mappingTarget.interval) {
+    return mappingTarget.interval;
+  }
+  return String(mappingTarget.prime);
+}
+
 function syntheticRatioTrianglePoints(count, yCents) {
   const x = sxCount(manifest, count);
   const countStep = manifest.layout.count_step;
@@ -509,7 +554,15 @@ function highlightClosestMappingMarker(svg, count, sourceY, mappingTarget) {
   const domMarker = findClosestMarkerPolygon(svg, count, sourceY, mappingTarget);
   const points = domMarker
     ? domMarker.getAttribute("points")
-    : syntheticRatioTrianglePoints(count, sourceY);
+    : syntheticRatioTrianglePoints(
+        count,
+        closestIntervalYCents(
+          count,
+          intervalLabelFromMappingTarget(mappingTarget),
+          sourceY,
+          manifest.g_cents
+        )
+      );
   addTriangleOutlineHighlight(svg, points);
   return true;
 }
