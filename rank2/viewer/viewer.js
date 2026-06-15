@@ -46,11 +46,12 @@ const SVG_NS = "http://www.w3.org/2000/svg";
 const HINT_REFERENCE_WIDTH = 699;
 const MAP_HINT_FONT_SIZE = 8;
 const MAP_HINT_LINE_HEIGHT = 8;
-const MAP_HINT_PADDING_Y = 8;
+const MAP_HINT_PADDING_TOP = 8;
+const MAP_HINT_PADDING_BOTTOM = 0;
 const MAP_HINT_BLOCK_WIDTH_RATIO = 0.88;
 const MAP_HINT_TEXT =
-  "The left half of this graphic displays the ratios you get from stacking a generator some number of times "
-  + "(increasing left to right). The right half marks temperaments at each generator (with reduced mapping and badness). "
+  "The left half of this graphic displays the ratios you reach from stacking a generator (where y-position corresponds to generator size) some number of times "
+  + "(increasing left to right). For example, the leftmost column marks the ratios corresponding to the generator, the next column from the left marks the ratios corresponding to a stack of two generators, etc. The right half of the graphic marks temperaments at each generator (with reduced mapping and badness). "
   + "Hover over a temperament to highlight its mapping. Click one to go to the Xen Wiki technical page. "
   + "Click the left region to see MOS scale sizes, which can be clicked for Scale Workshop links.";
 
@@ -65,7 +66,6 @@ let pointerCrosshairCents = null;
 let mosAnchorSvgY = null;
 let crosshairLayer = null;
 let crosshairLineEl = null;
-let crosshairLabelEl = null;
 let countHitArea = null;
 let suppressCountHitAreaLeave = false;
 let crosshairRaf = null;
@@ -76,9 +76,12 @@ let pendingMosPointer = null;
 let viewportFrame = null;
 
 const CROSSHAIR_COLOR = "#cc0000";
+const CROSSHAIR_LABEL_PAD_X = 2;
+const CROSSHAIR_LABEL_PAD_Y = 1.5;
 const MOS_CIRCLE_RADIUS = 5;
 const MOS_Y_CLEAR_THRESHOLD_PX = 24;
 const TICK_LABEL_OFFSET_X = 9;
+const TICK_HASH_WIDTH = 6;
 const TICK_LABEL_BASELINE_OFFSET_Y = 2.5;
 const TICK_LABEL_FONT_SIZE = 7;
 const TEMPERAMENT_NORMAL_FONT_SIZE = 8;
@@ -108,6 +111,11 @@ function tickLabelX(manifestData) {
   return axisX(manifestData) - offset;
 }
 
+function tickHashLeft(manifestData) {
+  const hashWidth = manifestData.layout.tick_hash_width ?? TICK_HASH_WIDTH;
+  return axisX(manifestData) - hashWidth;
+}
+
 function tickLabelBaselineOffset(manifestData) {
   return manifestData.layout.tick_label_baseline_offset_y ?? TICK_LABEL_BASELINE_OFFSET_Y;
 }
@@ -128,8 +136,12 @@ function countRegionRight(manifestData) {
   );
 }
 
+function roundCentsToTwoDecimals(value) {
+  return Math.round(value * 100) / 100;
+}
+
 function formatCents(value) {
-  return Number(value.toPrecision(6)).toString();
+  return roundCentsToTwoDecimals(value).toFixed(2);
 }
 
 function clamp(value, min, max) {
@@ -179,7 +191,7 @@ function computeHintLayout() {
     lines.push(current);
   }
 
-  const height = MAP_HINT_PADDING_Y * 2 + lines.length * MAP_HINT_LINE_HEIGHT;
+  const height = MAP_HINT_PADDING_TOP + MAP_HINT_PADDING_BOTTOM + lines.length * MAP_HINT_LINE_HEIGHT;
   return { textX, lines, height };
 }
 
@@ -201,7 +213,7 @@ function renderMapHint() {
 
   const text = document.createElementNS(SVG_NS, "text");
   text.setAttribute("x", String(textX));
-  text.setAttribute("y", String(MAP_HINT_PADDING_Y));
+  text.setAttribute("y", String(MAP_HINT_PADDING_TOP));
   text.setAttribute("text-anchor", "start");
   text.setAttribute("dominant-baseline", "hanging");
   text.setAttribute("font-size", String(MAP_HINT_FONT_SIZE));
@@ -623,17 +635,55 @@ function ensureHtmlCrosshair() {
   crosshairLayer.id = "crosshair-layer";
   crosshairLineEl = document.createElement("div");
   crosshairLineEl.className = "crosshair-line-html";
-  crosshairLabelEl = document.createElement("div");
-  crosshairLabelEl.className = "crosshair-label-html";
   crosshairLayer.appendChild(crosshairLineEl);
-  crosshairLayer.appendChild(crosshairLabelEl);
   mapHost.appendChild(crosshairLayer);
+}
+
+function clearCrosshairSvg(svg) {
+  const overlay = svg?.querySelector("#crosshair-overlay");
+  if (overlay) {
+    overlay.replaceChildren();
+  }
+}
+
+function renderCrosshairSvgLabel(svg, cents, svgY) {
+  const overlay = svg.querySelector("#crosshair-overlay");
+  if (!overlay) {
+    return;
+  }
+
+  overlay.replaceChildren();
+
+  const labelX = tickLabelX(manifest);
+  const labelBaselineY = svgY + tickLabelBaselineOffset(manifest);
+  const fontSize = tickLabelFontSize(manifest);
+  const padX = manifest.layout.crosshair_label_pad_x ?? CROSSHAIR_LABEL_PAD_X;
+  const padY = manifest.layout.crosshair_label_pad_y ?? CROSSHAIR_LABEL_PAD_Y;
+
+  const background = document.createElementNS(SVG_NS, "rect");
+  background.setAttribute("class", "crosshair-label-bg");
+  background.setAttribute("x", "0");
+  background.setAttribute("y", String(labelBaselineY - fontSize + padY));
+  background.setAttribute("width", String(labelX + padX));
+  background.setAttribute("height", String(fontSize + padY));
+  background.setAttribute("fill", "#ffffff");
+
+  const label = document.createElementNS(SVG_NS, "text");
+  label.setAttribute("class", "crosshair-label");
+  label.setAttribute("x", String(labelX));
+  label.setAttribute("y", String(labelBaselineY));
+  label.setAttribute("text-anchor", "end");
+  label.setAttribute("font-size", String(fontSize));
+  label.setAttribute("fill", CROSSHAIR_COLOR);
+  label.textContent = formatCents(cents);
+
+  overlay.appendChild(background);
+  overlay.appendChild(label);
 }
 
 function resetViewportChrome() {
   crosshairLayer = null;
   crosshairLineEl = null;
-  crosshairLabelEl = null;
   countHitArea = null;
   viewportFrame = null;
 }
@@ -642,6 +692,7 @@ function clearCrosshair() {
   if (crosshairLayer) {
     crosshairLayer.style.display = "none";
   }
+  clearCrosshairSvg(mapHost.querySelector("svg"));
 }
 
 function ensureCountHitArea() {
@@ -743,23 +794,20 @@ function schedulePointerFrame(clientX, clientY) {
   });
 }
 
-function showCrosshair(_svg, cents) {
+function showCrosshair(svg, cents) {
   ensureHtmlCrosshair();
   const { scaleX, scaleY } = mapScales();
   const svgY = sy(manifest, cents);
+  const lineLeft = tickHashLeft(manifest);
   const top = svgY * scaleY;
-  const left = countRegionLeft(manifest) * scaleX;
-  const width = (countRegionRight(manifest) - countRegionLeft(manifest)) * scaleX;
-  const labelWidth = tickLabelX(manifest) * scaleX;
+  const left = lineLeft * scaleX;
+  const width = (countRegionRight(manifest) - lineLeft) * scaleX;
 
   crosshairLayer.style.display = "block";
   crosshairLineEl.style.top = `${top}px`;
   crosshairLineEl.style.left = `${left}px`;
   crosshairLineEl.style.width = `${width}px`;
-  crosshairLabelEl.style.width = `${labelWidth}px`;
-  crosshairLabelEl.style.top = `${top + tickLabelBaselineOffset(manifest) * scaleY}px`;
-  crosshairLabelEl.style.fontSize = `${tickLabelFontSize(manifest) * scaleX}px`;
-  crosshairLabelEl.textContent = formatCents(cents);
+  renderCrosshairSvgLabel(svg, cents, svgY);
 }
 
 function updateCrosshair(svg) {
@@ -951,13 +999,12 @@ function mosScaleCents(scaleSize, generatorCents, periodCents) {
 }
 
 function formatScaleWorkshopCentsLine(cents) {
-  const rounded = Math.round(cents * 10000) / 10000;
+  const rounded = roundCentsToTwoDecimals(cents);
   return Number.isInteger(rounded) ? `${rounded}.` : String(rounded);
 }
 
 function formatGeneratorCentsForTitle(cents) {
-  const rounded = Math.round(cents * 10000) / 10000;
-  return Number.isInteger(rounded) ? String(rounded) : String(rounded);
+  return String(roundCentsToTwoDecimals(cents));
 }
 
 function mosScaleWorkshopPeriodSuffix(groupKey) {
@@ -993,9 +1040,10 @@ const SCALE_WORKSHOP_BASE_MIDI = 60;
 const SCALE_WORKSHOP_BASE_FREQUENCY = 261.6256;
 
 function scaleWorkshopUrl(scaleSize, generatorCents, periodCents, groupKey) {
+  const roundedGeneratorCents = roundCentsToTwoDecimals(generatorCents);
   const params = new URLSearchParams({
-    name: mosScaleWorkshopName(scaleSize, generatorCents, groupKey),
-    data: mosScaleWorkshopData(scaleSize, generatorCents, periodCents),
+    name: mosScaleWorkshopName(scaleSize, roundedGeneratorCents, groupKey),
+    data: mosScaleWorkshopData(scaleSize, roundedGeneratorCents, periodCents),
     freq: String(SCALE_WORKSHOP_BASE_FREQUENCY),
     midi: String(SCALE_WORKSHOP_BASE_MIDI),
   });
@@ -1040,6 +1088,7 @@ function updateMosDismissalFast(svg, clientX, clientY) {
 }
 
 function renderMosOverlay(svg, generatorCents) {
+  generatorCents = roundCentsToTwoDecimals(generatorCents);
   clearMosOverlay(svg);
   const overlay = svg.querySelector("#mos-overlay");
   if (!overlay) {
@@ -1124,7 +1173,7 @@ function temperamentWikiUrl(temp) {
   if (temp.xw_url?.includes("#")) {
     return temp.xw_url;
   }
-  return xenwikiTemperamentUrl(temp.page_title, temp.display_name);
+  return xenwikiTemperamentUrl(temp.page_title, temp.wiki_anchor ?? temp.display_name);
 }
 
 function applyTemperamentLinks(svg) {

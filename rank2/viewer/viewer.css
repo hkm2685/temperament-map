@@ -102,16 +102,6 @@ body {
   border-top: 1px solid #cc0000;
 }
 
-.crosshair-label-html {
-  position: absolute;
-  left: 0;
-  transform: translateY(-50%);
-  font-family: Arial, sans-serif;
-  color: #cc0000;
-  text-align: right;
-  line-height: 1;
-}
-
 #map-host svg {
   display: block;
   max-width: none;
@@ -150,6 +140,10 @@ body {
 }
 
 .crosshair-line {
+  pointer-events: none;
+}
+
+.crosshair-label-bg {
   pointer-events: none;
 }
 

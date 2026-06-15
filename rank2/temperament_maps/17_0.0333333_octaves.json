@@ -2720,9 +2720,10 @@
       "id": "zinc",
       "page_title": "Landscape microtemperaments",
       "display_name": "Zinc",
+      "wiki_anchor": "2.3.5.7.11.13.19 subgroup (neozinc)",
       "source_y": 4.386401940482585,
       "label_y": 4.386401940482585,
-      "xw_url": "https://en.xen.wiki/w/Landscape_microtemperaments#Zinc",
+      "xw_url": "https://en.xen.wiki/w/Landscape_microtemperaments#2.3.5.7.11.13.19_subgroup_%28neozinc%29",
       "mapping": [
         {
           "prime": 3,
@@ -2755,6 +2756,7 @@
       "id": "triacontoid",
       "page_title": "Quintosec family",
       "display_name": "Triacontoid",
+      "wiki_anchor": "Triacontoid",
       "source_y": 8.88688033013159,
       "label_y": 8.88688033013159,
       "xw_url": "https://en.xen.wiki/w/Quintosec_family#Triacontoid",
@@ -2786,6 +2788,7 @@
       "id": "poe",
       "page_title": "Landscape microtemperaments",
       "display_name": "Poe",
+      "wiki_anchor": "Poe",
       "source_y": 17.83011426815324,
       "label_y": 17.83011426815324,
       "xw_url": "https://en.xen.wiki/w/Landscape_microtemperaments#Poe",
